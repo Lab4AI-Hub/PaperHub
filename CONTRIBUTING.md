@@ -65,11 +65,10 @@
 ### 项目标准结构
 
 所有复现项目都必须遵循以下目录结构：
-papers/
-└── [author-year-title_short]/
-├── src/              # 核心源代码
-├── configs/          # 配置文件
-├── scripts/          # 辅助脚本
-├── lab_validation/   # 【核心】平台验证报告
-├── README.md         # 【核心】项目说明
-└── requirements.txt  # Python依赖
+papers/<br>
+└── [author-year-title_short]/,<br>
+    ├── src/              # 核心源代码<br>
+    ├── configs/          # 配置文件<br>
+    ├── lab_validation/   # 【核心】平台验证报告<br>
+    ├── README.md         # 【核心】项目说明<br>
+    └── requirements.txt  # Python依赖<br>
