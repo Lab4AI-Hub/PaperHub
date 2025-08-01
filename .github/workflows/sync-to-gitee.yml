@@ -1,18 +1,27 @@
+# sync-to-gitee.yml (最终修复版)
+
 name: Sync to Gitee
 
 on:
   push:
     branches:
-      - main # 或者你的主分支名
+      - main # 确保这是您的主分支名
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - name: Sync to Gitee
-        uses: wearerequired/git-mirror-action@v1
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_PRIVATE_KEY }}
+        uses: Yikun/hub-mirror-action@master
         with:
-          source-repo: "git@github.com:${{ github.repository }}.git"
-          destination-repo: "git@gitee.com:ReproCode-Lab/ReproHub.git"
+          # 必选，需要同步的源仓库，这里是 GitHub
+          src: 'github/ReproCode-Lab'
+          # 必选，需要同步的目标仓库，这里是 Gitee
+          dst: 'gitee/ReproCode-Lab'
+          # 必选，Gitee 私人令牌，用于创建和管理仓库
+          # 您需要在 Gitee 的“设置 -> 私人令牌”中生成一个，然后添加到 GitHub Secrets，命名为 GITEE_TOKEN
+          dst_key: ${{ secrets.GITEE_TOKEN }}
+          # 必选，Gitee 账户的用户名
+          dst_token: "您的Gitee用户名"
+          # 可选，设置白名单，只同步指定的仓库
+          white_list: "ReproHub"
