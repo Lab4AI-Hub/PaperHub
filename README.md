@@ -1,4 +1,4 @@
-# ReproHub: 可靠的算法复现中心
+# ReproHub: 高质量的算法复现中心
 
 欢迎来到 **ReproHub**！这是 **ReproCode-Lab** 社区的核心代码库，致力于提供高质量的AI算法复现。
 
@@ -15,9 +15,9 @@
 #### 👁️ 计算机视觉 (Computer Vision)
 | 论文标题 (Paper) & 作者 | 核心技术 (Core Tech) | 状态 (Status) |
 | :--- | :--- | :--- |
-| **Deep Residual Learning for Image Recognition** <br> *Kaiming He, et al. (2015)* | `CNN` `ResNet` | ✅ **可用** |
-| **Denoising Diffusion Probabilistic Models** <br> *Jonathan Ho, et al. (2020)* | `Diffusion` | ✅ **可用** |
-| **Generative Adversarial Nets** <br> *Ian Goodfellow, et al. (2014)* | `GAN` | 🚧 **进行中** |
+| **------** <br> *LEO* | `CNN` `ResNet` | ✅ **可用** |
+| **------** <br> *LEO* | `Diffusion` | ✅ **可用** |
+| **------** <br> *------* | `GAN` | 🚧 **进行中** |
 | *... (➡️ 查看所有CV领域的复现项目)* | | |
 
 <br>
@@ -26,7 +26,7 @@
 | 论文标题 (Paper) & 作者 | 核心技术 (Core Tech) | 状态 (Status) |
 | :--- | :--- | :--- |
 | **Attention Is All You Need** <br> *Ashish Vaswani, et al. (2017)* | `Transformer` | ✅ **可用** |
-| **[下一篇热门论文...]** | `[技术]` | 💡 **征求贡献** |
+| **[未完待续...]** | `[技术]` | 💡 **征求贡献** |
 | *... (➡️ 查看所有NLP领域的复现项目)* | | |
 
 <br>
