@@ -22,6 +22,6 @@ jobs:
           # 您需要在 Gitee 的“设置 -> 私人令牌”中生成一个，然后添加到 GitHub Secrets，命名为 GITEE_TOKEN
           dst_key: ${{ secrets.GITEE_TOKEN }}
           # 必选，Gitee 账户的用户名
-          dst_token: "lab4ai"
+          dst_token: "Lab4ai"
           # 可选，设置白名单，只同步指定的仓库
           white_list: "ReproHub"
