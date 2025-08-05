@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的数据表格</title>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    
+    <style>
+        /* 让表格和搜索框看起来更舒服一些 */
+        body { font-family: sans-serif; padding: 2em; }
+        .container { max-width: 1200px; margin: auto; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>我的交互式数据表格</h1>
+    <p>你可以使用下方的搜索框进行筛选，也可以点击表头进行排序。</p>
+
+    <table id="my-table" class="display" style="width:100%">
+        </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+    // CSV 文件的路径，这里假设它和 index.html 在同一个目录下
+    const csv_file_path = 'data.csv';
+
+    // 使用 PapaParse 加载和解析 CSV 文件
+    Papa.parse(csv_file_path, {
+        download: true,  // 表示从给定的URL下载文件
+        header: true,    // 将第一行作为表头
+        dynamicTyping: true, // 自动转换数字和布尔值
+        skipEmptyLines: true, // 跳过空行
+        complete: function(results) {
+            // 当解析完成时，这个函数会被调用
+            console.log("CSV 数据解析完成:", results.data);
+
+            // 将解析出的数据初始化为 DataTables
+            $('#my-table').DataTable({
+                data: results.data, // 设置表格的数据源
+                columns: results.meta.fields.map(function(field) {
+                    // 自动根据CSV的表头创建列
+                    return { 
+                        title: field, 
+                        data: field 
+                    };
+                }),
+                // 下面是一些常用的配置，可以按需开启或修改
+                language: { // 本地化（中文）
+                    "url": "https://cdn.datatables.net/plug-ins/1.13.6/i18n/zh-HANS.json"
+                },
+                paging: true,      // 开启分页
+                searching: true,   // 开启搜索
+                ordering: true,    // 开启排序
+                info: true         // 显示信息（如 "显示第 1 至 10 项结果，共 57 项"）
+            });
+        },
+        error: function(error) {
+            console.error("解析CSV时出错:", error);
+            alert("加载数据失败，请检查CSV文件路径是否正确，并查看浏览器控制台获取错误信息。");
+        }
+    });
+});
+</script>
+
+</body>
+</html>
