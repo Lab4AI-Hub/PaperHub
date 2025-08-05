@@ -31,7 +31,7 @@
 我们已经筛选并整理了一份详细的待复现论文清单。这不仅是我们的工作计划，更是我们邀请您参与共建的蓝图。
 
 <div align="center" style="margin-top: 20px;">
-  <a href=" https://lab4ai-hub.github.io/ReproHub/" style="display: inline-block; padding: 12px 24px; border: 2px solid #4B5563; color: #1F2937; text-decoration: none; font-weight: bold; border-radius: 6px;">
+  <a href="https://lab4ai-hub.github.io/ReproHub/" style="display: inline-block; padding: 12px 24px; border: 2px solid #4B5563; color: #1F2937; text-decoration: none; font-weight: bold; border-radius: 6px;">
     查看待复现论文清单 (Roadmap)
   </a>
 </div>
