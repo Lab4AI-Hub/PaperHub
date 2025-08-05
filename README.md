@@ -8,7 +8,7 @@
   <h2 style="margin-top:0; color: #1E40AF;">前往“大模型实验室”获取最佳体验</h2>
   <p>所有项目均可在我们的“大模型实验室”内容社区中找到对应的教程和一键式运行环境，为您提供强大的算力支持。</p>
   <br>
-  <a href="[https://github.com/ReproCode-Lab]" style="display: inline-block; padding: 12px 24px; background-color: #2563EB; color: white; text-decoration: none; font-weight: bold; border-radius: 6px; font-size: 16px;">
+  <a href="https://github.com/ReproCode-Lab" style="display: inline-block; padding: 12px 24px; background-color: #2563EB; color: white; text-decoration: none; font-weight: bold; border-radius: 6px; font-size: 16px;">
     访问大模型实验室 ➡️
   </a>
 </div>
