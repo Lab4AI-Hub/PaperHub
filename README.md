@@ -39,3 +39,11 @@
 <br>
 
 如果您对路线图中的项目感兴趣，或有新的论文推荐，请在我们的 [**Issue 列表**](https://github.com/ReproCode-Lab/ReproHub/issues) 中发起讨论。
+
+---
+
+### 💬 保持联系 (Connect with Us)
+
+* 🌐 **访问我们的主站**: [你的“大模型实验室”平台链接]
+* 🤝 **如何贡献**: 阅读我们的 [**贡献指南**](https://github.com/ReproCode-Lab/ReproHub/blob/main/CONTRIBUTING.md)
+* 💬 **加入我们的交流群**: [在这里放上你的微信/Discord等联系方式或二维码图片链接]
