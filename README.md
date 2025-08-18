@@ -20,8 +20,8 @@
 | 论文名称 & 作者 | 会议来源 & 年份 | 论文链接 | 前往平台体验 |
 | :--- | :--- | :--- | :--- |
 | **Attention Is All You Need** <br> *Ashish Vaswani, et al.* | NeurIPS 2017 | [📄 arXiv](https://arxiv.org/abs/1706.03762) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=e90aa38fdff9420e8902bc71909fa005&type=paper) |
-| **Can We Get Rid of Handcrafted Feature Extractors?** <br> *Kaiming He, et al.* | AAAI 2025| [📄 arXiv](https://arxiv.org/abs/2412.14598) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=97a182e56e904e92a0fe240f1f114709&type=paper) |
-| **Denoising Diffusion Probabilistic Models** <br> *Lei Su, et al.* | NeurIPS 2020 | [📄 arXiv](https://arxiv.org/abs/2006.11239) | [➡️ **立即体验**]([平台上DDPM项目的具体链接]) |
+| **Can We Get Rid of Handcrafted Feature Extractors?** <br> *Lei Su, et al.* | AAAI 2025| [📄 arXiv](https://arxiv.org/abs/2412.14598) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=97a182e56e904e92a0fe240f1f114709&type=paper) |
+| **MOMENT:一组开放的时间序列基础模型** <br> *Mononito Goswami, et al.* | ICML 2025 | [📄 arXiv](Mononito Goswami) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=05087484a3264a9c8b8a2c616e7cce0b&type=paper) |
 | **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
 
 ---
