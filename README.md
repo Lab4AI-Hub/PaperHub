@@ -21,7 +21,21 @@
 | :--- | :--- | :--- | :--- |
 | **Attention Is All You Need** <br> *Ashish Vaswani, et al.* | NeurIPS 2017 | [📄 arXiv](https://arxiv.org/abs/1706.03762) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=e90aa38fdff9420e8902bc71909fa005&type=paper) |
 | **Can We Get Rid of Handcrafted Feature Extractors?** <br> *Lei Su, et al.* | AAAI 2025| [📄 arXiv](https://arxiv.org/abs/2412.14598) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=97a182e56e904e92a0fe240f1f114709&type=paper) |
-| **MOMENT:一组开放的时间序列基础模型** <br> *Mononito Goswami, et al.* | ICML 2025 | [📄 arXiv](Mononito Goswami) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=05087484a3264a9c8b8a2c616e7cce0b&type=paper) |
+| **MOMENT: A Family of Open Time-series Foundation Models** <br> *Mononito Goswami, et al.* | ICML 2025 | [📄 arXiv](https://arxiv.org/abs/2402.03885) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=05087484a3264a9c8b8a2c616e7cce0b&type=paper) |
+| **Automatic Prompt Augmentation and Selection with Chain-of-Thought from Labeled Data** <br> *Kashun Shum,et al.* | EMNLP 2023 | [📄 arXiv](https://arxiv.org/abs/2302.12822) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=c76b88e732cf41949b54515bdd319808&type=paper) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
+| **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
 | **[下一篇已完成的论文...]** <br> *[作者]* | `[会议 年份]` | `[论文链接]` | [➡️ **立即体验**]([对应的平台链接]) |
 
 ---
