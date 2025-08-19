@@ -33,11 +33,10 @@
 | **Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting** <br> *Kashif Rasul, et al.* | other 2023| [📄 arXiv](https://arxiv.org/abs/2310.08278) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=a05e09588c4c475aac14354cae04986d&type=paper) |
 | **CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos** <br> *Lei Nikita Karaev, et al.* | CVPR 2024| [📄 arXiv](https://arxiv.org/abs/2410.11831) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=269a8dc6d24a49b29d39de138b443a43&type=paper) |
 | **Unified Training of Universal Time Series Forecasting Transformers** <br> *Gerald Woo, et al.* | ICML 2024| [📄 arXiv](https://arxiv.org/abs/2402.02592) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=af34d430edf14f56910c6cfc05c4ee89&type=paper) |
-| **Can We Get Rid of Handcrafted Feature Extractors?** <br> *Lei Su, et al.* | AAAI 2025| [📄 arXiv](https://arxiv.org/abs/2412.14598) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=97a182e56e904e92a0fe240f1f114709&type=paper) |
-| **Can We Get Rid of Handcrafted Feature Extractors?** <br> *Lei Su, et al.* | AAAI 2025| [📄 arXiv](https://arxiv.org/abs/2412.14598) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=97a182e56e904e92a0fe240f1f114709&type=paper) |
-| **Can We Get Rid of Handcrafted Feature Extractors?** <br> *Lei Su, et al.* | AAAI 2025| [📄 arXiv](https://arxiv.org/abs/2412.14598) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=97a182e56e904e92a0fe240f1f114709&type=paper) |
-| **Can We Get Rid of Handcrafted Feature Extractors?** <br> *Lei Su, et al.* | AAAI 2025| [📄 arXiv](https://arxiv.org/abs/2412.14598) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=97a182e56e904e92a0fe240f1f114709&type=paper) |
-| **Can We Get Rid of Handcrafted Feature Extractors?** <br> *Lei Su, et al.* | AAAI 2025| [📄 arXiv](https://arxiv.org/abs/2412.14598) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=97a182e56e904e92a0fe240f1f114709&type=paper) |
+| **A decoder-only foundation model for time-series forecasting** <br> *Abhimanyu Das, et al.* | ICML 2024| [📄 arXiv](https://arxiv.org/abs/2310.10688) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=e78bad4ea95944af8fa0eeb98f69179f&type=paper) |
+| **Timer: Generative Pre-trained Transformers Are Large Time Series Models** <br> *Yong Liu, et al.* | ICML 2024| [📄 arXiv](https://arxiv.org/abs/2402.02368) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=34d7c1e35c514d77b88762f18298e999&type=paper) |
+| **LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant** <br> *Yikun Liu, et al.* | other 2024| [📄 arXiv](https://arxiv.org/abs/2412.01720) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=3c0069c96f60404b948ed30fd498fe7f&type=paper) |
+
 
 
 
