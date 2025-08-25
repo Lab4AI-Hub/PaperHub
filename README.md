@@ -28,7 +28,7 @@
     <td width="33.3%" align="left" style="padding: 15px; vertical-align: top;">
       <img src="https://api.iconify.design/ph/note-pencil-bold.svg?color=gray" width="40">
       <h3 style="margin-top: 10px; margin-bottom: 10px;">第二步：准备申请</h3>
-      <p>您可以从我们的<a href="https://lab4ai-hub.github.io/PaperHub/"><strong>待复现清单</strong></a>中选择课题，也可以推荐您自己感兴趣的论文。无论哪种方式，都需下载并填写- `2-选题阶段-论文筛选表.xlsx`。</p>
+      <p>您可以从我们的<a href="https://lab4ai-hub.github.io/PaperHub/"><strong>待复现清单</strong></a>中选择课题，也可以推荐您自己感兴趣的论文。无论哪种方式，都需下载并填写<strong>《选题阶段论文筛选表》<strong>。</p>
     </td>
     <td width="33.3%" align="left" style="padding: 15px; vertical-align: top;">
       <img src="https://api.iconify.design/ph/rocket-launch-bold.svg?color=gray" width="40">
