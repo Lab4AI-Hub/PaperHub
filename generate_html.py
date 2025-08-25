@@ -2,16 +2,11 @@ import pandas as pd
 from urllib.parse import quote_plus
 
 def create_github_issue_url(title):
-    """为论文标题创建一个预填写的GitHub Issue链接"""
+    """创建一个直接跳转到“选题申请”模板的链接"""
     base_url = "https://github.com/Lab4AI-Hub/PaperHub/issues/new"
-    # 使用我们为“选题申请”设计的模板
-    template = "1_paper_suggestion.yml" 
-    
-    # 对标题进行URL编码，以防特殊字符
-    encoded_title = quote_plus(f"[选题申请] {title}")
-    
-    # 拼接最终的URL
-    return f"{base_url}?template={template}&title={encoded_title}"
+    template = "1_paper_suggestion.yml"
+    # 新的逻辑：只跳转到模板页，让用户自行上传表格和填写标题
+    return f"{base_url}?template={template}"
 
 def generate_html_table(csv_path):
     """读取CSV并生成HTML表格内容"""
@@ -45,7 +40,7 @@ def generate_html_table(csv_path):
         claim_url = create_github_issue_url(paper_title)
 
         # 根据状态显示不同的操作
-        action_button = f'<a href="{claim_url}" class="claim-btn" target="_blank">🚀 认领任务</a>'
+       action_button = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
         if status != '待认领':
             action_button = f'<span class="status-{status.lower()}">{status}</span>'
 
