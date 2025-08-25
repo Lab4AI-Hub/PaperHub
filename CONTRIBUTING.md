@@ -66,6 +66,6 @@
 
 ---
 
-如果您在流程中遇到任何问题，欢迎在我们的 **[社区讨论区](https://github.com/Lab4AI-Hub/Community/discussions)** 发起提问。*(请确保您的讨论区链接正确)*
+如果您在流程中遇到任何问题，欢迎在我们的 **[社区讨论区](https://github.com/Lab4AI-Hub/.github/discussions/categories/q-a)** 发起提问。
 
 感谢您的宝贵贡献！
