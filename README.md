@@ -44,9 +44,9 @@
 
 | 论文名称 & 作者 | 会议来源 & 年份 | 论文链接 | 前往平台体验 |
 | :--- | :--- | :--- | :--- |
-| **Attention Is All You Need** <br> *Ashish Vaswani, et al.* | NeurIPS 2017 | [📄 arXiv](https://arxiv.org/abs/1706.03762) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=e90aa38fdff9420e8902bc71909fa005&type=paper) |
+| **Attention Is All You Need** <br> *Ashish Vaswani, et al.* | NeurIPS 2017| [📄 arXiv](https://arxiv.org/abs/1706.03762) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=e90aa38fdff9420e8902bc71909fa005&type=paper) |
 | **Can We Get Rid of Handcrafted Feature Extractors?** <br> *Lei Su, et al.* | AAAI 2025| [📄 arXiv](https://arxiv.org/abs/2412.14598) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=97a182e56e904e92a0fe240f1f114709&type=paper) |
-| **MOMENT: A Family of Open Time-series Foundation Models** <br> *Mononito Goswami, et al.* | ICML 2025 | [📄 arXiv](https://arxiv.org/abs/2402.03885) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=05087484a3264a9c8b8a2c616e7cce0b&type=paper) |
+| **MOMENT: A Family of Open Time-series Foundation Models** <br> *Mononito Goswami, et al.* | ICML 2025| [📄 arXiv](https://arxiv.org/abs/2402.03885) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=05087484a3264a9c8b8a2c616e7cce0b&type=paper) |
 | **Automatic Prompt Augmentation and Selection with Chain-of-Thought from Labeled Data** <br> *Kashun Shum,et al.* | EMNLP 2023 | [📄 arXiv](https://arxiv.org/abs/2302.12822) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=c76b88e732cf41949b54515bdd319808&type=paper) |
 | **Chronos: Learning the Language of Time Series** <br> *Abdul Fatir Ansari, et al.* | other 2024| [📄 arXiv](https://arxiv.org/pdf/2403.07815) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=6dd7daeec6584f61856876474b860e09&type=paper) |
 | **Generative Photography: Scene-Consistent Camera Control for Realistic Text-to-Image Synthesis** <br> *Yu Yuan, et al.* | CVPR 2025| [📄 arXiv](https://arxiv.org/abs/2412.02168) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=2d412a08880f477ca5362af3ef8c14f2&type=paper) |
