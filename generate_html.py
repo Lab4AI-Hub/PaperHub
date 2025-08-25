@@ -1,5 +1,6 @@
 import pandas as pd
 from urllib.parse import quote_plus
+import os
 
 def create_github_issue_url(title):
     """创建一个直接跳转到“选题申请”模板的链接"""
@@ -40,7 +41,7 @@ def generate_html_table(csv_path):
         claim_url = create_github_issue_url(paper_title)
 
         # 根据状态显示不同的操作
-       action_button = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
+        action_button = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
         if status != '待认领':
             action_button = f'<span class="status-{status.lower()}">{status}</span>'
 
@@ -59,7 +60,6 @@ def generate_html_table(csv_path):
 def main():
     """主函数：生成完整的index.html"""
     
-    # --- HTML模板头部 ---
     html_template_head = """
     <!DOCTYPE html>
     <html lang="zh-CN">
@@ -99,11 +99,9 @@ def main():
                 </thead>
                 <tbody>
     """
-
-    # --- 生成表格内容 ---
+    
     table_content = generate_html_table('data.csv')
-
-    # --- HTML模板尾部 ---
+    
     html_template_foot = """
                 </tbody>
             </table>
@@ -113,7 +111,7 @@ def main():
         <script>
             $(document).ready(function() {
                 $('#paperTable').DataTable({
-                    "pageLength": 25, // 每页显示25条
+                    "pageLength": 25,
                     "language": {
                         "search": "搜索:",
                         "lengthMenu": "每页显示 _MENU_ 条记录",
@@ -133,16 +131,13 @@ def main():
     </body>
     </html>
     """
-
-    # --- 拼接并保存为index.html ---
+    
     full_html = html_template_head + table_content + html_template_foot
     
-    # 创建一个名为 'dist' 的文件夹，如果它不存在的话
     output_dir = 'dist'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
         
-    # 将 index.html 保存到 'dist' 文件夹中
     output_path = os.path.join(output_dir, 'index.html')
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(full_html)
