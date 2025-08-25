@@ -1,4 +1,4 @@
-# PaperHub: 高质量的算法复现中心
+# PaperHub: 高质量的论文复现中心
 
 欢迎来到 **PaperHub**！这是 **Lab4AI-Hub** 社区的算法复现库，致力于提供高质量的AI算法复现。
 
