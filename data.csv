@@ -1,4 +1,4 @@
-"ID","案例类型","论文名称","论文作者","论文链接","论文年份","来源标签
+"ID","认领状态","论文名称","论文作者","论文链接","论文年份","来源标签
 （会议期刊）","github链接","状态"
 "1","✅ 已完成","Attention is all you need","Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ﾅ「kasz Kaiser, Illia Polosukhin","https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf","2017","NIPS","https://github.com/jadore801120/attention-is-all-you-need-pytorch",""
 "2","💡 未复现","Improving language understanding by generative pre-training","Alec Radford，Karthik Narasimhan，Tim Salimans，Ilya Sutskever","https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf","2018","OpenAI","",""
