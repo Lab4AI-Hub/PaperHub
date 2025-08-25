@@ -1,74 +1,61 @@
-# ReproCode-Lab 社区贡献指南
+# 欢迎成为 Lab4AI 论文复现贡献者！ ✨
 
-首先，我们由衷地感谢您愿意为 ReproCode-Lab 社区贡献自己的时间和精力！❤️
-
-我们是一个开放、友好、协作的社区。每一位贡献者，无论贡献大小，都将被尊重和鸣谢。本指南将帮助您顺利地完成您的第一次贡献。
-
-## 贡献之前
-
-在开始之前，请确保您已经：
-1.  加入了我们的社区交流群（[点击加入]([你的社区交流群链接])）。
-2.  仔细阅读了我们的 [行为准则 (CODE_OF_CONDUCT.md)](./CODE_OF_CONDUCT.md)。
-3.  了解了我们项目的 [标准目录结构](#项目标准结构)。
-
-## 贡献流程
-
-我们采用标准的 GitHub Fork & Pull Request 协作流程。
-
-### 第一步：认领任务
-
-1.  前往我们的 [**Issue 列表**](https://github.com/ReproCode-Lab/ReproHub/issues)。
-2.  您可以选择一个带有 `help wanted` 或 `good first issue` (适合新手) 标签的任务。
-3.  在 Issue下方留言，例如“I would like to work on this issue.”，并 **@** 一位维护者。维护者会将该 Issue 分配给您。
-
-如果您想复现一篇新的论文，请先 [**提交一个提案**](https://github.com/ReproCode-Lab/ReproHub/issues/new/choose)，待社区讨论通过后，再开始工作。
-
-### 第二步：环境准备
-
-1.  **Fork** `ReproHub` 仓库到您自己的 GitHub 账号下。
-2.  **Clone** 您 Fork 后的仓库到本地：
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/ReproHub.git](https://github.com/YOUR_USERNAME/ReproHub.git)
-    ```
-3.  **创建新分支**：为您的任务创建一个描述性的分支，分支名建议为 `feat/paper-title-short` 或 `fix/issue-number`。
-    ```bash
-    git checkout -b feat/reproduce-mobilenet
-    ```
-
-### 第三步：代码实现与验证
-
-1.  **创建目录**: 在 `papers/` 目录下，为您的论文创建一个符合命名规范的新目录。
-2.  **编写代码**: 按照我们的 [项目标准结构](#项目标准结构) 添加您的代码、配置文件等。
-3.  **【核心】算力验证**: 在 [**大模型实验室**]([你的“大模型实验室”平台链接]) 平台上，运行您的代码，确保能够成功训练并复现论文的关键指标。
-4.  **保存验证报告**: 将平台生成的验证日志和结果对比报告，保存在您项目目录下的 `lab_validation/` 文件夹中。这是我们社区最有价值的部分！
-5.  **编写项目 README**: 为您的项目目录创建一个 `README.md`，详细说明如何运行、环境配置、以及与原论文的结果对比。
-
-### 第四步：提交 Pull Request
-
-1.  **提交代码**: 将您的代码提交到您的分支。
-    ```bash
-    git add .
-    git commit -m "feat: Add reproduction for MobileNet"
-    git push origin feat/reproduce-mobilenet
-    ```
-2.  **创建 Pull Request**: 回到您 Fork 的 GitHub 仓库页面，点击 "New pull request"。
-3.  **填写 PR 信息**:
-    * 确保基准分支是 `ReproCode-Lab/ReproHub` 的 `main` 分支。
-    * PR 的标题应清晰地描述您的工作，例如 `feat: Add reproduction for MobileNetV2`。
-    * 在描述中，请关联您正在处理的 Issue (例如，`Closes #123`)。
-    * 仔细填写 PR 模板中的检查清单。
-4.  **代码审查**: 维护者和其他社区成员会对您的代码进行审查。请积极参与讨论，并根据反馈进行修改。
-5.  **合并**: 一旦您的 PR 被批准，维护者会将其合并到主分支。恭喜您，您已经成功地为社区做出了贡献！
+您好！非常感谢您有兴趣为Lab4AI社区贡献您的智慧和才华。本指南将为您提供一个清晰、标准化的协作流程，让您的每一份努力都得到应有的展示和回报。
 
 ---
 
-### 项目标准结构
+## 🚀 贡献流程快速开始
 
-所有复现项目都必须遵循以下目录结构：
-papers/<br>
-└── [author-year-title_short]/,<br>
-    ├── src/              # 核心源代码<br>
-    ├── configs/          # 配置文件<br>
-    ├── lab_validation/   # 【核心】平台验证报告<br>
-    ├── README.md         # 【核心】项目说明<br>
-    └── requirements.txt  # Python依赖<br>
+我们的整个协作流程都围绕着 **“贡献者工具包”** 和 **GitHub Issue** 展开。
+
+### **第1步：获取“贡献者工具包”**
+
+这是您开始一切工作前的**必做之事**。工具包内含所有阶段的指南和模板。
+
+**[➡️ 点击这里，进入“贡献者工具包”页面](https://github.com/Lab4AI-Hub/PaperHub/tree/main/contributor-kit)**
+
+**工具包内容解析：**
+* **`1-复现流程与标准指南.pdf`**: **【必读】** 包含了我们详细的复现标准、流程说明和奖励机制。
+* **`2-选题阶段-论文筛选表.xlsx`**: 当您想复现一篇新论文时，需要填写的表格。
+* **`3-成果提交-项目上架表.xlsx`**: 当您完成复现后，需要填写的成果信息表。
+* **`4-代码参考-Notebook示例.ipynb`**: 我们为您提供的一个高质量Notebook代码范例。
+
+---
+
+### **第2步：选题与任务申请**
+
+1.  **选题**：
+    * **方式A (推荐新论文)**: 请仔细阅读指南PDF，并填写好 `2-选题阶段-论文筛选表.xlsx`。
+    * **方式B (从任务池选择)**: 浏览我们的 **[论文复现看板](https://github.com/orgs/Lab4AI-Hub/projects/1)**，从“选题池”中选择一篇。 *(请确保您的项目板链接正确)*
+
+2.  **提交申请**：
+    * 前往我们仓库的 **[Issue区](https://github.com/Lab4AI-Hub/PaperHub/issues)**，点击`New issue`。
+    * 选择 **“📝 选题申请：推荐一篇新论文”** 模板。
+    * 按照模板提示，将您填写好的 `xlsx` 表格作为附件上传并提交。
+
+3.  **任务分配**：
+    * 我们的团队会对您的申请进行审核。审核通过后，我们会在Issue中回复您，并将任务在看板上分配给您，正式开始！
+
+---
+
+### **第3步：成果提交与上架**
+
+当您在Lab4AI平台完成复现后，请进行成果提交。
+
+1.  **准备材料**：
+    * 请仔细填写工具包中的 `3-成果提交-项目上架表.xlsx`，里面包含了我们需要的所有文件路径和信息。
+
+2.  **提交成果**：
+    * 再次前往 **[Issue区](https://github.com/Lab4AI-Hub/PaperHub/issues)**，点击`New issue`。
+    * 选择 **“✅ 成果提交：申请项目上架”** 模板。
+    * 按照模板提示，填写您在Lab4AI平台的项目链接，并上传填写好的 `xlsx` 表格附件。
+
+3.  **审核与奖励**：
+    * 收到您的提交后，我们将进行最终审核。
+    * 审核通过后，我们会将您的项目迁移到主账号，并在Issue中通知您，同时为您发放相应的算力奖励！
+
+---
+
+如果您在流程中遇到任何问题，欢迎在我们的 **[社区讨论区](https://github.com/Lab4AI-Hub/Community/discussions)** 发起提问。*(请确保您的讨论区链接正确)*
+
+感谢您的宝贵贡献！
