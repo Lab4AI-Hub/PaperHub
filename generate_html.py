@@ -21,21 +21,28 @@ def generate_html_table(csv_path):
         return "<p>错误：找不到 data.csv 文件。</p>"
 
     # 预处理数据
-    if 'title_authors' not in df.columns:
-        return "<p>错误：CSV文件中缺少 'title_authors' 列。</p>"
+    if '论文名称' not in df.columns:
+        return "<p>错误：CSV文件中缺少 '论文名称' 列。</p>"
     
     df = df.fillna('') # 填充空值为''
     
     html_rows = []
     for _, row in df.iterrows():
-        # 处理换行，<br>用于HTML换行
-        title_authors = str(row.get('title_authors', '')).replace('\n', '<br>')
-        conference_year = str(row.get('conference_year', ''))
-        arxiv_link = str(row.get('arxiv_link', ''))
-        status = str(row.get('status', '待认领'))
+        # --- 核心修改部分：根据您的新表头读取数据 ---
+        paper_title = str(row.get('论文名称', ''))
+        authors = str(row.get('作者', ''))
+        conference = str(row.get('会议来源', ''))
+        year = str(row.get('年份', ''))
+        paper_link = str(row.get('论文链接', ''))
+        status = str(row.get('认领状态', '待认领'))
+        
+        # 将标题和作者合并，并用<br>换行
+        title_authors_md = f"{paper_title}<br><em>{authors}</em>"
+        # 将会议和年份合并
+        conference_year_md = f"{conference} {year}"
         
         # 为“认领”按钮创建链接
-        claim_url = create_github_issue_url(str(row.get('title_authors', '')).split('\n')[0])
+        claim_url = create_github_issue_url(paper_title)
 
         # 根据状态显示不同的操作
         action_button = f'<a href="{claim_url}" class="claim-btn" target="_blank">🚀 认领任务</a>'
@@ -44,9 +51,9 @@ def generate_html_table(csv_path):
 
         html_rows.append(f"""
         <tr>
-            <td>{title_authors}</td>
-            <td>{conference_year}</td>
-            <td><a href="{arxiv_link}" target="_blank">查看论文</a></td>
+            <td>{title_authors_md}</td>
+            <td>{conference_year_md}</td>
+            <td><a href="{paper_link}" target="_blank">查看论文</a></td>
             <td>{status}</td>
             <td>{action_button}</td>
         </tr>
