@@ -54,6 +54,9 @@ jobs:
   deploy:
     # 部署任务需要等待构建任务成功完成
     needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     
     # 部署步骤
