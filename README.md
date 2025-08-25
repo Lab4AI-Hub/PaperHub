@@ -1,6 +1,6 @@
-# ReproHub: 高质量的算法复现中心
+# PaperHub: 高质量的算法复现中心
 
-欢迎来到 **ReproHub**！这是 **Lab4AI-Hub** 社区的算法复现库，致力于提供高质量的AI算法复现。
+欢迎来到 **PaperHub**！这是 **Lab4AI-Hub** 社区的算法复现库，致力于提供高质量的AI算法复现。
 
 ---
 
@@ -47,14 +47,14 @@
 我们已经筛选并整理了一份详细的待复现论文清单。这不仅是我们的工作计划，更是我们邀请您参与共建的蓝图。
 
 <div align="center" style="margin-top: 20px;">
-  <a href="https://lab4ai-hub.github.io/ReproHub/" style="display: inline-block; padding: 12px 24px; border: 2px solid #4B5563; color: #1F2937; text-decoration: none; font-weight: bold; border-radius: 6px;">
+  <a href="https://lab4ai-hub.github.io/PaperHub/" style="display: inline-block; padding: 12px 24px; border: 2px solid #4B5563; color: #1F2937; text-decoration: none; font-weight: bold; border-radius: 6px;">
     查看待复现论文清单 (Roadmap)
   </a>
 </div>
 
 <br>
 
-如果您对路线图中的项目感兴趣，或有新的论文推荐，请在我们的 [**Issue 列表**](https://github.com/Lab4AI-Hub/ReproHub/issues) 中发起讨论。
+如果您对路线图中的项目感兴趣，或有新的论文推荐，请在我们的 [**Issue 列表**](https://github.com/Lab4AI-Hub/PaperHub/issues) 中发起讨论。
 
 ---
 
