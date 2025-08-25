@@ -17,36 +17,40 @@ def create_github_issue_url(title):
     """为论文标题创建一个直接跳转到Issue模板的链接"""
     base_url = f"{CONFIG['repo_url']}/issues/new"
     template = CONFIG['issue_template']
+    # 对标题进行URL编码，以防特殊字符
     encoded_title = quote_plus(f"[选题申请] {title}")
     return f"{base_url}?template={template}&title={encoded_title}"
 
 def generate_html_from_csv(df):
     """根据DataFrame生成HTML表格的行"""
     html_rows = []
+    # 遍历DataFrame的每一行
     for _, row in df.iterrows():
+        # --- **核心修正**：严格按照您的表头读取数据 ---
         paper_title = html.escape(str(row.get('论文名称', '')))
-        authors = html.escape(str(row.get('作者', '')))
-        conference = html.escape(str(row.get('会议来源', '')))
-        year = str(row.get('年份', ''))
+        authors = html.escape(str(row.get('论文作者', '')))
+        conference = html.escape(str(row.get('来源标签（会议期刊）', '')))
+        year = str(row.get('论文年份', ''))
         paper_link = str(row.get('论文链接', ''))
-        status = str(row.get('认领状态', '待认领'))
+        # **修正点**: 我们只使用“认领状态”这一列作为判断依据
+        status = str(row.get('认领状态', '待认领')) 
         
+        # 组合需要合并显示的字段
         title_authors_html = f"{paper_title}<br><em style='color:#57606a;'>{authors}</em>"
+        conference_year_html = f"{conference} {year}"
         
-        # **修正点**: 认领按钮的逻辑修正
+        # **修正点**: 修正了认领按钮的逻辑
         if status == '待认领':
             claim_url = create_github_issue_url(paper_title)
             action_button_html = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
         else:
-            # 对于已认领或已完成的状态，只显示文本
             action_button_html = f'<span class="status-claimed">{status}</span>'
 
-        # **修正点**: 表格行结构修正
+        # **修正点**: 修正了表格行的结构，不再有重复列
         html_rows.append(f"""
         <tr>
             <td>{title_authors_html}</td>
-            <td>{conference}</td>
-            <td>{year}</td>
+            <td>{conference_year_html}</td>
             <td><a href="{paper_link}" target="_blank">查看论文</a></td>
             <td>{status}</td>
             <td>{action_button_html}</td>
@@ -83,12 +87,13 @@ def main():
             header h1 {{ font-size: 2em; margin-bottom: 0.5em; }}
             header p {{ font-size: 1.2em; color: #57606a; }}
             header a {{ color: #0969da; text-decoration: none; font-weight: bold; }}
+            table.dataTable {{ border-collapse: collapse !important; }} /* 修正表格边框 */
             table.dataTable thead th {{ background-color: #f6f8fa; border-bottom: 2px solid #d0d7de; }}
             .claim-btn {{ background-color: #238636; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; font-weight: bold; white-space: nowrap; display: inline-block; }}
             .claim-btn:hover {{ background-color: #2ea043; }}
             .status-claimed {{ font-weight: bold; color: #8B4513; white-space: nowrap; }}
-            /* **修正点**: 增加这个样式确保在小屏幕上可以水平滚动 */
-            .dataTables_wrapper {{ overflow-x: auto; }}
+            /* **修正点**: 确保水平滚动条出现 */
+            div.dataTables_wrapper {{ width: 100%; margin: 0 auto; overflow-x: auto; }}
         </style>
     </head>
     <body>
@@ -101,8 +106,7 @@ def main():
                 <thead>
                     <tr>
                         <th>论文名称 & 作者</th>
-                        <th>会议来源</th>
-                        <th>年份</th>
+                        <th>会议来源 & 年份</th>
                         <th>论文链接</th>
                         <th>认领状态</th>
                         <th>操作</th>
