@@ -141,7 +141,15 @@ def main():
 
     # --- 拼接并保存为index.html ---
     full_html = html_template_head + table_content + html_template_foot
-    with open('index.html', 'w', encoding='utf-8') as f:
+    
+    # 创建一个名为 'dist' 的文件夹，如果它不存在的话
+    output_dir = 'dist'
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        
+    # 将 index.html 保存到 'dist' 文件夹中
+    output_path = os.path.join(output_dir, 'index.html')
+    with open(output_path, 'w', encoding='utf-8') as f:
         f.write(full_html)
 
 if __name__ == '__main__':
