@@ -14,6 +14,31 @@
 </div>
 
 ---
+## 👋 如何成为贡献者？(How to Contribute)
+
+我们热烈欢迎每一位对AI充满热情的你加入我们的贡献者行列！我们为您设计了一套清晰、标准化的协作流程，并提供丰厚的算力奖励。
+
+<table align="center" width="100%" style="border: none; margin-top: 20px; margin-bottom: 20px;">
+  <tr style="border: none;">
+    <td width="33.3%" align="left" style="padding: 15px; vertical-align: top;">
+      <img src="https://api.iconify.design/ph/book-open-bold.svg?color=gray" width="40">
+      <h3 style="margin-top: 10px; margin-bottom: 10px;">第一步：阅读指南</h3>
+      <p>这是<strong>【必做之事】</strong>！请首先仔细阅读我们详细的<a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/CONTRIBUTING.md"><strong>贡献者指南</strong></a>，它将告诉您所有流程细节、复现标准和奖励规则。</p>
+    </td>
+    <td width="33.3%" align="left" style="padding: 15px; vertical-align: top;">
+      <img src="https://api.iconify.design/ph/note-pencil-bold.svg?color=gray" width="40">
+      <h3 style="margin-top: 10px; margin-bottom: 10px;">第二步：准备申请</h3>
+      <p>您可以从我们的<a href="https://lab4ai-hub.github.io/PaperHub/"><strong>待复现清单</strong></a>中选择课题，也可以推荐您自己感兴趣的论文。无论哪种方式，都需下载并填写<strong>《选题阶段表》</strong>。</p>
+    </td>
+    <td width="33.3%" align="left" style="padding: 15px; vertical-align: top;">
+      <img src="https://api.iconify.design/ph/rocket-launch-bold.svg?color=gray" width="40">
+      <h3 style="margin-top: 10px; margin-bottom: 10px;">第三步：提交申请</h3>
+      <p>准备好填写完整的表格后，请前往我们的 <a href="https://github.com/Lab4AI-Hub/PaperHub/issues"><strong>Issue区</strong></a>，选择对应的模板，提交您的正式申请，开启您的复现之旅！</p>
+    </td>
+  </tr>
+</table>
+
+---
 
 ### ✅ 已完成的复现项目 (Completed Reproductions)
 
@@ -56,10 +81,4 @@
 
 如果您对路线图中的项目感兴趣，或有新的论文推荐，请在我们的 [**Issue 列表**](https://github.com/Lab4AI-Hub/PaperHub/issues) 中发起讨论。
 
----
 
-### 💬 保持联系 (Connect with Us)
-
-* 🌐 **访问我们的主站**: [你“大模型实验室”平台链接]
-* 🤝 **如何贡献**: 阅读我们的 [**贡献指南**](https://github.com/Lab4AI-Hub/ReproHub/blob/main/CONTRIBUTING.md)
-* 💬 **加入我们的交流群**: [微信联系方式或二维码图片链接]
