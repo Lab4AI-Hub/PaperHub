@@ -5,7 +5,6 @@ from urllib.parse import quote_plus
 import html
 
 # --- 全局配置 ---
-# 将所有可配置项放在这里，方便未来修改
 CONFIG = {
     "csv_path": "data.csv",
     "output_dir": "dist",
@@ -18,16 +17,13 @@ def create_github_issue_url(title):
     """为论文标题创建一个直接跳转到Issue模板的链接"""
     base_url = f"{CONFIG['repo_url']}/issues/new"
     template = CONFIG['issue_template']
-    # 额外对标题进行URL编码，以防标题中有特殊字符
     encoded_title = quote_plus(f"[选题申请] {title}")
     return f"{base_url}?template={template}&title={encoded_title}"
 
 def generate_html_from_csv(df):
     """根据DataFrame生成HTML表格的行"""
     html_rows = []
-    # 遍历DataFrame的每一行
     for _, row in df.iterrows():
-        # 使用.get()方法安全地获取数据，如果列不存在则返回空字符串
         paper_title = html.escape(str(row.get('论文名称', '')))
         authors = html.escape(str(row.get('作者', '')))
         conference = html.escape(str(row.get('会议来源', '')))
@@ -35,22 +31,22 @@ def generate_html_from_csv(df):
         paper_link = str(row.get('论文链接', ''))
         status = str(row.get('认领状态', '待认领'))
         
-        # 组合需要合并显示的字段
         title_authors_html = f"{paper_title}<br><em style='color:#57606a;'>{authors}</em>"
-        conference_year_html = f"{conference} {year}"
         
-        # 根据状态决定显示“申请任务”按钮还是状态文本
+        # **修正点**: 认领按钮的逻辑修正
         if status == '待认领':
             claim_url = create_github_issue_url(paper_title)
             action_button_html = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
         else:
+            # 对于已认领或已完成的状态，只显示文本
             action_button_html = f'<span class="status-claimed">{status}</span>'
 
-        # 拼接成一行HTML表格
+        # **修正点**: 表格行结构修正
         html_rows.append(f"""
         <tr>
             <td>{title_authors_html}</td>
-            <td>{conference_year_html}</td>
+            <td>{conference}</td>
+            <td>{year}</td>
             <td><a href="{paper_link}" target="_blank">查看论文</a></td>
             <td>{status}</td>
             <td>{action_button_html}</td>
@@ -61,20 +57,17 @@ def generate_html_from_csv(df):
 
 def main():
     """主函数，读取CSV，生成完整的HTML页面"""
-    
     print("开始生成网页...")
-    
     try:
-        # 使用 utf-8-sig 编码自动处理BOM头，解决KeyError问题
         df = pd.read_csv(CONFIG['csv_path'], encoding='utf-8-sig')
-        df = df.fillna('')  # 将所有NaN空值替换为空字符串
+        df = df.fillna('')
     except FileNotFoundError:
         print(f"错误：源文件 {CONFIG['csv_path']} 未找到！")
         return
 
     table_content = generate_html_from_csv(df)
     
-    # 完整的HTML页面模板
+    # **修正点**: 优化了CSS和表格头部
     html_template = f"""
     <!DOCTYPE html>
     <html lang="zh-CN">
@@ -84,32 +77,32 @@ def main():
         <title>Lab4AI 待复现论文清单</title>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
         <style>
-            body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; margin: 0; padding: 2em; background-color: #f6f8fa; color: #24292f; }}
-            .container {{ max-width: 1280px; margin: 0 auto; background-color: #ffffff; padding: 2em; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(27,31,36,0.08); }}
+            body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 1em; background-color: #f6f8fa; color: #24292f; }}
+            .container {{ max-width: 95%; margin: 0 auto; background-color: #ffffff; padding: 2em; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(27,31,36,0.08); }}
             header {{ text-align: center; margin-bottom: 2em; }}
             header h1 {{ font-size: 2em; margin-bottom: 0.5em; }}
             header p {{ font-size: 1.2em; color: #57606a; }}
             header a {{ color: #0969da; text-decoration: none; font-weight: bold; }}
-            header a:hover {{ text-decoration: underline; }}
             table.dataTable thead th {{ background-color: #f6f8fa; border-bottom: 2px solid #d0d7de; }}
-            .claim-btn {{ background-color: #238636; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; font-weight: bold; white-space: nowrap; }}
+            .claim-btn {{ background-color: #238636; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; font-weight: bold; white-space: nowrap; display: inline-block; }}
             .claim-btn:hover {{ background-color: #2ea043; }}
             .status-claimed {{ font-weight: bold; color: #8B4513; white-space: nowrap; }}
+            /* **修正点**: 增加这个样式确保在小屏幕上可以水平滚动 */
+            .dataTables_wrapper {{ overflow-x: auto; }}
         </style>
     </head>
     <body>
         <div class="container">
             <header>
                 <h1>Lab4AI 待复现论文清单</h1>
-                <p>在申请任务前，请务必仔细阅读我们的 
-                   <a href="{CONFIG['repo_url']}/blob/main/CONTRIBUTING.md" target="_blank">贡献流程和奖励规则</a>。
-                </p>
+                <p>在申请任务前，请务必仔细阅读我们的 <a href="{CONFIG['repo_url']}/blob/main/CONTRIBUTING.md" target="_blank">贡献流程和奖励规则</a>。</p>
             </header>
             <table id="paperTable" class="display" style="width:100%">
                 <thead>
                     <tr>
                         <th>论文名称 & 作者</th>
-                        <th>会议来源 & 年份</th>
+                        <th>会议来源</th>
+                        <th>年份</th>
                         <th>论文链接</th>
                         <th>认领状态</th>
                         <th>操作</th>
@@ -126,7 +119,7 @@ def main():
             $(document).ready(function() {{
                 $('#paperTable').DataTable({{
                     "pageLength": 25,
-                    "order": [], // 默认不排序
+                    "order": [],
                     "language": {{
                         "search": "🔍 搜索:",
                         "lengthMenu": "每页显示 _MENU_ 条",
@@ -143,12 +136,10 @@ def main():
     </html>
     """
 
-    # 确保输出目录存在
     output_dir = CONFIG['output_dir']
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
-    # 将完整的HTML内容写入文件
     output_path = os.path.join(output_dir, CONFIG['output_filename'])
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html_template)
