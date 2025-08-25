@@ -1,66 +1,81 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
-from urllib.parse import quote_plus
 import os
+from urllib.parse import quote_plus
+import html
+
+# --- 全局配置 ---
+# 将所有可配置项放在这里，方便未来修改
+CONFIG = {
+    "csv_path": "data.csv",
+    "output_dir": "dist",
+    "output_filename": "index.html",
+    "repo_url": "https://github.com/Lab4AI-Hub/PaperHub",
+    "issue_template": "1_paper_suggestion.yml"
+}
 
 def create_github_issue_url(title):
-    """创建一个直接跳转到“选题申请”模板的链接"""
-    base_url = "https://github.com/Lab4AI-Hub/PaperHub/issues/new"
-    template = "1_paper_suggestion.yml"
-    # 新的逻辑：只跳转到模板页，让用户自行上传表格和填写标题
-    return f"{base_url}?template={template}"
+    """为论文标题创建一个直接跳转到Issue模板的链接"""
+    base_url = f"{CONFIG['repo_url']}/issues/new"
+    template = CONFIG['issue_template']
+    # 额外对标题进行URL编码，以防标题中有特殊字符
+    encoded_title = quote_plus(f"[选题申请] {title}")
+    return f"{base_url}?template={template}&title={encoded_title}"
 
-def generate_html_table(csv_path):
-    """读取CSV并生成HTML表格内容"""
-    try:
-        df = pd.read_csv(csv_path)
-    except FileNotFoundError:
-        return "<p>错误：找不到 data.csv 文件。</p>"
-
-    # 预处理数据
-    if '论文名称' not in df.columns:
-        return "<p>错误：CSV文件中缺少 '论文名称' 列。</p>"
-    
-    df = df.fillna('') # 填充空值为''
-    
+def generate_html_from_csv(df):
+    """根据DataFrame生成HTML表格的行"""
     html_rows = []
+    # 遍历DataFrame的每一行
     for _, row in df.iterrows():
-        # --- 核心修改部分：根据您的新表头读取数据 ---
-        paper_title = str(row.get('论文名称', ''))
-        authors = str(row.get('作者', ''))
-        conference = str(row.get('会议来源', ''))
+        # 使用.get()方法安全地获取数据，如果列不存在则返回空字符串
+        paper_title = html.escape(str(row.get('论文名称', '')))
+        authors = html.escape(str(row.get('作者', '')))
+        conference = html.escape(str(row.get('会议来源', '')))
         year = str(row.get('年份', ''))
         paper_link = str(row.get('论文链接', ''))
         status = str(row.get('认领状态', '待认领'))
         
-        # 将标题和作者合并，并用<br>换行
-        title_authors_md = f"{paper_title}<br><em>{authors}</em>"
-        # 将会议和年份合并
-        conference_year_md = f"{conference} {year}"
+        # 组合需要合并显示的字段
+        title_authors_html = f"{paper_title}<br><em style='color:#57606a;'>{authors}</em>"
+        conference_year_html = f"{conference} {year}"
         
-        # 为“认领”按钮创建链接
-        claim_url = create_github_issue_url(paper_title)
+        # 根据状态决定显示“申请任务”按钮还是状态文本
+        if status == '待认领':
+            claim_url = create_github_issue_url(paper_title)
+            action_button_html = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
+        else:
+            action_button_html = f'<span class="status-claimed">{status}</span>'
 
-        # 根据状态显示不同的操作
-        action_button = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
-        if status != '待认领':
-            action_button = f'<span class="status-{status.lower()}">{status}</span>'
-
+        # 拼接成一行HTML表格
         html_rows.append(f"""
         <tr>
-            <td>{title_authors_md}</td>
-            <td>{conference_year_md}</td>
+            <td>{title_authors_html}</td>
+            <td>{conference_year_html}</td>
             <td><a href="{paper_link}" target="_blank">查看论文</a></td>
             <td>{status}</td>
-            <td>{action_button}</td>
+            <td>{action_button_html}</td>
         </tr>
         """)
     
     return "".join(html_rows)
 
 def main():
-    """主函数：生成完整的index.html"""
+    """主函数，读取CSV，生成完整的HTML页面"""
     
-    html_template_head = """
+    print("开始生成网页...")
+    
+    try:
+        # 使用 utf-8-sig 编码自动处理BOM头，解决KeyError问题
+        df = pd.read_csv(CONFIG['csv_path'], encoding='utf-8-sig')
+        df = df.fillna('')  # 将所有NaN空值替换为空字符串
+    except FileNotFoundError:
+        print(f"错误：源文件 {CONFIG['csv_path']} 未找到！")
+        return
+
+    table_content = generate_html_from_csv(df)
+    
+    # 完整的HTML页面模板
+    html_template = f"""
     <!DOCTYPE html>
     <html lang="zh-CN">
     <head>
@@ -69,78 +84,76 @@ def main():
         <title>Lab4AI 待复现论文清单</title>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
         <style>
-            body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 20px; background-color: #f6f8fa; }
-            .container { max-width: 1200px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-            h1, p { text-align: center; }
-            .intro-link { display: block; text-align: center; margin-bottom: 20px; font-size: 1.2em; }
-            table { width: 100% !important; }
-            th, td { text-align: left; padding: 12px; }
-            .claim-btn { background-color: #238636; color: white; padding: 8px 12px; text-decoration: none; border-radius: 6px; font-weight: bold; }
-            .claim-btn:hover { background-color: #2ea043; }
-            .status-复现中, .status-已完成 { font-weight: bold; color: #8B4513; }
+            body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; margin: 0; padding: 2em; background-color: #f6f8fa; color: #24292f; }}
+            .container {{ max-width: 1280px; margin: 0 auto; background-color: #ffffff; padding: 2em; border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(27,31,36,0.08); }}
+            header {{ text-align: center; margin-bottom: 2em; }}
+            header h1 {{ font-size: 2em; margin-bottom: 0.5em; }}
+            header p {{ font-size: 1.2em; color: #57606a; }}
+            header a {{ color: #0969da; text-decoration: none; font-weight: bold; }}
+            header a:hover {{ text-decoration: underline; }}
+            table.dataTable thead th {{ background-color: #f6f8fa; border-bottom: 2px solid #d0d7de; }}
+            .claim-btn {{ background-color: #238636; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; font-weight: bold; white-space: nowrap; }}
+            .claim-btn:hover {{ background-color: #2ea043; }}
+            .status-claimed {{ font-weight: bold; color: #8B4513; white-space: nowrap; }}
         </style>
     </head>
     <body>
         <div class="container">
-            <h1>Lab4AI 待复现论文清单</h1>
-            <p class="intro-link">
-                在认领任务前，请务必仔细阅读我们的 
-                <a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/CONTRIBUTING.md" target="_blank"><strong>贡献流程和奖励规则</strong></a>。
-            </p>
-            <table id="paperTable" class="display">
+            <header>
+                <h1>Lab4AI 待复现论文清单</h1>
+                <p>在申请任务前，请务必仔细阅读我们的 
+                   <a href="{CONFIG['repo_url']}/blob/main/CONTRIBUTING.md" target="_blank">贡献流程和奖励规则</a>。
+                </p>
+            </header>
+            <table id="paperTable" class="display" style="width:100%">
                 <thead>
                     <tr>
                         <th>论文名称 & 作者</th>
                         <th>会议来源 & 年份</th>
                         <th>论文链接</th>
-                        <th>状态</th>
+                        <th>认领状态</th>
                         <th>操作</th>
                     </tr>
                 </thead>
                 <tbody>
-    """
-    
-    table_content = generate_html_table('data.csv')
-    
-    html_template_foot = """
+                    {table_content}
                 </tbody>
             </table>
         </div>
-        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.7.0.js"></script>
-        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+        <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
         <script>
-            $(document).ready(function() {
-                $('#paperTable').DataTable({
+            $(document).ready(function() {{
+                $('#paperTable').DataTable({{
                     "pageLength": 25,
-                    "language": {
-                        "search": "搜索:",
-                        "lengthMenu": "每页显示 _MENU_ 条记录",
-                        "info": "显示第 _START_ 至 _END_ 条记录，共 _TOTAL_ 条",
-                        "infoEmpty": "没有记录",
-                        "infoFiltered": "(从 _MAX_ 条总记录中过滤)",
-                        "paginate": {
-                            "first": "首页",
-                            "last": "末页",
-                            "next": "下一页",
-                            "previous": "上一页"
-                        }
-                    }
-                });
-            });
+                    "order": [], // 默认不排序
+                    "language": {{
+                        "search": "🔍 搜索:",
+                        "lengthMenu": "每页显示 _MENU_ 条",
+                        "info": "显示第 _START_ 到 _END_ 条，共 _TOTAL_ 条",
+                        "infoEmpty": "暂无数据",
+                        "infoFiltered": "(从 _MAX_ 条总记录中筛选)",
+                        "paginate": {{ "first": "首页", "last": "末页", "next": "下一页", "previous": "上一页" }},
+                        "zeroRecords": "没有找到匹配的记录"
+                    }}
+                }});
+            }});
         </script>
     </body>
     </html>
     """
-    
-    full_html = html_template_head + table_content + html_template_foot
-    
-    output_dir = 'dist'
+
+    # 确保输出目录存在
+    output_dir = CONFIG['output_dir']
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-        
-    output_path = os.path.join(output_dir, 'index.html')
+    
+    # 将完整的HTML内容写入文件
+    output_path = os.path.join(output_dir, CONFIG['output_filename'])
     with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(full_html)
+        f.write(html_template)
+    
+    print(f"网页已成功生成到: {output_path}")
 
 if __name__ == '__main__':
     main()
