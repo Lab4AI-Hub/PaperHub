@@ -1,67 +1,50 @@
 name: Build and Deploy Paper List to GitHub Pages
 
-# 触发工作流的条件
 on:
-  # 当有代码推送到 main 分支时
   push:
     branches:
       - main
-  # 允许在 Actions 页面手动触发
   workflow_dispatch:
 
-# 设置工作流的权限
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# 设置并发控制，确保同一时间只有一个部署在运行
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  # --- 第一步：构建任务 ---
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. 检出仓库代码
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. 设置 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      # 3. 安装依赖库
       - name: Install dependencies
         run: pip install pandas lxml
 
-      # 4. 运行脚本生成网页
-      - name: Run script to generate index.html
+      - name: Run script to generate webpage
         run: python generate_html.py
 
-      # 5. 上传生成的网页产物，供部署任务使用
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 从 dist 文件夹上传
           path: ./dist
 
-  # --- 第二步：部署任务 ---
   deploy:
-    # 部署任务需要等待构建任务成功完成
     needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    
-    # 部署步骤
     steps:
-      # 1. 从 GitHub Pages 下载产物并部署
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
