@@ -17,7 +17,6 @@
 ## 👋 如何成为贡献者？(How to Contribute)
 
 我们热烈欢迎每一位对AI充满热情的你加入我们的贡献者行列！我们为您设计了一套清晰、标准化的协作流程，并提供丰厚的算力奖励。
-
 <table align="center" width="100%" style="border: none; margin-top: 20px; margin-bottom: 20px;">
   <tr style="border: none;">
     <td width="33.3%" align="left" style="padding: 15px; vertical-align: top;">
@@ -37,6 +36,7 @@
     </td>
   </tr>
 </table>
+
 
 ---
 
