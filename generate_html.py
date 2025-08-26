@@ -13,12 +13,16 @@ CONFIG = {
     "issue_template": "1_paper_suggestion.yml"
 }
 
-def create_github_issue_url(title):
-    """为论文标题创建一个预填写标题的Issue链接"""
+def create_github_issue_url(title=""):
+    """创建跳转到Issue模板的链接，如果提供标题则预填写"""
     base_url = f"{CONFIG['repo_url']}/issues/new"
     template = CONFIG['issue_template']
-    encoded_title = quote_plus(f"[选题申请] {title}")
-    return f"{base_url}?template={template}&title={encoded_title}"
+    
+    if title:
+        encoded_title = quote_plus(f"[选题申请] {title}")
+        return f"{base_url}?template={template}&title={encoded_title}"
+    else:
+        return f"{base_url}?template={template}"
 
 def generate_html_from_csv(df):
     """根据DataFrame生成HTML表格的行"""
@@ -26,10 +30,10 @@ def generate_html_from_csv(df):
     html_rows = []
     for index, row in df.iterrows():
         try:
-            # --- 最终修正：严格按照诊断出的表头读取数据 ---
+            # --- 最终修正：严格按照您的CSV文件表头读取数据 ---
             paper_title = html.escape(str(row.get('论文名称', '')))
             authors = html.escape(str(row.get('论文作者', '')))
-            # **核心修正**: 使用包含换行符的正确列名
+            # **关键修正**：使用诊断出的、包含换行符的正确列名
             conference = html.escape(str(row.get('来源标签\n（会议期刊）', '')))
             year = str(row.get('论文年份', ''))
             paper_link = str(row.get('论文链接', ''))
@@ -39,9 +43,7 @@ def generate_html_from_csv(df):
 
             # 组合显示字段
             title_authors_html = f"{paper_title}<br><em style='color:#57606a;'>{authors}</em>"
-            # 将换行符替换为空格，以便在网页上正确显示
-            conference_html = conference.replace('\n', ' ')
-            conference_year_html = f"{conference_html} {year}"
+            conference_year_html = f"{conference.replace(chr(10), ' ')} {year}"
             
             links_html_parts = []
             if paper_link:
@@ -50,20 +52,22 @@ def generate_html_from_csv(df):
                 links_html_parts.append(f'<a href="{github_link}" target="_blank">代码</a>')
             links_html = ' | '.join(links_html_parts) if links_html_parts else 'N/A'
 
-            # 根据状态决定“操作”列的内容
-            action_button_html = ''
+            # 智能的“状态/操作”列
+            status_action_html = ""
             if status == '待认领':
                 claim_url = create_github_issue_url(paper_title)
-                action_button_html = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
+                status_action_html = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
+            else:
+                status_action_html = f'<span class="status-claimed">{status}</span>'
 
+            # 拼接成一行HTML表格
             html_rows.append(f"""
             <tr>
                 <td>{title_authors_html}</td>
                 <td>{conference_year_html}</td>
                 <td>{form}</td>
                 <td>{links_html}</td>
-                <td>{status}</td>
-                <td>{action_button_html}</td>
+                <td>{status_action_html}</td>
             </tr>
             """)
         except Exception as e:
@@ -80,7 +84,6 @@ def main():
         df = pd.read_csv(CONFIG['csv_path'], encoding='utf-8-sig')
         df = df.fillna('')
         print(f"成功读取 {CONFIG['csv_path']} 文件，共 {len(df)} 条记录。")
-        # 打印真实表头以供调试
         print("识别到的表头:", df.columns.tolist())
     except FileNotFoundError:
         print(f"致命错误：源文件 {CONFIG['csv_path']} 未找到！脚本终止。")
@@ -120,7 +123,7 @@ def main():
     <body>
         <div class="container">
             <header>
-                <h1>Lab4AI 待复현论文清单</h1>
+                <h1>Lab4AI 待复现论文清单</h1>
                 <p>在申请任务前，请务必仔细阅读我们的 <a href="{CONFIG['repo_url']}/blob/main/CONTRIBUTING.md" target="_blank">贡献流程和奖励规则</a>。</p>
                 <div class="header-actions">
                     <a href="{propose_new_url}" class="propose-btn" target="_blank">💡 推荐一篇新论文</a>
@@ -129,12 +132,11 @@ def main():
             <table id="paperTable" class="display" style="width:100%">
                 <thead>
                     <tr>
-                        <th>论文名称 & 作者</th>
+                        <th style="width: 40%;">论文名称 & 作者</th>
                         <th>会议/期刊 & 年份</th>
                         <th>形式</th>
                         <th>相关链接</th>
-                        <th>认领状态</th>
-                        <th>操作</th>
+                        <th>状态 / 操作</th>
                     </tr>
                 </thead>
                 <tbody>
