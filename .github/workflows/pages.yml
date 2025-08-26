@@ -1,3 +1,4 @@
+# --- 最终黄金版本：pages.yml ---
 name: Build and Deploy Paper List to GitHub Pages
 
 on:
