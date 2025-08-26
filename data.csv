@@ -1,5 +1,5 @@
 "ID","认领状态","论文名称","论文作者","论文链接","论文年份","来源标签
-（会议期刊）","github链接","状态"
+（会议期刊）","github链接","形式"
 "1","✅ 已完成","Attention is all you need","Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ﾅ「kasz Kaiser, Illia Polosukhin","https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf","2017","NIPS","https://github.com/jadore801120/attention-is-all-you-need-pytorch",""
 "2","💡 未复现","Improving language understanding by generative pre-training","Alec Radford，Karthik Narasimhan，Tim Salimans，Ilya Sutskever","https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf","2018","OpenAI","",""
 "3","💡 未复现","BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding","Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova","https://aclanthology.org/N19-1423/?utm_campaign=The+Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_m9bbH_7ECE1h3lZ3D61TYg52rKpifVNjL4fvJ85uqggrXsWDBTB7YooFLJeNXHWqhvOyC","2019","NAACL","",""
