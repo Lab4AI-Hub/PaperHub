@@ -13,17 +13,12 @@ CONFIG = {
     "issue_template": "1_paper_suggestion.yml"
 }
 
-def create_github_issue_url(title=""):
-    """创建跳转到Issue模板的链接，如果提供标题则预填写"""
+def create_github_issue_url(title):
+    """为论文标题创建一个预填写标题的Issue链接"""
     base_url = f"{CONFIG['repo_url']}/issues/new"
     template = CONFIG['issue_template']
-    
-    if title:
-        encoded_title = quote_plus(f"[选题申请] {title}")
-        return f"{base_url}?template={template}&title={encoded_title}"
-    else:
-        # 如果没有提供标题，则只跳转到模板选择页
-        return f"{base_url}?template={template}"
+    encoded_title = quote_plus(f"[选题申请] {title}")
+    return f"{base_url}?template={template}&title={encoded_title}"
 
 def generate_html_from_csv(df):
     """根据DataFrame生成HTML表格的行"""
@@ -37,42 +32,31 @@ def generate_html_from_csv(df):
             conference = html.escape(str(row.get('来源标签（会议期刊）', '')))
             year = str(row.get('论文年份', ''))
             paper_link = str(row.get('论文链接', ''))
-            github_link = str(row.get('github链接', ''))
-            form = html.escape(str(row.get('形式', '')))
             status = str(row.get('认领状态', ''))
 
             # 组合显示字段
             title_authors_html = f"{paper_title}<br><em style='color:#57606a;'>{authors}</em>"
+            conference_year_html = f"{conference} {year}"
             
-            links_html_parts = []
-            if paper_link:
-                links_html_parts.append(f'<a href="{paper_link}" target="_blank">原文</a>')
-            if github_link:
-                links_html_parts.append(f'<a href="{github_link}" target="_blank">代码</a>')
-            links_html = ' | '.join(links_html_parts) if links_html_parts else 'N/A'
-
-            # 根据状态决定“操作”列的内容
+            # **核心逻辑修改**: 创建一个智能的“状态/操作”列
+            status_action_html = ""
             if status == '待认领':
                 claim_url = create_github_issue_url(paper_title)
-                action_button_html = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
+                status_action_html = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
             else:
-                action_button_html = '' 
+                status_action_html = f'<span class="status-claimed">{status}</span>'
 
+            # 拼接成一行HTML表格
             html_rows.append(f"""
             <tr>
                 <td>{title_authors_html}</td>
-                <td>{conference}</td>
-                <td>{year}</td>
-                <td>{form}</td>
-                <td>{links_html}</td>
-                <td>{status}</td>
-                <td>{action_button_html}</td>
+                <td>{conference_year_html}</td>
+                <td><a href="{paper_link}" target="_blank">查看原文</a></td>
+                <td>{status_action_html}</td>
             </tr>
             """)
         except Exception as e:
-            print(f"处理第 {index + 2} 行数据时发生错误: {e}")
-            print(f"该行数据: {row.to_dict()}")
-            # 即使单行出错，也继续处理下一行
+            print(f"警告：处理第 {index + 2} 行数据时发生错误: {e}")
             continue
     
     print("所有数据行处理完毕。")
@@ -93,10 +77,9 @@ def main():
         return
 
     table_content = generate_html_from_csv(df)
-    
-    # 获取全局的“推荐新论文”按钮链接
     propose_new_url = create_github_issue_url()
 
+    # **核心修改**: 调整了HTML模板中的表头
     html_template = f"""
     <!DOCTYPE html>
     <html lang="zh-CN">
@@ -115,11 +98,10 @@ def main():
             .header-actions {{ margin-top: 1.5em; }}
             .propose-btn {{ background-color: #8957e5; color: white; padding: 10px 20px; font-size: 1.1em; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; }}
             .propose-btn:hover {{ background-color: #6e44c2; }}
-            table.dataTable {{ border-collapse: collapse !important; }}
             table.dataTable thead th {{ background-color: #f6f8fa; border-bottom: 2px solid #d0d7de; }}
             .claim-btn {{ background-color: #238636; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; font-weight: bold; white-space: nowrap; display: inline-block; }}
             .claim-btn:hover {{ background-color: #2ea043; }}
-            .status-claimed {{ font-weight: bold; color: #8B4513; white-space: nowrap; }}
+            .status-claimed {{ font-weight: bold; color: #57606a; white-space: nowrap; }}
             div.dataTables_wrapper {{ width: 100%; margin: 0 auto; overflow-x: auto; }}
         </style>
     </head>
@@ -135,13 +117,10 @@ def main():
             <table id="paperTable" class="display" style="width:100%">
                 <thead>
                     <tr>
-                        <th>论文名称 & 作者</th>
-                        <th>会议/期刊</th>
-                        <th>年份</th>
-                        <th>形式</th>
-                        <th>相关链接</th>
-                        <th>认领状态</th>
-                        <th>操作</th>
+                        <th style="width: 40%;">论文名称 & 作者</th>
+                        <th>会议来源 & 年份</th>
+                        <th>原文链接</th>
+                        <th>状态 / 操作</th>
                     </tr>
                 </thead>
                 <tbody>
