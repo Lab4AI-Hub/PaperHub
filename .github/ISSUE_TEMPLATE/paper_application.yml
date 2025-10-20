@@ -1,6 +1,6 @@
 # .github/ISSUE_TEMPLATE/paper_application.yml
 
-name: "📄 论文复现申请 / 进度更新 / 成果提交"
+name: "📄 论文复现申请  / 成果提交"
 description: "用于申请新的论文复现任务，或更新已有任务的进度/提交最终成果"
 title: "[论文复现] <请在此填写论文标题>"
 labels: ["paper-repro", "needs-review"]
@@ -18,8 +18,7 @@ body:
       description: "请选择您本次提交Issue的目的"
       options:
         - "1. 提交选题申请"
-        - "2. 中期进度更新/问题求助"
-        - "3. 提交最终成果"
+        - "2. 提交最终成果"
     validations:
       required: true
 
@@ -58,7 +57,6 @@ body:
       label: 详细说明
       description: |
         - 如果是【选题申请】，请在此处简述理由，并**拖拽上传**填写好的《选题阶段表.xlsx》。
-        - 如果是【进度更新/求助】，请描述您遇到的问题或进展。
         - 如果是【提交最终成果】，请在此处**拖拽上传**填写好的《论文上架信息表.xlsx》，并附上您在平台项目工作空间的**只读分享链接**（如有）。
       placeholder: "请根据您选择的“当前阶段”进行详细说明..."
     validations:
