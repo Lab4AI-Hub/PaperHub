@@ -41,6 +41,17 @@ body:
     validations:
       required: true
 
+  # --- 👇 这里是新增的“所属机构”字段 👇 ---
+  - type: input 
+    id: affiliation
+    attributes:
+      label: 您的所属机构 (Your Affiliation)
+      description: "请填写您所在的学校、企业或团队名称。例如：北京大学、Lab4AI内部团队、开源社区贡献者。"
+      placeholder: "例如：清华大学"
+    validations:
+      required: true # <--- 设置为必填项
+  # --- 👆 新增字段结束 👆 ---
+
   - type: textarea
     id: details
     attributes:
