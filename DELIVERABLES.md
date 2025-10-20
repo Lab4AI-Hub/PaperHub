@@ -13,7 +13,7 @@
 
 ### **第一部分：项目文件准备 (Project Files Checklist)**
 
-请确保您在Lab4AI平台上的项目工作空间，严格遵循我们在 **[《复现者指南》](./WORKFLOW.md)** 中定义的标准文件结构。这是我们进行审核的基础。
+请确保您在Lab4AI平台上的项目工作空间，严格遵循我们在 **[《复现者指南》](https://github.com/Lab4AI-Hub/PaperHub/edit/main/WORKFLOW.md)** 中定义的标准文件结构。这是我们进行审核的基础。
 
 ---
 
