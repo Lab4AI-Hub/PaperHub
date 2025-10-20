@@ -1,0 +1,63 @@
+# .github/ISSUE_TEMPLATE/paper_application.yml
+
+name: "📄 论文复现申请 / 进度更新 / 成果提交"
+description: "用于申请新的论文复现任务，或更新已有任务的进度/提交最终成果"
+title: "[论文复现] <请在此填写论文标题>"
+labels: ["paper-repro", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 感谢您参与 Lab4AI 的论文复现！
+        请根据您当前所处的阶段，填写或更新以下信息。
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 当前阶段
+      description: "请选择您本次提交Issue的目的"
+      options:
+        - "1. 提交选题申请"
+        - "2. 中期进度更新/问题求助"
+        - "3. 提交最终成果"
+    validations:
+      required: true
+
+  - type: input
+    id: paper-title
+    attributes:
+      label: 论文标题
+      description: "请填写您希望复现或正在复现的论文完整标题。"
+      placeholder: "例如：Attention Is All You Need"
+    validations:
+      required: true
+
+  - type: input
+    id: paper-link
+    attributes:
+      label: 论文链接 (ArXiv/期刊等)
+      description: "请提供原始论文的公开访问链接。"
+      placeholder: "https://arxiv.org/abs/1706.03762"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: 详细说明
+      description: |
+        - 如果是【选题申请】，请在此处简述理由，并**拖拽上传**填写好的《选题阶段表.xlsx》。
+        - 如果是【进度更新/求助】，请描述您遇到的问题或进展。
+        - 如果是【提交最终成果】，请在此处**拖拽上传**填写好的《论文上架信息表.xlsx》，并附上您在平台项目工作空间的**只读分享链接**（如有）。
+      placeholder: "请根据您选择的“当前阶段”进行详细说明..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "确认清单 (仅选题申请时必填)"
+      options:
+        - label: 我已阅读并理解所有贡献指南文档。
+        - label: 我确认我推荐的论文符合筛选标准。
+        - label: 我已为本项目点亮Star ⭐。
