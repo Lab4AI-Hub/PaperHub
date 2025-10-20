@@ -33,7 +33,7 @@
       <p style="color: #57606a;">
         <strong>前置要求：</strong>请先为本项目点亮一颗 <strong>Star ⭐</strong>！
         <br>
-        您可以从<a href="https://lab4ai-hub.github.io/PaperHub/">官方清单</a>选择或推荐新论文（推荐需先微信联系）。确定后，请通过 <a href="https://github.com/Lab4AI-Hub/PaperHub/issues/new/choose"><strong>提交Issue</strong></a> 的方式进行正式申请。
+        您可以从<a href="https://lab4ai-hub.github.io/PaperHub/">官方清单</a>选择或推荐新论文（推荐需先微信联系）。确定后，请通过 <strong>提交Issue</strong> 的方式进行正式申请。
       </p>
     </td>
   </tr>
@@ -44,7 +44,7 @@
     <td width="90%" style="padding: 10px 10px 20px 10px;">
       <h3 style="margin-top: 0px; margin-bottom: 5px;">第二步：在线复现</h3>
       <p style="color: #57606a;">
-        申请通过后，您将获得启动算力。请根据<a href="./docs/WORKFLOW.md"><strong>《复现者指南》</strong></a>中的文件结构要求，在<strong>您自己的Lab4AI平台工作空间</strong>内开始复现。
+        申请通过后，您将获得启动算力。请根据<strong>《复现者指南》</strong>中的文件结构要求，在<strong>您自己的Lab4AI平台工作空间</strong>内开始复现。
       </p>
     </td>
   </tr>
@@ -55,7 +55,7 @@
     <td width="90%" style="padding: 10px 10px 20px 10px;">
       <h3 style="margin-top: 0px; margin-bottom: 5px;">第三步：提交审核</h3>
       <p style="color: #57606a;">
-        复现完成后，请按照<a href="./docs/DELIVERABLES.md"><strong>《成果提交说明》</strong></a>，准备好所有材料，特别是填写完整的<strong>《论文上架信息表》</strong>。
+        复现完成后，请按照<strong>《成果提交说明》</strong>，准备好所有材料，特别是填写完整的<strong>《论文上架信息表》</strong>。
         <br>
         然后，请回到您当初申请任务的<strong>GitHub Issue</strong>，在评论区 <strong>再次联系我们</strong>，并将<strong>《论文上架信息表》作为附件上传</strong>，通知我们进行审核。
         <br>
@@ -70,7 +70,7 @@
     <td width="90%" style="padding: 10px 10px 20px 10px;">
       <h3 style="margin-top: 0px; margin-bottom: 5px;">第四步：成功发布</h3>
       <p style="color: #57606a;">
-        审核通过后，您的成果将被官方收录和展示，同时您将根据<a href="./docs/REWARDS.md"><strong>《创作者激励计划》</strong></a>获得丰厚奖励！
+        审核通过后，您的成果将被官方收录和展示，同时您将根据<strong>《创作者激励计划》</strong>获得丰厚奖励！
       </p>
     </td>
   </tr>
@@ -84,7 +84,7 @@
   <tr style="border: none;">
     <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
       <h4 style="margin-top: 0px; margin-bottom: 5px;">
-        <a href="./docs/WORKFLOW.md">📄 复现者指南 (Reproducer's Guide)</a>
+        <a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/WORKFLOE.md">📄 复现者指南 (Reproducer's Guide)</a>
       </h4>
       <p style="color: #57606a; font-size: 0.9em;">
         <em><strong>行动手册(SOP)</strong>：详细介绍从申请到提交的每一步。</em>
@@ -99,7 +99,7 @@
     </td>
     <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
       <h4 style="margin-top: 0px; margin-bottom: 5px;">
-        <a href="./docs/DELIVERABLES.md">📝 成果提交说明 (Deliverables Guide)</a>
+        <a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/DELIVERABLES.md">📝 成果提交说明 (Deliverables Guide)</a>
       </h4>
       <p style="color: #57606a; font-size: 0.9em;">
         <em><strong>交付物清单</strong>：清晰列出您需要准备的文件和信息。</em>
@@ -116,13 +116,13 @@
   <tr style="border: none;">
     <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
       <h4 style="margin-top: 0px; margin-bottom: 5px;">
-        <a href="./docs/CRITERIA.md">✅ 论文筛选标准 (Criteria)</a>
+        <a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/CRITERIA..md">✅ 论文筛选标准 (Criteria)</a>
       </h4>
       <p style="color: #57606a; font-size: 0.9em;"><em><strong>选题准则</strong>：定义了一篇论文是否值得被复现的前置条件。</em></p>
     </td>
     <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
       <h4 style="margin-top: 0px; margin-bottom: 5px;">
-        <a href="./docs/REWARDS.md">💎 创作者激励计划 (Rewards)</a>
+        <a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/REWARDS.md">💎 创作者激励计划 (Rewards)</a>
       </h4>
       <p style="color: #57606a; font-size: 0.9em;"><em><strong>权益手册</strong>：详细说明不同贡献所能获得的丰厚算力奖励。</em></p>
     </td>
