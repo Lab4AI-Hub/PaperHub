@@ -116,7 +116,7 @@
   <tr style="border: none;">
     <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
       <h4 style="margin-top: 0px; margin-bottom: 5px;">
-        <a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/CRITERIA..md">✅ 论文筛选标准 (Criteria)</a>
+        <a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/CRITERIA.md">✅ 论文筛选标准 (Criteria)</a>
       </h4>
       <p style="color: #57606a; font-size: 0.9em;"><em><strong>选题准则</strong>：定义了一篇论文是否值得被复现的前置条件。</em></p>
     </td>
