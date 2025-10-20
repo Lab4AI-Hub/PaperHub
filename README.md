@@ -44,7 +44,7 @@
     <td width="90%" style="padding: 10px 10px 20px 10px;">
       <h3 style="margin-top: 0px; margin-bottom: 5px;">第二步：在线复现</h3>
       <p style="color: #57606a;">
-        申请通过后，您将获得启动算力。请根据<a href="./docs/WORKFLOW.md"><strong>《复现者指南》</strong></a>中的文件结构要求，在**您自己的Lab4AI平台工作空间**内开始复现。
+        申请通过后，您将获得启动算力。请根据<a href="./docs/WORKFLOW.md"><strong>《复现者指南》</strong></a>中的文件结构要求，在<strong>您自己的Lab4AI平台工作空间</strong>内开始复现。
       </p>
     </td>
   </tr>
@@ -55,11 +55,11 @@
     <td width="90%" style="padding: 10px 10px 20px 10px;">
       <h3 style="margin-top: 0px; margin-bottom: 5px;">第三步：提交审核</h3>
       <p style="color: #57606a;">
-        复现完成后，请按照<a href="./docs/DELIVERABLES.md"><strong>《成果提交说明》</strong></a>，准备好所有材料，特别是填写完整的**《论文上架信息表》**。
+        复现完成后，请按照<a href="./docs/DELIVERABLES.md"><strong>《成果提交说明》</strong></a>，准备好所有材料，特别是填写完整的<strong>《论文上架信息表》</strong>。
         <br>
-        然后，请回到您当初申请任务的**GitHub Issue**，在评论区 **@ 我们的管理员**，并将**《论文上架信息表》作为附件上传**，通知我们进行审核。
+        然后，请回到您当初申请任务的<strong>GitHub Issue</strong>，在评论区 <strong>再次联系我们</strong>，并将<strong>《论文上架信息表》作为附件上传</strong>，通知我们进行审核。
         <br>
-        *（我们正在努力开发平台内的在线提交通道，未来将更加便捷！）*
+        <i>（我们正在努力开发平台内的在线提交通道，未来将更加便捷！）</i>
       </p>
     </td>
   </tr>
