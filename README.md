@@ -90,7 +90,7 @@
         <em><strong>行动手册(SOP)</strong>：详细介绍从申请到提交的每一步。</em>
       </p>
       <div style="background-color: #f6f8fa; padding: 10px; border-radius: 6px; margin-top: 10px;">
-        ✨ **本阶段需下载:**
+        ✨ <strong>本阶段需下载:</strong>
         <br>
         <a href="./contributor-kit/1-选题阶段-论文筛选表.xlsx" download>
           <img src="https://img.shields.io/badge/-%E2%AC%87%EF%B8%8F%20%E4%B8%8B%E8%BD%BD%E3%80%8A%E9%80%89%E9%A2%98%E9%98%B6%E6%AE%B5%E8%A1%A8%E3%80%8B-blue?style=flat-square" alt="下载选题模板">
@@ -105,7 +105,7 @@
         <em><strong>交付物清单</strong>：清晰列出您需要准备的文件和信息。</em>
       </p>
       <div style="background-color: #f6f8fa; padding: 10px; border-radius: 6px; margin-top: 10px;">
-        ✨ **本阶段需下载:**
+        ✨ <strong>本阶段需下载:</strong>
         <br>
         <a href="./contributor-kit/2-成果提交-项目上架表.xlsx" download>
           <img src="https://img.shields.io/badge/-%E2%AC%87%EF%B8%8F%20%E4%B8%8B%E8%BD%BD%E3%80%8A%E4%B8%8A%E6%9E%B6%E4%BF%A1%E6%81%AF%E8%A1%A8%E3%80%8B-blue?style=flat-square" alt="下载上架模板">
