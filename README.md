@@ -33,7 +33,7 @@
       <p style="color: #57606a;">
         <strong>前置要求：</strong>请先为本项目点亮一颗 <strong>Star ⭐</strong>！
         <br>
-        您可以从<a href="https://lab4ai-hub.github.io/PaperHub/">官方清单</a>选择或推荐新论文（推荐需先微信联系）。确定后，请通过 <a href="【请替换为PaperHub的Issue区链接】"><strong>提交Issue</strong></a> 的方式进行正式申请。
+        您可以从<a href="https://lab4ai-hub.github.io/PaperHub/">官方清单</a>选择或推荐新论文（推荐需先微信联系）。确定后，请通过 <a href="https://github.com/Lab4AI-Hub/PaperHub/issues/new/choose"><strong>提交Issue</strong></a> 的方式进行正式申请。
       </p>
     </td>
   </tr>
