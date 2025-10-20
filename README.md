@@ -78,34 +78,60 @@
 
 ### **核心文档库 & 申请入口**
 
-在开始您的贡献之旅前，请务必仔细阅读以下核心指南。**所有详细信息和申请入口都在这里**。
+在开始您的贡献之旅前，请务必仔细阅读以下核心指南，并**下载所需的表格模板**。**所有详细信息和申请入口都在这里**。
 
 <table width="100%" style="border: none; margin-top:15px;">
   <tr style="border: none;">
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <h4 style="margin-top: 0px; margin-bottom: 5px;"><a href="./docs/WORKFLOW.md">📄 复现者指南 (Reproducer's Guide)</a></h4>
-      <p style="color: #57606a; font-size: 0.9em;"><em><strong>行动手册(SOP)</strong>：详细介绍从申请到提交的每一步。</em></p>
+    <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
+      <h4 style="margin-top: 0px; margin-bottom: 5px;">
+        <a href="./docs/WORKFLOW.md">📄 复现者指南 (Reproducer's Guide)</a>
+      </h4>
+      <p style="color: #57606a; font-size: 0.9em;">
+        <em><strong>行动手册(SOP)</strong>：详细介绍从申请到提交的每一步。</em>
+      </p>
+      <div style="background-color: #f6f8fa; padding: 10px; border-radius: 6px; margin-top: 10px;">
+        ✨ **本阶段需下载:**
+        <br>
+        <a href="./contributor-kit/1-选题阶段-论文筛选表.xlsx" download>
+          <img src="https://img.shields.io/badge/-%E2%AC%87%EF%B8%8F%20%E4%B8%8B%E8%BD%BD%E3%80%8A%E9%80%89%E9%A2%98%E9%98%B6%E6%AE%B5%E8%A1%A8%E3%80%8B-blue?style=flat-square" alt="下载选题模板">
+        </a>
+      </div>
     </td>
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <h4 style="margin-top: 0px; margin-bottom: 5px;"><a href="./docs/DELIVERABLES.md">📝 成果提交说明 (Deliverables Guide)</a></h4>
-      <p style="color: #57606a; font-size: 0.9em;"><em><strong>交付物清单</strong>：清晰列出您需要准备的文件，以及需要**填写并附加到Issue**的上架信息表。</em></p>
+    <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
+      <h4 style="margin-top: 0px; margin-bottom: 5px;">
+        <a href="./docs/DELIVERABLES.md">📝 成果提交说明 (Deliverables Guide)</a>
+      </h4>
+      <p style="color: #57606a; font-size: 0.9em;">
+        <em><strong>交付物清单</strong>：清晰列出您需要准备的文件和信息。</em>
+      </p>
+      <div style="background-color: #f6f8fa; padding: 10px; border-radius: 6px; margin-top: 10px;">
+        ✨ **本阶段需下载:**
+        <br>
+        <a href="./contributor-kit/2-成果提交-项目上架表.xlsx" download>
+          <img src="https://img.shields.io/badge/-%E2%AC%87%EF%B8%8F%20%E4%B8%8B%E8%BD%BD%E3%80%8A%E4%B8%8A%E6%9E%B6%E4%BF%A1%E6%81%AF%E8%A1%A8%E3%80%8B-blue?style=flat-square" alt="下载上架模板">
+        </a>
+      </div>
     </td>
   </tr>
   <tr style="border: none;">
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <h4 style="margin-top: 0px; margin-bottom: 5px;"><a href="./docs/CRITERIA.md">✅ 论文筛选标准 (Criteria)</a></h4>
+    <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
+      <h4 style="margin-top: 0px; margin-bottom: 5px;">
+        <a href="./docs/CRITERIA.md">✅ 论文筛选标准 (Criteria)</a>
+      </h4>
       <p style="color: #57606a; font-size: 0.9em;"><em><strong>选题准则</strong>：定义了一篇论文是否值得被复现的前置条件。</em></p>
     </td>
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <h4 style="margin-top: 0px; margin-bottom: 5px;"><a href="./docs/REWARDS.md">💎 创作者激励计划 (Rewards)</a></h4>
+    <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
+      <h4 style="margin-top: 0px; margin-bottom: 5px;">
+        <a href="./docs/REWARDS.md">💎 创作者激励计划 (Rewards)</a>
+      </h4>
       <p style="color: #57606a; font-size: 0.9em;"><em><strong>权益手册</strong>：详细说明不同贡献所能获得的丰厚算力奖励。</em></p>
     </td>
   </tr>
 </table>
 
 <p align="center" style="margin-top: 20px; margin-bottom: 20px;">
-  <a href="【请替换为PaperHub的Issue申请模板链接】">
-    <img src="https://img.shields.io/badge/✅%20%E6%88%91%E5·І%E9%98…%E8Ї%BB%E6%8C‡%E5%8D—%EF%BC%8C%E5%BC%80%E5%A7‹%E7”%B3%E8Ї%B7-238636?style=for-the-badge&logo=github" alt="开始申请">
+  <a href="https://github.com/Lab4AI-Hub/PaperHub/issues/new/choose">
+    <img src="https://img.shields.io/badge/Start_Application-238636?style=for-the-badge&logo=github" alt="开始申请">
   </a>
 </p>
 
