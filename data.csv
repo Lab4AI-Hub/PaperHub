@@ -1,5 +1,5 @@
-﻿ID,案例类型,论文名称,论文作者,论文链接,论文年份,"来源标签
-（会议期刊）",github链接,状态
+﻿ID,认领状态,论文名称,论文作者,论文链接,论文年份,"来源标签
+（会议期刊）",github链接,形式
 1,💡 未复现,Attention is all you need,"Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ﾅ「kasz Kaiser, Illia Polosukhin",https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf,2017,NIPS,https://github.com/jadore801120/attention-is-all-you-need-pytorch,
 2,💡 未复现,Improving language understanding by generative pre-training,Alec Radford，Karthik Narasimhan，Tim Salimans，Ilya Sutskever,https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf,2018,OpenAI,,
 3,💡 未复现,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,"Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova",https://aclanthology.org/N19-1423/?utm_campaign=The+Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_m9bbH_7ECE1h3lZ3D61TYg52rKpifVNjL4fvJ85uqggrXsWDBTB7YooFLJeNXHWqhvOyC,2019,NAACL,,
@@ -518,3 +518,4 @@ Technical"
 374,💡 未复现,Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts,,,2024,ICML,https://github.com/shijxcs/LIFT,
 375,💡 未复现,Identity-Preserving Text-to-Video Generation by Frequency Decomposition,,,2025,CVPR,https://github.com/PKU-YuanGroup/ConsisID,
 376,💡 未复现,Open-YOLO 3D: Towards Fast and Accurate Open-Vocabulary 3D Instance Segmentation,,https://arxiv.org/pdf/2406.02548,2025,ICLR (Oral),https://github.com/aminebdj/OpenYOLO3D,oral
+
