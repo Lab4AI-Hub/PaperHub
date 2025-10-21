@@ -46,7 +46,7 @@ def generate_html_from_csv(df):
             links_html = ' | '.join(links_html_parts) if links_html_parts else 'N/A'
 
             status_action_html = f'<span class="status-claimed">{status}</span>'
-            if status == '待认领':
+            if status == '待认领💡':
                 claim_url = create_github_issue_url(paper_title)
                 status_action_html = f'<a href="{claim_url}" class="claim-btn" target="_blank">📝 申请任务</a>'
 
