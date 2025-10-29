@@ -174,6 +174,14 @@
 | **Timer: Generative Pre-trained Transformers Are Large Time Series Models** <br> *Yong Liu, et al.* | ICML 2024| [📄 arXiv](https://arxiv.org/abs/2402.02368) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=34d7c1e35c514d77b88762f18298e999&type=paper) |
 | **LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant** <br> *Yikun Liu, et al.* | other 2024| [📄 arXiv](https://arxiv.org/abs/2412.01720) | [➡️ **立即体验**](https://www.lab4ai.cn/paper/detail?id=3c0069c96f60404b948ed30fd498fe7f&type=paper) |
 
+---
 
+### ✨ 探索更多论文复现
 
+想要体验更多前沿论文的一键复现与在线开发？请访问我们的官方平台：
 
+<p align="center" style="margin-top: 15px; margin-bottom: 15px;">
+  <a href="https://www.lab4ai.cn/paper">
+    <img src="https://img.shields.io/badge/前往-Lab4AI%20论文广场-8957e5?style=for-the-badge&logo=ReadMe" alt="访问 Lab4AI 论文广场">
+  </a>
+</p>
