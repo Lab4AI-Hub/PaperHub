@@ -1,0 +1,533 @@
+﻿ID,认领状态,论文名称,论文作者,论文链接,论文年份,"来源标签
+（会议期刊）",github链接,形式
+1,💡 未复现,Attention is all you need,"Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, ﾅ「kasz Kaiser, Illia Polosukhin",https://papers.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf,2017,NIPS,https://github.com/jadore801120/attention-is-all-you-need-pytorch,
+2,💡 未复现,Improving language understanding by generative pre-training,Alec Radford，Karthik Narasimhan，Tim Salimans，Ilya Sutskever,https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf,2018,OpenAI,,
+3,💡 未复现,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,"Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova",https://aclanthology.org/N19-1423/?utm_campaign=The+Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_m9bbH_7ECE1h3lZ3D61TYg52rKpifVNjL4fvJ85uqggrXsWDBTB7YooFLJeNXHWqhvOyC,2019,NAACL,,
+4,💡 未复现,Language models are unsupervised multitask learners,Alec Radford，Jeffrey Wu，Rewon Child，David Luan，Dario Amodei，Ilya Sutskever,https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf,2019,OpenAI,,
+5,💡 未复现,Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer,"Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu",https://www.jmlr.org/papers/v21/20-074.html,2020,JMLR,https://github.com/google-research/text-to-text-transfer-transformer,
+6,💡 未复现,"From Local to Global: A GraphRAG Approach to
+Query-Focused Summarization","Darren Edge, Ha Trinh, Newman Cheng, Joshua Bradley, Alex Chao, Apurva Mody, Steven Truitt, Dasha Metropolitansky, Robert Osazuwa Ness, Jonathan Larson",https://arxiv.org/abs/2404.16130,2024,,https://github.com/microsoft/graphrag,
+7,💡 未复现,Language Models are Few-Shot Learners,"Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei",https://proceedings.neurips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html?utm_source=transaction&utm_medium=email&utm_campaign=linkedin_newsletter,2020,NIPS,https://github.com/openai/gpt-3,
+8,💡 未复现,LoRA: Low-Rank Adaptation of Large Language Models,"Edward J Hu,yelong shen,Phillip Wallis,Zeyuan Allen-Zhu,Yuanzhi Li,Shean Wang,Lu Wang,Weizhu Chen",https://openreview.net/forum?id=nZeVKeeFYf9,2022,ICLR,https://github.com/microsoft/LoRA,
+9,💡 未复现,Finetuned Language Models are Zero-Shot Learners,"Jason Wei,Maarten Bosma,Vincent Zhao,Kelvin Guu,Adams Wei Yu,Brian Lester,Nan Du,Andrew M. Dai,Quoc V Le",https://openreview.net/forum?id=gEZrGCozdqR&ref=morioh.com&utm_source=morioh.com,2022,ICLR,https://github.com/google-research/FLAN,
+10,💡 未复现,LLaMA: Open and Efficient Foundation Language Models,"Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample",https://arxiv.org/abs/2302.13971,2023,,https://github.com/meta-llama/llama,
+11,💡 未复现,Self-Consistency Improves Chain of Thought Reasoning in Language Models,"Xuezhi Wang,Jason Wei,Dale Schuurmans,Quoc V Le,Ed H. Chi,Sharan Narang,Aakanksha Chowdhery,Denny Zhou",https://openreview.net/forum?id=1PL1NIMMrw&utm_source=chatgpt.com,2023,ICLR,https://github.com/dj-sorry/self_consistency,
+12,💡 未复现,Why Can GPT Learn In-Context? Language Models Secretly Perform Gradient Descent as Meta-Optimizers,"Damai Dai, Yutao Sun, Li Dong, Yaru Hao, Shuming Ma, Zhifang Sui, Furu Wei",https://aclanthology.org/2023.findings-acl.247/,2023,ACL,https://github.com/microsoft/LMOps/tree/main/understand_icl,
+13,💡 未复现,Toolformer: Language Models Can Teach Themselves to Use Tools,"Timo Schick, Jane Dwivedi-Yu, Roberto Dessi, Roberta Raileanu, Maria Lomeli, Eric Hambro, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom",https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html,2023,NIPS,https://github.com/lucidrains/toolformer-pytorch,
+14,💡 未复现,DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature,"Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D Manning, Chelsea Finn",https://proceedings.mlr.press/v202/mitchell23a.html,2023,PMLR,https://github.com/eric-mitchell/detect-gpt,
+15,💡 未复现,Recitation-augmented language models,"Zhiqing Sun,Xuezhi Wang,Yi Tay,Yiming Yang,Denny Zhou",https://openreview.net/forum?id=-cqvvvb-NkI,2023,ICLR,https://github.com/Edward-Sun/RECITE,
+16,💡 未复现,Self-Instruct: Aligning Language Models with Self-Generated Instructions,"Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi",https://aclanthology.org/2023.acl-long.754/,2023,ACL,https://github.com/yizhongw/self-instruct,
+17,💡 未复现,Automatic chain of thought prompting in large language models,"Zhuosheng Zhang,Aston Zhang,Mu Li,Alex Smola",https://openreview.net/forum?id=5NTt8GFjUHkr,2023,ICLR,https://github.com/amazon-science/auto-cot,
+18,💡 未复现,REALM: retrieval-augmented language model pre-training,"Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, Ming-Wei Chang",https://dl.acm.org/doi/abs/10.5555/3524938.3525306,2020,ICML,https://github.com/google-research/language/tree/master/language/realm,
+19,💡 未复现,Language Is Not All You Need: Aligning Perception with Language Models,"Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma, Tengchao Lv, Lei Cui, Owais Khan Mohammed, Barun Patra, Qiang Liu, Kriti Aggarwal, Zewen Chi, Nils Bjorck, Vishrav Chaudhary, Subhojit Som, XIA SONG, Furu Wei",https://proceedings.neurips.cc/paper_files/paper/2023/hash/e425b75bac5742a008d643826428787c-Abstract-Conference.html,2023,NIPS,https://github.com/microsoft/unilm/tree/master/unilm-v1,
+20,💡 未复现,Automatic Prompt Augmentation and Selection with Chain-of-Thought from Labeled Data,"Kashun Shum, Shizhe Diao, Tong Zhang",https://aclanthology.org/2023.findings-emnlp.811/,2023,EMNLP,https://github.com/SHUMKASHUN/Automate-CoT,
+21,💡 未复现,Weakly Supervised Semantic Segmentation via Alternate Self-Dual Teaching,"Dingwen Zhang, Wenyuan Zeng, Guangyu Guo, Chaowei Fang, Lechao Cheng, Ming-Ming Cheng, Junwei Han",https://arxiv.org/abs/2112.09459,2025,TIP,,
+22,💡 未复现,Text to Image for Multi-Label Image Recognition with Joint Prompt-Adapter Learning,"Chun-Mei Feng, Kai Yu, Xinxing Xu, Salman Khan, Rick Siow Mong Goh, Wangmeng Zuo, Yong Liu",https://arxiv.org/abs/2506.10575,2024,TPAMI,,
+23,💡 未复现,Segment Concealed Objects with Incomplete Supervision,"Chunming He, Kai Li, Yachao Zhang, Ziyun Yang, Youwei Pang, Longxiang Tang, Chengyu Fang, Yulun Zhang, Linghe Kong, Xiu Li, Sina Farsiu",https://arxiv.org/pdf/2506.08955,2025,TPAMI,https://github.com/ChunmingHe/SEE,
+24,💡 未复现,Event-based Stereo Depth Estimation: A Survey,"Suman Ghosh, Guillermo Gallego",https://arxiv.org/abs/2409.17680,2025,TPAMI,,
+25,💡 未复现,Efficient Low-Resolution Face Recognition via Bridge Distillation,"Shiming Ge, Shengwei Zhao, Chenyu Li, Yu Zhang, Jia Li",https://arxiv.org/abs/2409.11786,2024,TIP,,
+26,💡 未复现,Towards Deviation-Robust Agent Navigation via Perturbation-Aware Contrastive Learning,"Bingqian Lin, Yanxin Long, Yi Zhu, Fengda Zhu, Xiaodan Liang, Qixiang Ye, Liang Lin",https://arxiv.org/abs/2403.05770,2023,TPAMI,https://github.com/YicongHong/Recurrent-VLN-BERT,
+27,💡 未复现,Bayesian Estimate of Mean Proper Scores for Diversity-Enhanced Active Learning,"Wei Tan, Lan Du, Wray Buntine",https://arxiv.org/abs/2312.10116,2023,TPAMI,,
+28,💡 未复现,Paragraph-to-Image Generation with Information-Enriched Diffusion Model,"Weijia Wu, Zhuang Li, Yefei He, Mike Zheng Shou, Chunhua Shen, Lele Cheng, Yan Li, Tingting Gao, Di Zhang",https://arxiv.org/abs/2311.14284,2025,IJCV,https://github.com/weijiawu/ParaDiffusion,
+29,💡 未复现,Inherit with Distillation and Evolve with Contrast: Exploring Class Incremental Semantic Segmentation Without Exemplar Memory,"Danpei Zhao, Bo Yuan, Zhenwei Shi",https://arxiv.org/abs/2309.15413,2023,TPAMI,,
+30,💡 未复现,Dual Compensation Residual Networks for Class Imbalanced Learning,"Ruibing Hou, Hong Chang, Bingpeng Ma, Shiguang Shan, Xilin Chen",https://arxiv.org/abs/2308.13165,2023,TPAMI,,
+31,💡 未复现,End-to-end Alternating Optimization for Real-World Blind Super Resolution,"Zhengxiong Luo, Yan Huang, Shang Li, Liang Wang, Tieniu Tan",https://arxiv.org/abs/2308.08816,2023,IJCV,https://github.com/greatlog/RealDAN,
+32,💡 未复现,YOLO-MS: Rethinking Multi-Scale Representation Learning for Real-time Object Detection,"Yuming Chen, Xinbin Yuan, Jiabao Wang, Ruiqi Wu, Xiang Li, Qibin Hou, Ming-Ming Cheng",https://arxiv.org/abs/2308.05480,2025,TPAMI,https://github.com/FishAndWasabi/YOLO-MS,
+33,💡 未复现,"A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection","Ming Jin, Huan Yee Koh, Qingsong Wen, Daniele Zambon, Cesare Alippi, Geoffrey I. Webb, Irwin King, Shirui Pan",https://arxiv.org/abs/2307.03759,2024,TPAMI,https://github.com/KimMeen/Awesome-GNN4TS,
+34,💡 未复现,SplatFlow: Learning Multi-frame Optical Flow via Splatting,"Bo Wang, Yifan Zhang, Jian Li, Yang Yu, Zhenping Sun, Li Liu, Dewen Hu",https://arxiv.org/abs/2306.08887,2024,IJCV,https://github.com/wwsource/SplatFlow,
+35,💡 未复现,Towards Expressive Spectral-Temporal Graph Neural Networks for Time Series Forecasting,"Ming Jin, Guangsi Shi, Yuan-Fang Li, Bo Xiong, Tian Zhou, Flora D. Salim, Liang Zhao, Lingfei Wu, Qingsong Wen, Shirui Pan",https://arxiv.org/abs/2305.06587,2025,TPAMI,,
+36,💡 未复现,Efficient Halftoning via Deep Reinforcement Learning,"Haitian Jiang, Dongliang Xiong, Xiaowen Jiang, Li Ding, Liang Chen, Kai Huang",https://arxiv.org/abs/2304.12152,2023,TIP,,
+37,💡 未复现,PAC-Bayes Bounds for Bandit Problems: A Survey and Experimental Comparison,"Hamish Flynn, David Reeb, Melih Kandemir, Jan Peters",https://arxiv.org/abs/2211.16110,2023,TPAMI,,
+38,💡 未复现,Salient Object Detection via Dynamic Scale Routing,"Zhenyu Wu, Shuai Li, Chenglizhao Chen, Hong Qin, Aimin Hao",https://arxiv.org/abs/2210.13821,2022,TIP,https://github.com/wuzhenyubuaa/DPNet,
+39,💡 未复现,Twin Contrastive Learning for Online Clustering,"Yunfan Li, Mouxing Yang, Dezhong Peng, Taihao Li, Jiantao Huang, Xi Peng",https://arxiv.org/abs/2210.11680,2022,IJCV,,
+40,💡 未复现,Kernel-Based Generalized Median Computation for Consensus Learning,"Andreas Nienkötter, Xiaoyi Jiang",https://arxiv.org/abs/2209.10208,2022,TPAMI,,
+41,💡 未复现,A Tale of HodgeRank and Spectral Method: Target Attack Against Rank Aggregation Is the Fixed Point of Adversarial Game,"Ke Ma, Qianqian Xu, Jinshan Zeng, Guorong Li, Xiaochun Cao, Qingming Huang",https://arxiv.org/abs/2209.05742,2022,TPAMI,,
+42,💡 未复现,Boosting Night-time Scene Parsing with Learnable Frequency,"Zhifeng Xie, Sen Wang, Ke Xu, Zhizhong Zhang, Xin Tan, Yuan Xie, Lizhuang Ma",https://arxiv.org/abs/2208.14241,2023,TIP,,
+43,💡 未复现,SiamMask: A Framework for Fast Online Object Tracking and Segmentation,"Weiming Hu, Qiang Wang, Li Zhang, Luca Bertinetto, Philip H. S. Torr",https://arxiv.org/abs/2207.02088,2022,TPAMI,,
+44,💡 未复现,SERE: Exploring Feature Self-relation for Self-supervised Transformer,"Zhong-Yu Li, Shanghua Gao, Ming-Ming Cheng",https://arxiv.org/abs/2206.05184,2023,TPAMI,https://github.com/MCG-NKU/SERE,
+45,💡 未复现,Parallel and Distributed Graph Neural Networks: An In-Depth Concurrency Analysis,"Maciej Besta, Torsten Hoefler",https://arxiv.org/abs/2205.09702,2023,TPAMI,,
+46,💡 未复现,Efficient Burst Raw Denoising with Variance Stabilization and Multi-frequency Denoising Network,"Dasong Li, Yi Zhang, Ka Lung Law, Xiaogang Wang, Hongwei Qin, Hongsheng Li",https://arxiv.org/abs/2205.04721,2022,IJCV,,
+47,💡 未复现,Incomplete Gamma Kernels: Generalizing Locally Optimal Projection Operators,"Patrick Stotko, Michael Weinmann, Reinhard Klein",https://arxiv.org/abs/2205.01087,2024,TPAMI,https://github.com/stotko/incomplete-gamma-kernels,
+48,💡 未复现,From Slow Bidirectional to Fast Autoregressive Video Diffusion Models,"Tianwei Yin, Qiang Zhang, Richard Zhang, William T. Freeman, Fredo Durand, Eli Shechtman, Xun Huang",https://arxiv.org/abs/2412.07772,2025,CVPR,https://github.com/tianweiy/CausVid,
+49,💡 未复现,FastComposer: Tuning-Free Multi-Subject Image Generation with Localized Attention,"Guangxuan Xiao, Tianwei Yin, William T. Freeman, Frédo Durand, Song Han",https://arxiv.org/abs/2305.10431,2024,IJCV,https://github.com/mit-han-lab/fastcomposer,
+50,💡 未复现,ROGRAG: A Robustly Optimized GraphRAG Framework,"Zhefan Wang, Huanjun Kong, Jie Ying, Wanli Ouyang, Nanqing Dong",https://arxiv.org/abs/2503.06474,2025,ACL,https://github.com/tpoisonooo/ROGRAG,
+51,💡 未复现,Dual Encoder GAN Inversion for High-Fidelity 3D Head Reconstruction from Single Images,"Bahri Batuhan Bilecen, Ahmet Berke Gokmen, Aysegul Dundar",https://arxiv.org/abs/2409.20530,2024,NIPS,berkegokmen1/dual-enc-3d-gan-inversion,
+52,💡 未复现,Can We Leave Deepfake Data Behind in Training Deepfake Detector,"Jikang Cheng, Zhiyuan Yan, Ying Zhang, Yuhao Luo, Zhongyuan Wang, Chen Li",https://arxiv.org/pdf/2408.17052,2024,NIPS,https://github.com/beautyremain/ProDet,
+53,💡 未复现,VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset,"Sihan Chen, Handong Li, Qunbo Wang, Zijia Zhao, Mingzhen Sun, Xinxin Zhu, Jing Liu",https://arxiv.org/abs/2305.18500,2023,NIPS,https://github.com/TXH-mercury/VAST,
+54,💡 未复现,MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors,"Riku Murai, Eric Dexheimer, Andrew J. Davison",https://arxiv.org/abs/2412.12392,2025,CVPR,https://github.com/rmurai0610/MASt3R-SLAM,
+55,💡 未复现,MAGiC-SLAM: Multi-Agent Gaussian Globally Consistent SLAM,"Vladimir Yugay, Theo Gevers, Martin R. Oswald",https://arxiv.org/abs/2411.16785,2025,CVPR,https://github.com/VladimirYugay/MAGiC-SLAM,
+56,💡 未复现,Murre: Multi-view Reconstruction via SfM-guided Monocular Depth Estimation,"Haoyu Guo, He Zhu, Sida Peng, Haotong Lin, Yunzhi Yan, Tao Xie, Wenguan Wang, Xiaowei Zhou, Hujun Bao",https://arxiv.org/abs/2503.14483,2025,CVPR,https://github.com/zju3dv/Murre,
+57,💡 未复现,STAR: Spatial-Temporal Augmentation with Text-to-Video Models for Real-World Video Super-Resolution,"Rui Xie, Yinhong Liu, Penghao Zhou, Chen Zhao, Jun Zhou, Kai Zhang, Zhenyu Zhang, Jian Yang, Zhenheng Yang, Ying Tai",https://arxiv.org/abs/2501.02976,2025,ICCV,https://github.com/NJU-PCALab/STAR,
+58,💡 未复现,SemanticDraw: Towards Real-Time Interactive Content Creation from Image Diffusion Models,"Jaerin Lee, Daniel Sungho Jung, Kanggeon Lee, Kyoung Mu Lee",https://arxiv.org/abs/2403.09055,2025,CVPR,https://github.com/ironjr/semantic-draw,
+59,💡 未复现,HSMR: Reconstructing Humans with a Biomechanically Accurate Skeleton,"Yan Xia, Xiaowei Zhou, Etienne Vouga, Qixing Huang, Georgios Pavlakos",https://arxiv.org/abs/2503.21751,2025,CVPR,https://github.com/IsshikiHugh/HSMR,
+60,💡 未复现,RLAIF-V: Open-Source AI Feedback Leads to Super GPT-4V Trustworthiness,"Tianyu Yu, Haoye Zhang, Qiming Li, Qixin Xu, Yuan Yao, Da Chen, Xiaoman Lu, Ganqu Cui, Yunkai Dang, Taiwen He, Xiaocheng Feng, Jun Song, Bo Zheng, Zhiyuan Liu, Tat-Seng Chua, Maosong Sun",https://arxiv.org/abs/2405.17220,2025,CVPR,https://github.com/RLHF-V/RLAIF-V,
+61,💡 未复现,DFormer：Rethinking RGBD Representation Learning for Semantic Segmentation,"Bowen Yin, Xuying Zhang, Zhongyu Li, Li Liu, Ming-Ming Cheng, Qibin Hou",https://arxiv.org/abs/2309.09668,2025,CVPR,https://github.com/VCIP-RGBD/DFormer,
+62,💡 未复现,GaussianCity: Generative Gaussian Splatting for Unbounded 3D City Generation,"Haozhe Xie, Zhaoxi Chen, Fangzhou Hong, Ziwei Liu",https://arxiv.org/abs/2406.06526,2025,CVPR,https://github.com/hzxie/GaussianCity,
+63,💡 未复现,PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos,"Hanxiao Jiang, Hao-Yu Hsu, Kaifeng Zhang, Hsin-Ni Yu, Shenlong Wang, Yunzhu Li",https://arxiv.org/abs/2503.17973,2025,ICCV,https://github.com/Jianghanxiao/PhysTwin,
+64,💡 未复现,UniGoal: Towards Universal Zero-shot Goal-oriented Navigation,"Hang Yin, Xiuwei Xu, Lingqing Zhao, Ziwei Wang, Jie Zhou, Jiwen Lu",https://arxiv.org/abs/2503.10630,2025,CVPR,https://github.com/bagh2178/UniGoal,
+65,💡 未复现,Momentum-GS: Momentum Gaussian Self-Distillation for High-Quality Large Scene Reconstruction,"Jixuan Fan, Wanhua Li, Yifei Han, Yansong Tang",https://arxiv.org/abs/2412.04887,2025,ICCV,https://github.com/Jixuan-Fan/Momentum-GS,
+66,💡 未复现,MINIMA: Modality Invariant Image Matching,"Jiangwei Ren, Xingyu Jiang, Zizhuo Li, Dingkang Liang, Xin Zhou, Xiang Bai",https://arxiv.org/abs/2412.19412,2025,CVPR,https://github.com/LSXI7/MINIMA,
+67,💡 未复现,Uni4D: Unifying Visual Foundation Models for 4D Modeling from a Single Video,"David Yifan Yao, Albert J. Zhai, Shenlong Wang",https://arxiv.org/abs/2503.21761,2025,CVPR,https://github.com/Davidyao99/uni4d,
+68,💡 未复现,Diffusion Renderer: Neural Inverse and Forward Rendering with Video Diffusion Models,"Ruofan Liang, Zan Gojcic, Huan Ling, Jacob Munkberg, Jon Hasselgren, Zhi-Hao Lin, Jun Gao, Alexander Keller, Nandita Vijaykumar, Sanja Fidler, Zian Wang",https://arxiv.org/abs/2501.18590,2025,CVPR,https://github.com/52CV/CVPR-2025-Papers,
+69,💡 未复现,Linear Programming Bounds on k-Uniform States,"Yu Ning, Fei Shi, Tao Luo, Xiande Zhang",https://arxiv.org/abs/2503.02222,2025,ICCV,https://github.com/Epona-World-Model/Epona,
+70,💡 未复现,LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation,"Jiaxiang Tang, Zhaoxi Chen, Xiaokang Chen, Tengfei Wang, Gang Zeng, Ziwei Liu",https://arxiv.org/abs/2402.05054,2024,ECCV,https://github.com/3DTopia/LGM,
+71,💡 未复现,VideoMamba: State Space Model for Efficient Video Understanding,"Kunchang Li, Xinhao Li, Yi Wang, Yinan He, Yali Wang, Limin Wang, Yu Qiao",https://arxiv.org/abs/2403.06977,2024,ECCV,https://github.com/OpenGVLab/video-mamba-suite,
+72,💡 未复现,DriveLM: Driving with Graph Visual Question Answering,"Chonghao Sima, Katrin Renz, Kashyap Chitta, Li Chen, Hanxue Zhang, Chengen Xie, Jens Beißwenger, Ping Luo, Andreas Geiger, Hongyang Li",https://arxiv.org/abs/2312.14150,2024,ECCV,https://github.com/OpenDriveLab/DriveLM,
+73,💡 未复现,GRiT: A Generative Region-to-text Transformer for Object Understanding,"Jialian Wu, Jianfeng Wang, Zhengyuan Yang, Zhe Gan, Zicheng Liu, Junsong Yuan, Lijuan Wang",https://arxiv.org/abs/2212.00280,2024,ECCV,https://github.com/JialianW/GRiT,
+74,💡 未复现,PointLLM: Empowering Large Language Models to Understand Point Clouds,"Runsen Xu, Xiaolong Wang, Tai Wang, Yilun Chen, Jiangmiao Pang, Dahua Lin",https://arxiv.org/abs/2308.16911,2024,ECCV,https://github.com/OpenRobotLab/PointLLM,
+75,💡 未复现,nuCraft: Crafting High Resolution 3D Semantic Occupancy for Unified 3D Scene Understanding,"Benjin Zhu, Zhe Wang, and Hongsheng Li",https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00730.pdf,2024,ECCV,/,
+76,💡 未复现,Adversarial Diffusion Distillation,"Axel Sauer, Dominik Lorenz, Andreas Blattmann, Robin Rombach",https://arxiv.org/abs/2311.17042,2024,ECCV,https://github.com/AMD-AIG-AIMA/AMD-Diffusion-Distillation,
+77,💡 未复现,Generative Image Dynamics,"Zhengqi Li, Richard Tucker, Noah Snavely, Aleksander Holynski",https://arxiv.org/abs/2309.07906,2024,CVPR,https://generative-dynamics.github.io/,最佳论文
+78,💡 未复现,Rich Human Feedback for Text-to-Image Generation,"Youwei Liang, Junfeng He, Gang Li, Peizhao Li, Arseniy Klimovskiy, Nicholas Carolan, Jiao Sun, Jordi Pont-Tuset, Sarah Young, Feng Yang, Junjie Ke, Krishnamurthy Dj Dvijotham, Katie Collins, Yiwen Luo, Yang Li, Kai J Kohlhoff, Deepak Ramachandran, Vidhya Navalpakkam",https://arxiv.org/pdf/2312.10240,2024,CVPR,https://github.com/youweiliang/RichHF,最佳论文
+79,💡 未复现,Mip-Splatting: Alias-free 3D Gaussian Splatting,"Zehao Yu, Anpei Chen, Binbin Huang, Torsten Sattler, Andreas Geiger",https://arxiv.org/abs/2311.16493,2024,CVPR,https://github.com/autonomousvision/mip-splatting,最佳学生论文
+80,💡 未复现,BioCLIP: A Vision Foundation Model for the Tree of Life,"Samuel Stevens, Jiaman Wu, Matthew J Thompson, Elizabeth G Campolongo, Chan Hee Song, David Edward Carlyn, Li Dong, Wasila M Dahdul, Charles Stewart, Tanya Berger-Wolf, Wei-Lun Chao, Yu Su",https://arxiv.org/abs/2311.18803,2024,CVPR,https://github.com/Imageomics/bioclip,最佳学生论文
+81,💡 未复现,4D Gaussian Splatting for Real-Time Dynamic Scene Rendering,"Guanjun Wu, Taoran Yi, Jiemin Fang, Lingxi Xie, Xiaopeng Zhang, Wei Wei, Wenyu Liu, Qi Tian, Xinggang Wang",https://arxiv.org/abs/2310.08528,2024,CVPR,https://github.com/hustvl/4DGaussians,
+82,💡 未复现,Depth Anything: Unleashing The Power of Large-Scale Unlabeled Data,"Lihe Yang, Bingyi Kang, Zilong Huang, Xiaogang Xu, Jiashi Feng, Hengshuang Zhao",https://arxiv.org/abs/2401.10891,2024,CVPR,https://github.com/LiheYoung/Depth-Anything,
+83,💡 未复现,LISA: Reasoning Segmentation Via Large Language Model,"Xin Lai, Zhuotao Tian, Yukang Chen, Yanwei Li, Yuhui Yuan, Shu Liu, Jiaya Jia",https://arxiv.org/abs/2308.00692,2024,CVPR,https://github.com/dvlab-research/LISA,
+84,💡 未复现,InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks,"Zhe Chen, Jiannan Wu, Wenhai Wang, Weijie Su, Guo Chen, Sen Xing, Muyan Zhong, Qinglong Zhang, Xizhou Zhu, Lewei Lu, Bin Li, Ping Luo, Tong Lu, Yu Qiao, Jifeng Dai",https://arxiv.org/abs/2312.14238,2024,CVPR,https://github.com/OpenGVLab/InternVL,
+85,💡 未复现,MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark,"Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, Botao Yu, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen",https://arxiv.org/abs/2311.16502,2024,CVPR,https://github.com/MMMU-Benchmark/MMMU,
+86,💡 未复现,EfficientSAM: Leveraged Masked Image Pretraining for Efficient Segment Anything,"Yunyang Xiong, Bala Varadarajan, Lemeng Wu, Xiaoyu Xiang, Fanyi Xiao, Chenchen Zhu, Xiaoliang Dai, Dilin Wang, Fei Sun, Forrest Iandola, Raghuraman Krishnamoorthi, Vikas Chandra",https://arxiv.org/abs/2312.00863,2024,CVPR,https://github.com/yformer/EfficientSAM,
+87,💡 未复现,Improved Baselines with Visual Instruction Tuning (LLaVA-1.5),"Haotian Liu, Chunyuan Li, Yuheng Li, Yong Jae Lee",https://arxiv.org/abs/2310.03744,2024,CVPR,https://github.com/LLaVA-VL/LLaVA-NeXT,
+88,💡 未复现,DemoFusion: Democratising High-Resolution Image Generation With No $$$,"Ruoyi Du, Dongliang Chang, Timothy Hospedales, Yi-Zhe Song, Zhanyu Ma",https://arxiv.org/abs/2311.16973,2024,CVPR,https://github.com/PRIS-CV/DemoFusion,
+89,💡 未复现,ViewDiff: 3D-Consistent Image Generation with Text-to-Image Models,"Lukas Höllein, Aljaž Božič, Norman Müller, David Novotny, Hung-Yu Tseng, Christian Richardt, Michael Zollhöfer, Matthias Nießner",https://arxiv.org/abs/2403.01807,2024,CVPR,https://github.com/facebookresearch/ViewDiff,
+90,💡 未复现,OmniGlue: Generalizable Feature Matching with Foundation Model Guidance,"Hanwen Jiang, Arjun Karpur, Bingyi Cao, Qixing Huang, Andre Araujo",https://arxiv.org/abs/2405.12979,2024,CVPR,https://github.com/google-research/omniglue,
+91,💡 未复现,DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks,"Jiaxin Zhang, Dezhi Peng, Chongyu Liu, Peirong Zhang, Lianwen Jin",https://arxiv.org/abs/2405.04408,2024,CVPR,https://github.com/ZZZHANG-jx/DocRes,
+92,💡 未复现,MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training,"Pavan Kumar Anasosalu Vasu, Hadi Pouransari, Fartash Faghri, Raviteja Vemulapalli, Oncel Tuzel",https://arxiv.org/abs/2311.17049,2024,CVPR,https://github.com/apple/ml-mobileclip,
+93,💡 未复现,Describing Differences in Image Sets with Natural Language,"Lisa Dunlap, Yuhui Zhang, Xiaohan Wang, Ruiqi Zhong, Trevor Darrell, Jacob Steinhardt, Joseph E. Gonzalez, Serena Yeung-Levy",https://arxiv.org/abs/2312.02974,2024,CVPR,https://github.com/Understanding-Visual-Datasets/VisDiff,
+94,💡 未复现,XFeat: Accelerated Features for Lightweight Image Matching,"Guilherme Potje, Felipe Cadar, Andre Araujo, Renato Martins, Erickson R. Nascimento",https://arxiv.org/abs/2404.19174,2024,CVPR,https://github.com/verlab/accelerated_features,
+95,💡 未复现,pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction,"David Charatan, Sizhe Li, Andrea Tagliasacchi, Vincent Sitzmann",https://arxiv.org/abs/2312.12337,2024,CVPR,,
+96,💡 未复现,GPT4Point: A Unified Framework for Point-Language Understanding and Generation,"Zhangyang Qi, Ye Fang, Zeyi Sun, Xiaoyang Wu, Tong Wu, Jiaqi Wang, Dahua Lin, Hengshuang Zhao",https://arxiv.org/abs/2312.02980,2024,CVPR,,
+97,💡 未复现,Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks,"Bin Xiao, Haiping Wu, Weijian Xu, Xiyang Dai, Houdong Hu, Yumao Lu, Michael Zeng, Ce Liu, Lu Yuan",https://arxiv.org/abs/2311.06242,2024,CVPR,,
+98,💡 未复现,Identity-Preserving Text-to-Video Generation by Frequency Decomposition,"Shenghai Yuan, Jinfa Huang, Xianyi He, Yunyuan Ge, Yujun Shi, Liuhan Chen, Jiebo Luo, Li Yuan",https://arxiv.org/abs/2411.17440,2025,CVPR,https://github.com/PKU-YuanGroup/ConsisID,
+99,💡 未复现,Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models,"Xin Ma, Yaohui Wang, Gengyun Jia, Xinyuan Chen, Yuan-Fang Li, Cunjian Chen, Yu Qiao",https://arxiv.org/abs/2407.15642,2025,CVPR,https://github.com/maxin-cn/Cinemo,
+100,💡 未复现,X-Dyna: Expressive Dynamic Human Image Animation,"Di Chang, Hongyi Xu, You Xie, Yipeng Gao, Zhengfei Kuang, Shengqu Cai, Chenxu Zhang, Guoxian Song, Chao Wang, Yichun Shi, Zeyuan Chen, Shijie Zhou, Linjie Luo, Gordon Wetzstein, Mohammad Soleymani",https://arxiv.org/abs/2501.10021,2025,CVPR,https://github.com/bytedance/X-Dyna,
+101,💡 未复现,PhyT2V: LLM-Guided Iterative Self-Refinement for Physics-Grounded Text-to-Video Generation,"Qiyao Xue, Xiangyu Yin, Boyuan Yang, Wei Gao",https://arxiv.org/pdf/2412.00596,2025,CVPR,https://github.com/pittisl/PhyT2V,
+102,💡 未复现,Timestep Embedding Tells: It's Time to Cache for Video Diffusion Model,"Feng Liu, Shiwei Zhang, Xiaofeng Wang, Yujie Wei, Haonan Qiu, Yuzhong Zhao, Yingya Zhang, Qixiang Ye, Fang Wan",https://arxiv.org/abs/2411.19108,2025,CVPR,https://github.com/ali-vilab/TeaCache,
+103,💡 未复现,AR-Diffusion: Asynchronous Video Generation with Auto-Regressive Diffusion,"Mingzhen Sun, Weining Wang, Gen Li, Jiawei Liu, Jiahui Sun, Wanquan Feng, Shanshan Lao, SiYu Zhou, Qian He, Jing Liu",https://arxiv.org/abs/2503.07418,2025,CVPR,https://github.com/iva-mzsun/AR-Diffusion,
+104,💡 未复现,Number it: Temporal Grounding Videos like Flipping Manga,"Yongliang Wu, Xinting Hu, Yuyang Sun, Yizhou Zhou, Wenbo Zhu, Fengyun Rao, Bernt Schiele, Xu Yang",https://arxiv.org/abs/2411.10332,2025,CVPR,https://github.com/yongliang-wu/NumPro,
+105,💡 未复现,Edit Away and My Face Will not Stay: Personal Biometric Defense against Malicious Generative Editing,"Hanhui Wang, Yihua Zhang, Ruizheng Bai, Yue Zhao, Sijia Liu, Zhengzhong Tu",https://arxiv.org/abs/2411.16832,2025,CVPR,https://github.com/taco-group/FaceLock,
+106,💡 未复现,h-Edit: Effective and Flexible Diffusion-Based Editing via Doob’s h-Transform,"Toan Nguyen, Kien Do, Duc Kieu, Thin Nguyen",https://arxiv.org/abs/2503.02187,2025,CVPR,https://github.com/nktoan/h-edit,
+107,💡 未复现,OverLoCK: An Overview-first-Look-Closely-next ConvNet with Context-Mixing Dynamic Kernels,"Meng Lou, Yizhou Yu",https://arxiv.org/abs/2502.20087,2025,CVPR,https://github.com/LMMMEng/OverLoCK,oral
+108,💡 未复现,Alias-Free Latent Diffusion Models:Improving Fractional Shift Equivariance of Diffusion Latent Space,"Yifan Zhou, Zeqi Xiao, Shuai Yang, Xingang Pan",https://arxiv.org/pdf/2503.09419,2025,CVPR,https://github.com/SingleZombie/AFLDM,oral
+109,💡 未复现,3D Student Splatting and Scooping,"Jialin Zhu, Jiangbei Yue, Feixiang He, He Wang",https://arxiv.org/abs/2503.10148,2025,CVPR,https://github.com/realcrane/3D-student-splating-and-scooping,oral
+110,💡 未复现,CAP4D: Creating Animatable 4D Portrait Avatars with Morphable Multi-View Diffusion Models,"Felix Taubner, Ruihang Zhang, Mathieu Tuli, David B. Lindell",https://arxiv.org/pdf/2412.12093,2025,CVPR,https://github.com/felixtaubner/cap4d/,oral
+111,💡 未复现,Multi-view Reconstruction via SfM-guided Monocular Depth Estimation,"Haoyu Guo, He Zhu, Sida Peng, Haotong Lin, Yunzhi Yan, Tao Xie, Wenguan Wang, Xiaowei Zhou, Hujun Bao",https://arxiv.org/pdf/2503.14483,2025,CVPR,https://github.com/zju3dv/Murre,oral
+112,💡 未复现,Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models,"Zhejun Zhang, Peter Karkus, Maximilian Igl, Wenhao Ding, Yuxiao Chen, Boris Ivanovic, Marco Pavone",https://arxiv.org/pdf/2412.05334,2025,CVPR,https://github.com/NVlabs/catk,oral
+113,💡 未复现,CustAny: Customizing Anything from A Single Example,"Lingjie Kong, Kai Wu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Chengming Xu, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu",https://arxiv.org/pdf/2406.11643v4,2025,CVPR,https://github.com/LingjieKong-fdu/CustAny,oral
+114,💡 未复现,VGGT:Visual Geometry Grounded Transformer,"Jianyuan Wang, Minghao Chen, Nikita Karaev, Andrea Vedaldi, Christian Rupprecht, David Novotny",https://arxiv.org/pdf/2503.11651,2025,CVPR,https://github.com/facebookresearch/vggt,"oral,Award Candidate"
+115,💡 未复现,Navigation World Models,"Amir Bar, Gaoyue Zhou, Danny Tran, Trevor Darrell, Yann LeCun",https://arxiv.org/pdf/2412.03572,2025,CVPR,https://github.com/facebookresearch/nwm/,oral
+116,💡 未复现,"MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos","Zhengqi Li, Richard Tucker, Forrester Cole, Qianqian Wang, Linyi Jin, Vickie Ye, Angjoo Kanazawa, Aleksander Holynski, Noah Snavely",https://arxiv.org/pdf/2412.04463,2025,CVPR,https://github.com/mega-sam/mega-sam,oral
+117,💡 未复现,FoundationStereo: Zero-Shot Stereo Matching,"Bowen Wen, Matthew Trepte, Joseph Aribido, Jan Kautz, Orazio Gallo, Stan Birchfield",https://arxiv.org/pdf/2501.09898,2025,CVPR,https://github.com/NVlabs/FoundationStereo/,"oral,Award Candidate"
+118,💡 未复现,The PanAf-FGBG Dataset: Understanding the Impact of Backgrounds in Wildlife Behaviour Recognition,"Otto Brookes, Maksim Kukushkin, Majid Mirmehdi, Colleen Stephens, Paula Dieguez, Thurston C. Hicks, Sorrel Jones, Kevin Lee, Maureen S. McCarthy, Amelia Meier, Emmanuelle Normand, Erin G. Wessling, Roman M. Wittig, Kevin Langergraber, Klaus Zuberbühler, Lukas Boesch, Thomas Schmid, Mimi Arandjelovic, Hjalmar Kühl, Tilo Burghardt",https://arxiv.org/pdf/2502.21201,2025,CVPR,https://obrookes.github.io/panaf-fgbg.github.io/,"oral,Award Candidate"
+119,💡 未复现,Improving Diffusion Inverse Problem Solving with Decoupled Noise Annealing,"Bingliang Zhang, Wenda Chu, Julius Berner, Chenlin Meng, Anima Anandkumar, Yang Song",https://arxiv.org/pdf/2407.01521,2025,CVPR,https://github.com/zhangbingliang2019/DAPS,oral
+120,💡 未复现,MV-DUSt3R+: Single-StageSceneReconstruction fromSparseViewsIn2Seconds,"Zhenggang Tang, Yuchen Fan, Dilin Wang, Hongyu Xu, Rakesh Ranjan, Alexander Schwing, Zhicheng Yan",https://arxiv.org/pdf/2412.06974,2025,CVPR,https://github.com/facebookresearch/mvdust3r,oral
+121,💡 未复现,DIFIX3D+: Improving 3D Reconstructions with Single-Step Diffusion Models,"Jay Zhangjie Wu, Yuxuan Zhang, Haithem Turki, Xuanchi Ren, Jun Gao, Mike Zheng Shou, Sanja Fidler, Zan Gojcic, Huan Ling",https://arxiv.org/pdf/2503.01774,2025,CVPR,https://github.com/nv-tlabs/Difix3D,"oral,Award Candidate"
+122,💡 未复现,DIFFUSIONRENDERER: Neural Inverse and Forward Rendering with Video Diffusion Models,"Ruofan Liang, Zan Gojcic, Huan Ling, Jacob Munkberg, Jon Hasselgren, Zhi-Hao Lin, Jun Gao, Alexander Keller, Nandita Vijaykumar, Sanja Fidler, Zian Wang",https://arxiv.org/pdf/2501.18590,2025,CVPR,https://research.nvidia.com/labs/toronto-ai/DiffusionRenderer/,oral
+123,💡 未复现,OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation,"Pengfei Zhou, Xiaopeng Peng, Jiajun Song, Chuanhao Li, Zhaopan Xu, Yue Yang, Ziyao Guo, Hao Zhang, Yuqi Lin, Yefei He, Lirui Zhao, Shuo Liu, Tianhua Li, Yuxuan Xie, Xiaojun Chang, Yu Qiao, Wenqi Shao, Kaipeng Zhang",https://arxiv.org/pdf/2411.18499,2025,CVPR,https://github.com/LanceZPF/OpenING,oral
+124,💡 未复现,RandAR: Decoder-only Autoregressive Visual Generation in Random Orders,"Ziqi Pang, Tianyuan Zhang, Fujun Luan, Yunze Man, Hao Tan, Kai Zhang, William T. Freeman, Yu-Xiong Wang",https://arxiv.org/pdf/2412.01827,2025,CVPR,https://github.com/ziqipang/RandAR,oral
+125,💡 未复现,AnyEdit: Mastering Unified High-Quality Image Editing for Any Idea,"Qifan Yu, Wei Chow, Zhongqi Yue, Kaihang Pan, Yang Wu, Xiaoyang Wan, Juncheng Li, Siliang Tang, Hanwang Zhang, Yueting Zhuang",https://arxiv.org/pdf/2411.15738,2025,CVPR,https://github.com/DCDmllm/AnyEdit,oral
+126,💡 未复现,VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained Video Reasoning via Core Frame Selection,"Songhao Han, Wei Huang, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou, Xiaojuan Qi, Yue Liao, Si Liu",https://arxiv.org/pdf/2411.14794,2025,CVPR,https://github.com/hshjerry/VideoEspresso,oral
+127,💡 未复现,SegEarth-OV: Towards Training-Free Open-Vocabulary Segmentation for Remote Sensing Images,"Kaiyu Li, Ruixun Liu, Xiangyong Cao, Xueru Bai, Feng Zhou, Deyu Meng, Zhi Wang",https://arxiv.org/pdf/2410.01768,2025,CVPR,https://github.com/likyoo/SegEarth-OV,oral
+128,💡 未复现,Minority-Focused Text-to-Image Generation via Prompt Optimization,"Soobin Um, Jong Chul Ye",https://arxiv.org/pdf/2410.07838,2025,CVPR,https://github.com/soobin-um/MinorityPrompt,oral
+129,💡 未复现,Autoregressive Distillation of Diffusion Transformers,"Yeongmin Kim, Sotiris Anagnostidis, Yuming Du, Edgar Schönfeld, Jonas Kohler, Markos Georgopoulos, Albert Pumarola, Ali Thabet, Artsiom Sanakoyeu",https://arxiv.org/pdf/2504.11295,2025,CVPR,https://github.com/alsdudrla10/ARD,oral
+130,💡 未复现,Molmo and PixMo:Open Weights and Open Data for State-of-the-Art Vision-Language Mo,"Matt Deitke, Christopher Clark, Sangho Lee, Rohun Tripathi, Yue Yang, Jae Sung Park, Mohammadreza Salehi, Niklas Muennighoff, Kyle Lo, Luca Soldaini, Jiasen Lu, Taira Anderson, Erin Bransom, Kiana Ehsani, Huong Ngo, YenSung Chen, Ajay Patel, Mark Yatskar, Chris Callison-Burch, Andrew Head, Rose Hendrix, Favyen Bastani, Eli VanderBilt, Nathan Lambert, Yvonne Chou, Arnavi Chheda, Jenna Sparks, Sam Skjonsberg, Michael Schmitz, Aaron Sarnat, Byron Bischoff, Pete Walsh, Chris Newell, Piper Wolters, Tanmay Gupta, Kuo-Hao Zeng, Jon Borchardt, Dirk Groeneveld, Crystal Nam, Sophie Lebrecht, Caitlin Wittlif, Carissa Schoenick, Oscar Michel, Ranjay Krishna, Luca Weihs, Noah A. Smith, Hannaneh Hajishirzi, Ross Girshick, Ali Farhadi, Aniruddha Kembhavi",https://arxiv.org/pdf/2409.17146,2025,CVPR,https://github.com/allenai/molmo,oral
+131,💡 未复现,Continuous 3D Perception Model with Persistent State,"Qianqian Wang, Yifei Zhang, Aleksander Holynski, Alexei A. Efros, Angjoo Kanazawa",https://arxiv.org/pdf/2501.12387,2025,CVPR,https://github.com/CUT3R/CUT3R,oral
+132,💡 未复现,Q-Eval-100K: Evaluating Visual Quality and Alignment Level for Text-to-Vision Content,"Zicheng Zhang, Tengchuan Kou, Shushi Wang, Chunyi Li, Wei Sun, Wei Wang, Xiaoyu Li, Zongyu Wang, Xuezhi Cao, Xiongkuo Min, Xiaohong Liu, Guangtao Zhai",https://arxiv.org/pdf/2503.02357,2025,CVPR,https://github.com/zzc-1998/Q-Eval,oral
+133,💡 未复现,Video-XL:Extra-Long Vision Language Model for Hour-Scale Video Understanding,"Yan Shu, Zheng Liu, Peitian Zhang, Minghao Qin, Junjie Zhou, Zhengyang Liang, Tiejun Huang, Bo Zhao",https://arxiv.org/pdf/2409.14485,2025,CVPR,https://github.com/VectorSpaceLab/Video-XL,oral
+134,💡 未复现,Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise,"Ryan Burgert, Yuancheng Xu, Wenqi Xian, Oliver Pilarski, Pascal Clausen, Mingming He, Li Ma, Yitong Deng, Lingxiao Li, Mohsen Mousavi, Michael Ryoo, Paul Debevec, Ning Yu",https://arxiv.org/pdf/2501.08331,2025,CVPR,https://github.com/Eyeline-Research/Go-with-the-Flow,oral
+135,💡 未复现,CleanDIFT: Diffusion Features without Noise,"Nick Stracke, Stefan Andreas Baumann, Kolja Bauer, Frank Fundel, Björn Ommer",https://arxiv.org/pdf/2412.03439,2025,CVPR,https://github.com/CompVis/cleandift,oral
+136,💡 未复现,CraftsMan3D: High-fidelity Mesh Generation with 3D Native Diffusion and Interactive Geometry Refiner,"Weiyu Li, Jiarui Liu, Hongyu Yan, Rui Chen, Yixun Liang, Xuelin Chen, Ping Tan, Xiaoxiao Long",https://arxiv.org/pdf/2405.14979,2025,CVPR,https://github.com/wyysf-98/CraftsMan3D,oral
+137,💡 未复现,DreamRelation: Bridging Customization and Relation Generation,"Qingyu Shi, Lu Qi, Jianzong Wu, Jinbin Bai, Jingbo Wang, Yunhai Tong, Xiangtai Li",https://arxiv.org/pdf/2410.23280,2025,CVPR,https://github.com/Shi-qingyu/DreamRelation,oral
+138,💡 未复现,Generative Multimodal Pretraining with Discrete Diffusion Timestep Tokens,"Kaihang Pan, Wang Lin, Zhongqi Yue, Tenglong Ao, Liyu Jia, Wei Zhao, Juncheng Li, Siliang Tang, Hanwang Zhang",https://arxiv.org/pdf/2504.14666,2025,CVPR,https://github.com/selftok-team/SelftokTokenizer/,oral
+139,💡 未复现,3DTopia-XL: Scaling High-quality 3D Asset Generation via Primitive Diffusion,"Zhaoxi Chen, Jiaxiang Tang, Yuhao Dong, Ziang Cao, Fangzhou Hong, Yushi Lan, Tengfei Wang, Haozhe Xie, Tong Wu, Shunsuke Saito, Liang Pan, Dahua Lin, Ziwei Liu",https://openaccess.thecvf.com/content/CVPR2025/html/Chen_3DTopia-XL_Scaling_High-quality_3D_Asset_Generation_via_Primitive_Diffusion_CVPR_2025_paper.html,2025,CVPR,https://github.com/3DTopia/3DTopia-XL,highlight
+140,💡 未复现,"AnySat: One Earth Observation Model for Many Resolutions, Scales, and Modalities","Guillaume Astruc, Nicolas Gonthier, Clement Mallet, Loic Landrieu",https://arxiv.org/abs/2412.14123,2025,CVPR,https://github.com/gastruc/AnySat,highlight
+141,💡 未复现,Cross-modal Causal Relation Alignment for Video Question Grounding,"Weixing Chen, Yang Liu, Binglin Chen, Jiandong Su, Yongsen Zheng, Liang Lin",https://arxiv.org/abs/2503.07635,2025,CVPR,https://github.com/WissingChen/CRA-GQA,highlight
+142,💡 未复现,DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos,"Wenbo Hu, Xiangjun Gao, Xiaoyu Li, Sijie Zhao, Xiaodong Cun, Yong Zhang, Long Quan, Ying Shan",https://arxiv.org/abs/2409.02095,2025,CVPR,https://github.com/Tencent/DepthCrafter,highlight
+143,💡 未复现,DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery,"Jiadong Tang, Yu Gao, Dianyi Yang, Liqi Yan, Yufeng Yue, Yi Yang",https://arxiv.org/abs/2503.16964,2025,CVPR,https://github.com/BITyia/DroneSplat,highlight
+144,💡 未复现,Empowering Vector Graphics with Consistently Arbitrary Viewing and View-dependent Visibility,"Yidi Li, Jun Xiao, Zhengda Lu, Yiqun Wang, Haiyong Jiang",https://arxiv.org/abs/2505.21377,2025,CVPR,https://github.com/chenxinl/Dream3DVG,highlight
+145,💡 未复现,Extrapolating and Decoupling Image-to-Video Generation Models: Motion Modeling is Easier Than You Think,"Jie Tian, Xiaoye Qu, Zhenyi Lu, Wei Wei, Sichen Liu, Yu Cheng",https://arxiv.org/abs/2503.00948,2025,CVPR,https://github.com/Chuge0335/EDG,highlight
+146,💡 未复现,ETAP: Event-based Tracking of Any Point,"Friedhelm Hamann, Daniel Gehrig, Filbert Febryanto, Kostas Daniilidis, Guillermo Gallego",https://arxiv.org/abs/2412.00133,2025,CVPR,https://github.com/tub-rip/ETAP,highlight
+147,💡 未复现,Flash3D: Super-scaling Point Transformers through Joint Hardware-Geometry Locality,"Liyan Chen, Gregory P. Meyer, Zaiwei Zhang, Eric M. Wolff, Paul Vernaza",https://arxiv.org/abs/2412.16481,2025,CVPR,https://github.com/liyanc/Flash3DTransformer,highlight
+148,💡 未复现,Flowing from Words to Pixels: A Noise-Free Framework for Cross-Modality Evolution,"Qihao Liu, Xi Yin, Alan Yuille, Andrew Brown, Mannat Singh",https://arxiv.org/abs/2412.15213,2025,CVPR,https://github.com/qihao067/CrossFlow,highlight
+149,💡 未复现,Generative Photography: Scene-Consistent Camera Control for Realistic Text-to-Image Synthesis,"Yu Yuan, Xijun Wang, Yichen Sheng, Prateek Chennuri, Xingguang Zhang, Stanley Chan",https://arxiv.org/abs/2412.02168,2025,CVPR,https://github.com/pandayuanyu/generative-photography,highlight
+150,💡 未复现,Generative Multiview Relighting for 3D Reconstruction under Extreme Illumination Variation,"Hadi Alzayer, Philipp Henzler, Jonathan T. Barron, Jia-Bin Huang, Pratul P. Srinivasan, Dor Verbin",https://arxiv.org/abs/2412.15211,2025,CVPR,https://relight-to-reconstruct.github.io/,highlight
+151,💡 未复现,Generative Densification: Learning to Densify Gaussians for High-Fidelity Generalizable 3D Reconstruction,"Seungtae Nam, Xiangyu Sun, Gyeongjin Kang, Younggeun Lee, Seungjun Oh, Eunbyung Park",https://arxiv.org/abs/2412.06234,2025,CVPR,https://github.com/stnamjef/GenerativeDensification,highlight
+152,💡 未复现,GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control,"Xuanchi Ren, Tianchang Shen, Jiahui Huang, Huan Ling, Yifan Lu, Merlin Nimier-David, Thomas Müller, Alexander Keller, Sanja Fidler, Jun Gao",https://arxiv.org/abs/2503.03751,2025,CVPR,https://github.com/nv-tlabs/GEN3C,highlight
+153,💡 未复现,Holmes-VAU: Towards Long-term Video Anomaly Understanding at Any Granularity,"Huaxin Zhang, Xiaohao Xu, Xiang Wang, Jialong Zuo, Xiaonan Huang, Changxin Gao, Shanjun Zhang, Li Yu, Nong Sang",https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Holmes-VAU_Towards_Long-term_Video_Anomaly_Understanding_at_Any_Granularity_CVPR_2025_paper.html,2025,CVPR,https://github.com/pipixin321/HolmesVAU,highlight
+154,💡 未复现,HELVIPAD: A Real-World Dataset for Omnidirectional Stereo Depth Estimation,"Mehdi Zayene, Jannik Endres, Albias Havolli, Charles Corbière, Salim Cherkaoui, Alexandre Kontouli, Alexandre Alahi",https://arxiv.org/abs/2411.18335,2025,CVPR,https://github.com/vita-epfl/Helvipad,highlight
+155,💡 未复现,ImViD: Immersive Volumetric Videos for Enhanced VR Engagement,"Zhengxian Yang, Shi Pan, Shengqi Wang, Haoxiang Wang, Li Lin, Guanjun Li, Zhengqi Wen, Borong Lin, Jianhua Tao, Tao Yu",https://arxiv.org/abs/2503.14359,2025,CVPR,https://github.com/Metaverse-AI-Lab-THU/ImViD,highlight
+156,💡 未复现,Inst3D-LMM: Instance-Aware 3D Scene Understanding with Multi-modal Instruction Tuning,"Hanxun Yu, Wentong Li, Song Wang, Junbo Chen, Jianke Zhu",https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Inst3D-LMM_Instance-Aware_3D_Scene_Understanding_with_Multi-modal_Instruction_Tuning_CVPR_2025_paper.html,2025,CVPR,https://github.com/hanxunyu/Inst3D-LMM,highlight
+157,💡 未复现,Learning 4D Panoptic Scene Graph Generation from Rich 2D Visual Scene,"Shengqiong Wu, Hao Fei, Jingkang Yang, Xiangtai Li, Juncheng Li, Hanwang Zhang, Tat-seng Chua",https://arxiv.org/abs/2503.15019,2025,CVPR,https://github.com/ChocoWu/PSG-4D-LLM,highlight
+158,💡 未复现,Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models for Domain-Generalized Semantic Segmentation,"Xin Zhang, Robby T. Tan",https://arxiv.org/abs/2504.03193,2025,CVPR,https://github.com/devinxzhang/MFuser,highlight
+159,💡 未复现,MammAlps: A Multi-view Video Behavior Monitoring Dataset of Wild Mammals in the Swiss Alps,"Valentin Gabeff, Haozhe Qi, Brendan Flaherty, Gencer Sumbül, Alexander Mathis, Devis Tuia",https://arxiv.org/abs/2503.18223,2025,CVPR,https://github.com/eceo-epfl/MammAlps,highlight
+160,💡 未复现,Matrix3D: Large Photogrammetry Model All-in-One,"Yuanxun Lu, Jingyang Zhang, Tian Fang, Jean-Daniel Nahmias, Yanghai Tsin, Long Quan, Xun Cao, Yao Yao, Shiwei Li",https://arxiv.org/abs/2502.07685,2025,CVPR,https://github.com/apple/ml-matrix3d,highlight
+161,💡 未复现,MITracker: Multi-View Integration for Visual Object Tracking,"Mengjie Xu, Yitao Zhu, Haotian Jiang, Jiaming Li, Zhenrong Shen, Sheng Wang, Haolin Huang, Xinyu Wang, Qing Yang, Han Zhang, Qian Wang",https://arxiv.org/abs/2502.20111,2025,CVPR,https://github.com/XuM007/MITracker,highlight
+162,💡 未复现,Open-Canopy: Towards Very High Resolution Forest Monitoring,"Fajwel Fogel, Yohann Perron, Nikola Besic, Laurent Saint-André, Agnès Pellissier-Tanon, Martin Schwartz, Thomas Boudras, Ibrahim Fayad, Alexandre d'Aspremont, Loic Landrieu, Philippe Ciais",https://openaccess.thecvf.com/content/CVPR2025/html/Fogel_Open-Canopy_Towards_Very_High_Resolution_Forest_Monitoring_CVPR_2025_paper.html,2025,CVPR,https://github.com/fajwel/Open-Canopy,highlight
+163,💡 未复现,OpenHumanVid: A Large-Scale High-Quality Dataset for Enhancing Human-Centric Video Generation,"Hui Li, Mingwang Xu, Yun Zhan, Shan Mu, Jiaye Li, Kaihui Cheng, Yuxuan Chen, Tan Chen, Mao Ye, Jingdong Wang, Siyu Zhu",https://arxiv.org/abs/2412.00115,2025,CVPR,https://github.com/fudan-generative-vision/OpenHumanVid,highlight
+164,💡 未复现,OpticalNet: An Optical Imaging Dataset and Benchmark Beyond the Diffraction Limit,"Benquan Wang, Ruyi An, Jin-Kyu So, Sergei Kurdiumov, Eng Aik Chan, Giorgio Adamo, Yuhan Peng, Yewen Li, Bo An",https://openaccess.thecvf.com/content/CVPR2025/html/Wang_OpticalNet_An_Optical_Imaging_Dataset_and_Benchmark_Beyond_the_Diffraction_CVPR_2025_paper.html,2025,CVPR,https://github.com/Deep-See/OpticalNet,highlight
+165,💡 未复现,Optimizing for the Shortest Path in Denoising Diffusion Model,"Ping Chen, Xingpeng Zhang, Zhaoxiang Liu, Huan Hu, Xiang Liu, Kai Wang, Min Wang, Yanlin Qian, Shiguo Lian",https://arxiv.org/abs/2503.03265,2025,CVPR,https://github.com/UnicomAI/ShortDF,highlight
+166,💡 未复现,Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval,"Yuanmin Tang, Xiaoting Qin, Jue Zhang, Jing Yu, Gaopeng Gou, Gang Xiong, Qingwei Ling, Saravan Rajmohan, Dongmei Zhang, Qi Wu",https://arxiv.org/abs/2412.11077,2025,CVPR,https://github.com/Pter61/osrcir,highlight
+167,💡 未复现,SmartCLIP: Modular Vision-language Alignment with Identification Guarantees,"Shaoan Xie, Lingjing Lingjing, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P. Xing, Guangyi Chen, Kun Zhang",https://openaccess.thecvf.com/content/CVPR2025/html/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.html,2025,CVPR,https://openaccess.thecvf.com/content/CVPR2025/html/Xie_SmartCLIP_Modular_Vision-language_Alignment_with_Identification_Guarantees_CVPR_2025_paper.html,highlight
+168,💡 未复现,Structured 3D Latents for Scalable and Versatile 3D Generation,"Jianfeng Xiang, Zelong Lv, Sicheng Xu, Yu Deng, Ruicheng Wang, Bowen Zhang, Dong Chen, Xin Tong, Jiaolong Yang",https://arxiv.org/abs/2412.01506,2025,CVPR,https://github.com/microsoft/TRELLIS,highlight
+169,💡 未复现,StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer,"Ruojun Xu, Weijie Xi, Xiaodi Wang, Yongbo Mao, Zach Cheng",https://arxiv.org/abs/2501.11319,2025,CVPR,https://github.com/bytedance/StyleSSP,highlight
+170,💡 未复现,Towards Autonomous Micromobility through Scalable Urban Simulation,"Wayne Wu, Honglin He, Chaoyuan Zhang, Jack He, Seth Z. Zhao, Ran Gong, Quanyi Li, Bolei Zhou",https://arxiv.org/abs/2505.00690,2025,CVPR,https://github.com/metadriverse/urban-sim,highlight
+171,💡 未复现,UIBDiffusion: Universal Imperceptible Backdoor Attack for Diffusion Models,"Yuning Han, Bingyin Zhao, Rui Chu, Feng Luo, Biplab Sikdar, Yingjie Lao",https://arxiv.org/abs/2412.11441,2025,CVPR,https://github.com/TheLaoLab/UIBDiffusion,highlight
+172,💡 未复现,UCOD-DPL: Unsupervised Camouflaged Object Detection via Dynamic Pseudo-label Learning,"Weiqi Yan, Lvhai Chen, Huaijia Kou, Shengchuan Zhang, Yan Zhang, Liujuan Cao",https://openaccess.thecvf.com/content/CVPR2025/html/Yan_UCOD-DPL_Unsupervised_Camouflaged_Object_Detection_via_Dynamic_Pseudo-label_Learning_CVPR_2025_paper.html,2025,CVPR,https://github.com/Heartfirey/UCOD-DPL,highlight
+173,💡 未复现,Video Depth Anything: Consistent Depth Estimation for Super-Long Videos,"Sili Chen, Hengkai Guo, Shengnan Zhu, Feihu Zhang, Zilong Huang, Jiashi Feng, Bingyi Kang",https://arxiv.org/abs/2501.12375,2025,CVPR,https://github.com/DepthAnything/Video-Depth-Anything,highlight
+174,💡 未复现,World-consistent Video Diffusion with Explicit 3D Modeling,"Qihang Zhang, Shuangfei Zhai, Miguel Ángel Bautista Martin, Kevin Miao, Alexander Toshev, Joshua Susskind, Jiatao Gu",https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_World-consistent_Video_Diffusion_with_Explicit_3D_Modeling_CVPR_2025_paper.html,2025,CVPR,https://zqh0253.github.io/wvd/,highlight
+175,💡 未复现,Your ViT is Secretly an Image Segmentation Model,"Tommie Kerssies, Niccolò Cavagnero, Alexander Hermans, Narges Norouzi, Giuseppe Averta, Bastian Leibe, Gijs Dubbelman, Daan de Geus",https://openaccess.thecvf.com/content/CVPR2025/html/Kerssies_Your_ViT_is_Secretly_an_Image_Segmentation_Model_CVPR_2025_paper.html,2025,CVPR,https://github.com/tue-mps/EoMT,highlight
+176,💡 未复现,WonderWorld: Interactive 3D Scene Generation from a Single Image,"Hong-Xing Yu, Haoyi Duan, Charles Herrmann, William T. Freeman, Jiajun Wu",https://arxiv.org/abs/2406.09394,2025,CVPR,https://github.com/KovenYu/WonderWorld,highlight
+177,💡 未复现,Relightable Gaussian Codec Avatars,"Shunsuke Saito, Gabriel Schwartz, Tomas Simon, Junxuan Li, Giljoo Nam",https://arxiv.org/pdf/2312.03704,2024,CVPR,https://github.com/facebookresearch/goliath,oral
+178,💡 未复现,Ranni: Taming Text-to-Image Diffusion for Accurate Instruction Following,"Yutong Feng, Biao Gong, Di Chen, Yujun Shen, Yu Liu, Jingren Zhou",https://arxiv.org/pdf/2311.17002,2024,CVPR,https://github.com/ali-vilab/Ranni,oral
+179,💡 未复现,Rethinking Inductive Biases for Surface Normal Estimation,"Gwangbin Bae, Andrew J. Davison",https://arxiv.org/pdf/2403.00712,2024,CVPR,https://github.com/baegwangbin/DSINE,oral
+180,💡 未复现,PaSCo: Urban 3D Panoptic Scene Completion with Uncertainty Awareness,"Anh-Quan Cao, Angela Dai, Raoul de Charette",https://arxiv.org/abs/2312.02158,2024,CVPR,https://github.com/astra-vision/PaSCo,oral
+181,💡 未复现,Transcriptomics-guided Slide Representation Learning in Computational Pathology,"Guillaume Jaume, Lukas Oldenburg, Anurag Vaidya, Richard J. Chen, Drew F. K. Williamson, Thomas Peeters, Andrew H. Song, Faisal Mahmood",https://arxiv.org/pdf/2405.11618,2024,CVPR,https://github.com/mahmoodlab/TANGLE,oral
+182,💡 未复现,DiffusionLight: Light Probes for Free by Painting a Chrome Ball,"Pakkapon Phongthawee, Worameth Chinchuthakun, Nontaphat Sinsunthithet, Amit Raj, Varun Jampani, Pramook Khungurn, Supasorn Suwajanakorn",https://arxiv.org/pdf/2312.09168,2024,CVPR,https://github.com/DiffusionLight/DiffusionLight?tab=readme-ov-file,oral
+183,💡 未复现,URHand: Universal Relightable Hands,"Zhaoxi Chen, Gyeongsik Moon, Kaiwen Guo, Chen Cao, Stanislav Pidhorskyi, Tomas Simon, Rohan Joshi, Yuan Dong, Yichen Xu, Bernardo Pires, He Wen, Lucas Evans, Bo Peng, Julia Buffalini, Autumn Trimble, Kevyn McPhail, Melissa Schoeller, Shoou-I Yu, Javier Romero, Michael Zollhöfer, Yaser Sheikh, Ziwei Liu, Shunsuke Saito",https://arxiv.org/pdf/2401.05334,2024,CVPR,https://github.com/facebookresearch/goliath,oral
+184,💡 未复现,Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation,"Bingxin Ke, Anton Obukhov, Shengyu Huang, Nando Metzger, Rodrigo Caye Daudt, Konrad Schindler",https://arxiv.org/pdf/2312.02145,2024,CVPR,https://github.com/prs-eth/marigold,oral
+185,💡 未复现,PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics,"Tianyi Xie, Zeshun Zong, Yuxing Qiu, Xuan Li, Yutao Feng, Yin Yang, Chenfanfu Jiang",https://arxiv.org/pdf/2311.12198,2024,CVPR,https://github.com/XPandora/PhysGaussian,oral
+186,💡 未复现,HumanGaussian: Text-Driven 3D Human Generation with Gaussian Splatting,"Xian Liu, Xiaohang Zhan, Jiaxiang Tang, Ying Shan, Gang Zeng, Dahua Lin, Xihui Liu, Ziwei Liu",https://arxiv.org/pdf/2311.17061,2024,CVPR,https://github.com/alvinliu0/HumanGaussian,oral
+187,💡 未复现,Prompt Highlighter: Interactive Control for Multi-Modal LLMs,"Yuechen Zhang, Shengju Qian, Bohao Peng, Shu Liu, Jiaya Jia",https://arxiv.org/pdf/2312.04302,2024,CVPR,https://github.com/dvlab-research/Prompt-Highlighter/,oral
+188,💡 未复现,Cooperation Does Matter: Exploring Multi-Order Bilateral Relations for Audio-Visual Segmentation,"Qi Yang, Xing Nie, Tong Li, Pengfei Gao, Ying Guo, Cheng Zhen, Pengfei Yan, Shiming Xiang",https://arxiv.org/pdf/2312.06462,2024,CVPR,https://arxiv.org/pdf/2312.06462,oral
+189,💡 未复现,Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution,"Shangchen Zhou, Peiqing Yang, Jianyi Wang, Yihang Luo, Chen Change Loy",https://arxiv.org/pdf/2312.06640,2024,CVPR,https://github.com/sczhou/Upscale-A-Video,oral
+190,💡 未复现,Putting the Object Back into Video Object Segmentation,"Ho Kei Cheng, Seoung Wug Oh, Brian Price, Joon-Young Lee, Alexander Schwing",https://arxiv.org/pdf/2310.12982,2024,CVPR,https://github.com/hkchengrex/Cutie,oral
+191,💡 未复现,InstanceDiffusion: Instance-level Control for Image Generation,"Xudong Wang, Trevor Darrell, Sai Saketh Rambhatla, Rohit Girdhar, Ishan Misra",https://arxiv.org/pdf/2402.03290,2024,CVPR,https://github.com/frank-xwang/InstanceDiffusion,oral
+192,💡 未复现,OMG-Seg: Is One Model Good Enough For All Segmentation?,"Xiangtai Li, Haobo Yuan, Wei Li, Henghui Ding, Size Wu, Wenwei Zhang, Yining Li, Kai Chen, Chen Change Loy",https://arxiv.org/pdf/2401.10229,2024,CVPR,https://github.com/lxtGH/OMG-Seg,oral
+193,💡 未复现,Towards Language-Driven Video Inpainting via Multimodal Large Language Models,"Jianzong Wu, Xiangtai Li, Chenyang Si, Shangchen Zhou, Jingkang Yang, Jiangning Zhang, Yining Li, Kai Chen, Yunhai Tong, Ziwei Liu, Chen Change Loy",https://arxiv.org/pdf/2401.10226,2024,CVPR,https://github.com/jianzongwu/Language-Driven-Video-Inpainting,oral
+194,💡 未复现,VBench: Comprehensive Benchmark Suite for Video Generative Models,"Ziqi Huang, Fan Zhang, Xiaojie Xu, Yinan He, Jiashuo Yu, Ziyue Dong, Qianli Ma, Nattapol Chanpaisit, Chenyang Si, Yuming Jiang, Yaohui Wang, Xinyuan Chen, Ying-Cong Chen, Limin Wang, Dahua Lin, Yu Qiao, Ziwei Liu",https://arxiv.org/pdf/2311.17982,2024,CVPR,https://github.com/Vchitect/VBench,oral
+195,💡 未复现,PIGEON: Predicting Image Geolocations,"Lukas Haas, Michal Skreta, Silas Alberti, Chelsea Finn",https://arxiv.org/pdf/2307.05845,2024,CVPR,https://github.com/LukasHaas/PIGEON,oral
+196,💡 未复现,DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis,"Yuming Gu, You Xie, Hongyi Xu, Guoxian Song, Yichun Shi, Di Chang, Jing Yang, Linjie Luo",https://arxiv.org/pdf/2312.13016,2024,CVPR,https://github.com/FreedomGu/DiffPortrait3D/,highlight
+197,💡 未复现,Domain Prompt Learning with Quaternion Networks,"Qinglong Cao, Zhengqin Xu, Yuntian Chen, Chao Ma, Xiaokang Yang",https://arxiv.org/abs/2312.08878,2024,CVPR,https://github.com/caoql98/DPLQ,highlight
+198,💡 未复现,DragDiffusion: Harnessing Diffusion Models for Interactive Point-based Image Editing,"Yujun Shi, Chuhui Xue, Jun Hao Liew, Jiachun Pan, Hanshu Yan, Wenqing Zhang, Vincent Y. F. Tan, Song Bai",https://arxiv.org/pdf/2306.14435,2024,CVPR,https://github.com/Yujun-Shi/DragDiffusion,highlight
+199,💡 未复现,Fast ODE-based Sampling for Diffusion Models in Around 5 Steps,"Zhenyu Zhou, Defang Chen, Can Wang, Chun Chen",https://arxiv.org/pdf/2312.00094,2024,CVPR,https://github.com/zju-pi/diff-sampler,highlight
+200,💡 未复现,FlowVid: Taming Imperfect Optical Flows for Consistent Video-to-Video Synthesis,"Feng Liang, Bichen Wu, Jialiang Wang, Licheng Yu, Kunpeng Li, Yinan Zhao, Ishan Misra, Jia-Bin Huang, Peizhao Zhang, Peter Vajda, Diana Marculescu",https://arxiv.org/pdf/2312.17681,2024,CVPR,https://jeff-liangf.github.io/projects/flowvid/,highlight
+201,💡 未复现,General Object Foundation Model for Images and Videos at Scale,"Junfeng Wu, Yi Jiang, Qihao Liu, Zehuan Yuan, Xiang Bai, Song Bai",https://arxiv.org/pdf/2312.09158,2024,CVPR,https://github.com/FoundationVision/GLEE,highlight
+202,💡 未复现,Insect-Foundation: A Foundation Model and Large-scale 1M Dataset for Visual Insect Understanding,"Hoang-Quan Nguyen, Thanh-Dat Truong, Xuan Bac Nguyen, Ashley Dowling, Xin Li, Khoa Luu",https://openaccess.thecvf.com/content/CVPR2024/html/Nguyen_Insect-Foundation_A_Foundation_Model_and_Large-scale_1M_Dataset_for_Visual_CVPR_2024_paper.html,2024,CVPR,https://uark-cviu.github.io/projects/insect-foundation/,highlight
+203,💡 未复现,"Move as You Say, Interact as You Can: Language-guided Human Motion Generation with Scene Affordance","Zan Wang, Yixin Chen, Baoxiong Jia, Puhao Li, Jinlu Zhang, Jingze Zhang, Tengyu Liu, Yixin Zhu, Wei Liang, Siyuan Huang",https://arxiv.org/abs/2403.18036,2024,CVPR,https://github.com/afford-motion/afford-motion,highlight
+204,💡 未复现,Object Recognition as Next Token Predictio,"Kaiyu Yue, Bor-Chun Chen, Jonas Geiping, Hengduo Li, Tom Goldstein, Ser-Nam Lim",https://arxiv.org/abs/2312.02142,2024,CVPR,https://github.com/KaiyuYue/nxtp,highlight
+205,💡 未复现,RAVE: Randomized Noise Shuffling for Fast and Consistent Video Editing with Diffusion Models,"Ozgur Kara, Bariscan Kurtkaya, Hidir Yesiltepe, James M. Rehg, Pinar Yanardag",https://arxiv.org/abs/2312.04524,2024,CVPR,https://github.com/rehglab/RAVE,highlight
+206,💡 未复现,Readout Guidance: Learning Control from Diffusion Features,"Grace Luo, Trevor Darrell, Oliver Wang, Dan B Goldman, Aleksander Holynski",https://arxiv.org/abs/2312.02150,2024,CVPR,https://github.com/google-research/readout_guidance,highlight
+207,💡 未复现,Real Acoustic Fields: An Audio-Visual Room Acoustics Dataset and Benchmark,"Ziyang Chen, Israel D. Gebru, Christian Richardt, Anurag Kumar, William Laney, Andrew Owens, Alexander Richard",https://arxiv.org/abs/2403.18821,2024,CVPR,https://github.com/facebookresearch/real-acoustic-fields,highlight
+208,💡 未复现,RichDreamer: A Generalizable Normal-Depth Diffusion Model for Detail Richness in Text-to-3D,"Lingteng Qiu, Guanying Chen, Xiaodong Gu, Qi Zuo, Mutian Xu, Yushuang Wu, Weihao Yuan, Zilong Dong, Liefeng Bo, Xiaoguang Han",https://arxiv.org/abs/2311.16918,2024,CVPR,https://github.com/modelscope/RichDreamer,highlight
+209,💡 未复现,RobustSAM: Segment Anything Robustly on Degraded Images,"Wei-Ting Chen, Yu-Jiet Vong, Sy-Yen Kuo, Sizhuo Ma, Jian Wang",https://arxiv.org/abs/2406.09627,2024,CVPR,https://github.com/robustsam/RobustSAM,highlight
+210,💡 未复现,Scaling Up Dynamic Human-Scene Interaction Modeling,"Nan Jiang, Zhiyuan Zhang, Hongjie Li, Xiaoxuan Ma, Zan Wang, Yixin Chen, Tengyu Liu, Yixin Zhu, Siyuan Huang",https://arxiv.org/abs/2403.08629,2024,CVPR,https://github.com/jnnan/trumans_utils,highlight
+211,💡 未复现,SDDGR: Stable Diffusion-based Deep Generative Replay for Class Incremental Object Detection,"Junsu Kim, Hoseong Cho, Jihyeon Kim, Yihalem Yimolal Tiruneh, Seungryul Baek",https://arxiv.org/abs/2402.17323,2024,CVPR,/,highlight
+212,💡 未复现,SpatialTracker: Tracking Any 2D Pixels in 3D Space,"Yuxi Xiao, Qianqian Wang, Shangzhan Zhang, Nan Xue, Sida Peng, Yujun Shen, Xiaowei Zhou",https://arxiv.org/abs/2404.04319,2024,CVPR,https://github.com/henry123-boy/SpaTracker,highlight
+213,💡 未复现,TFMQ-DM:Temporal Feature Maintenance Quantization for Diffusion Models,"Yushi Huang, Ruihao Gong, Jing Liu, Tianlong Chen, Xianglong Liu",https://openaccess.thecvf.com/content/CVPR2024/html/Huang_TFMQ-DM_Temporal_Feature_Maintenance_Quantization_for_Diffusion_Models_CVPR_2024_paper.html,2024,CVPR,https://github.com/ModelTC/TFMQ-DM,highlight
+214,💡 未复现,Text Is MASS: Modeling as Stochastic Embedding for Text-Video Retrieval,"Jiamian Wang, Guohao Sun, Pichao Wang, Dongfang Liu, Sohail Dianat, Majid Rabbani, Raghuveer Rao, Zhiqiang Tao",https://arxiv.org/abs/2403.17998,2024,CVPR,https://github.com/patrick-0817/T-MASS-text-video-retrieval,highlight
+215,💡 未复现,Towards Learning a Generalist Model for Embodied Navigation,"Duo Zheng, Shijia Huang, Lin Zhao, Yiwu Zhong, Liwei Wang",https://arxiv.org/abs/2312.02010,2024,CVPR,https://github.com/LaVi-Lab/NaviLLM,highlight
+216,💡 未复现,UniMODE: Unified Monocular 3D Object Detection,"Zhuoling Li, Xiaogang Xu, SerNam Lim, Hengshuang Zhao",https://arxiv.org/abs/2402.18573,2024,CVPR,https://github.com/Lizhuoling/UniMODE,highlight
+217,💡 未复现,Unsupervised Keypoints from Pretrained Diffusion Models,"Eric Hedlin, Gopal Sharma, Shweta Mahajan, Xingzhe He, Hossam Isack, Abhishek Kar Helge Rhodin, Andrea Tagliasacchi, Kwang Moo Yi",https://arxiv.org/abs/2312.00065,2024,CVPR,https://github.com/ubc-vision/StableKeypoints,highlight
+218,💡 未复现,VA3: Virtually Assured Amplification Attack on Probabilistic Copyright Protection for Text-to-Image Generative Models,"Xiang Li, Qianli Shen, Kenji Kawaguchi",https://arxiv.org/abs/2312.00057,2024,CVPR,https://github.com/South7X/VA3,highlight
+219,💡 未复现,VecFusion: Vector Font Generation with Diffusion,"Vikas Thamizharasan, Difan Liu, Shantanu Agarwal, Matthew Fisher, Michael Gharbi, Oliver Wang, Alec Jacobson, Evangelos Kalogerakis",https://arxiv.org/abs/2312.10540,2024,CVPR,https://vikastmz.github.io/VecFusion/,highlight
+220,💡 未复现,Wonder3D: Single Image to 3D using Cross-Domain Diffusion,"Xiaoxiao Long, Yuan-Chen Guo, Cheng Lin, Yuan Liu, Zhiyang Dou, Lingjie Liu, Yuexin Ma, Song-Hai Zhang, Marc Habermann, Christian Theobalt, Wenping Wang",https://arxiv.org/abs/2310.15008,2024,CVPR,https://github.com/xxlong0/Wonder3D,highlight
+221,💡 未复现,VTimeLLM: Empower LLM to Grasp Video Moments,"Bin Huang, Xin Wang, Hong Chen, Zihan Song, Wenwu Zhu",https://arxiv.org/abs/2311.18445,2024,CVPR,https://github.com/huangb23/VTimeLLM,highlight
+222,💡 未复现,LHM: Large Animatable Human Reconstruction Model from a Single Image in Seconds,"Lingteng Qiu, Xiaodong Gu, Peihao Li, Qi Zuo, Weichao Shen, Junfei Zhang, Kejie Qiu, Weihao Yuan, Guanying Chen, Zilong Dong, Liefeng Bo",https://arxiv.org/pdf/2503.10625v1,2025,ICCV,https://github.com/aigc3d/LHM?tab=readme-ov-file,poster
+223,💡 未复现,EasyControl: Adding Efficient and Flexible Control for Diffusion Transformer,"Yuxuan Zhang, Yirui Yuan, Yiren Song, Haofan Wang, Jiaming Liu",https://arxiv.org/abs/2503.07027,2025,ICCV,https://github.com/Xiaojiu-z/EasyControl,poster
+224,💡 未复现,MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images,"Yuedong Chen, Haofei Xu, Chuanxia Zheng, Bohan Zhuang, Marc Pollefeys, Andreas Geiger, Tat-Jen Cham, Jianfei Cai",https://arxiv.org/pdf/2403.14627,2024,ECCV,https://github.com/donydchen/mvsplat,Oral
+225,💡 未复现,FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting,"Zehao Zhu, Zhiwen Fan, Yifan Jiang, Zhangyang Wang",https://arxiv.org/abs/2312.00451,2024,ECCV,https://github.com/VITA-Group/FSGS,poster
+226,💡 未复现,ZigMa: A DiT-style Zigzag Mamba Diffusion Model,"Vincent Tao Hu, Stefan Andreas Baumann, Ming Gui, Olga Grebenkova, Pingchuan Ma, Johannes Schusterbauer, Björn Ommer",https://arxiv.org/pdf/2403.13802,2024,ECCV,https://github.com/CompVis/zigma,poster
+227,💡 未复现,Bridging Synthetic and Real Worlds for Pre-training Scene Text Detectors,"Tongkun Guan, Wei Shen, Xue Yang, Xuehui Wang, Xiaokang Yang
+",https://arxiv.org/pdf/2312.05286,2024,ECCV,https://github.com/SJTU-DeepVisionLab/FreeReal,poster
+228,💡 未复现,PosFormer: Recognizing Complex Handwritten Mathematical Expression with Position Forest Transformer,"Tongkun Guan, Chengyu Lin, Wei Shen, Xiaokang Yang",https://arxiv.org/pdf/2407.07764,2024,ECCV,https://github.com/SJTU-DeepVisionLab/PosFormer,poster
+229,💡 未复现,Fully Sparse 3D Occupancy Prediction,"Haisong Liu, Yang Chen, Haiguang Wang, Zetong Yang, Tianyu Li, Jia Zeng, Li Chen, Hongyang Li, Limin Wang",https://arxiv.org/abs/2312.17118,2024,ECCV,https://github.com/MCG-NJU/SparseOcc,poster
+230,💡 未复现,NeRF-MAE: Masked AutoEncoders for Self-Supervised 3D Representation Learning for Neural Radiance Fields,"Muhammad Zubair Irshad, Sergey Zakharov, Vitor Guizilini, Adrien Gaidon, Zsolt Kira, Rares Ambrus",https://arxiv.org/abs/2404.01300,2024,ECCV,https://github.com/zubair-irshad/NeRF-MAE,Poster
+231,💡 未复现,ControlCap: Controllable Region-level Captioning,"Yuzhong Zhao, Yue Liu, Zonghao Guo, Weijia Wu, Chen Gong, Fang Wan, Qixiang Ye",https://arxiv.org/abs/2401.17910,2024,ECCV,https://github.com/callsys/ControlCap,Poster
+232,💡 未复现,GiT: Towards Generalist Vision Transformer through Universal Language Interface,"Haiyang Wang, Hao Tang, Li Jiang, Shaoshuai Shi, Muhammad Ferjad Naeem, Hongsheng Li, Bernt Schiele, Liwei Wang",https://arxiv.org/abs/2403.09394,2024,ECCV,https://github.com/Haiyang-W/GiT,Oral
+233,💡 未复现,Relation DETR: Exploring Explicit Position Relation Prior for Object Detection,"Xiuquan Hou, Meiqin Liu, Senlin Zhang, Ping Wei, Badong Chen, Xuguang Lan",https://arxiv.org/abs/2407.11699v1,2024,ECCV,https://github.com/xiuqhou/Relation-DETR,Oral
+234,💡 未复现,FairDomain: Achieving Fairness in Cross-Domain Medical Image Segmentation and Classification,"Yu Tian, Congcong Wen, Min Shi, Muhammad Muneeb Afzal, Hao Huang, Muhammad Osama Khan, Yan Luo, Yi Fang, Mengyu Wang",https://arxiv.org/abs/2407.08813,2024,ECCV,https://github.com/Harvard-Ophthalmology-AI-Lab/FairDomain,poster
+235,💡 未复现,OneRestore: A Universal Restoration Framework for Composite Degradation,"Yu Guo, Yuan Gao, Yuxu Lu, Huilin Zhu, Ryan Wen Liu, Shengfeng He",https://arxiv.org/abs/2407.04621,2024,ECCV,https://github.com/gy65896/OneRestore,poster
+236,💡 未复现,VideoStudio: Generating Consistent-Content and Multi-Scene Videos,"Fuchen Long, Zhaofan Qiu, Ting Yao, Tao Mei",https://arxiv.org/pdf/2401.01256,2024,ECCV,https://github.com/FuchenUSTC/VideoStudio,poster
+237,💡 未复现,Zero-shot Object Counting with Good Exemplars,"Huilin Zhu, Jingling Yuan, Zhengwei Yang, Yu Guo, Zheng Wang, Xian Zhong, Shengfeng He",https://arxiv.org/abs/2407.04948,2024,ECCV,https://github.com/HopooLinZ/VA-Count,poster
+238,💡 未复现,SPVLoc: Semantic Panoramic Viewport Matching for 6D Camera Localization in Unseen Environments,"Niklas Gard, Anna Hilsmann, Peter Eisert",https://arxiv.org/abs/2404.10527,2024,ECCV,https://github.com/fraunhoferhhi/spvloc,Oral
+239,💡 未复现,Stereo Any Video: Temporally Consistent Stereo Matching,Junpeng Jing;Weixun Luo;Ye Mao;  Krystian Mikolajczyk,https://arxiv.org/html/2503.05549v1#S4,2025,ICCV,https://github.com/TomTomTommi/stereoanyvideo,highlight
+240,💡 未复现,InfiniteYou: Flexible Photo Recrafting While Preserving Your Identity,"Liming Jiang, Qing Yan, Yumin Jia, Zichuan Liu, Hao Kang, Xin Lu",https://arxiv.org/pdf/2503.16418,2025,ICCV,https://github.com/bytedance/InfiniteYou,highlight
+241,💡 未复现,MeshAnything V2: Artist-Created Mesh Generation With Adjacent Mesh Tokenization,"Yiwen Chen, Yikai Wang, Yihao Luo, Zhengyi Wang, Zilong Chen, Jun Zhu, Chi Zhang, Guosheng Lin",https://arxiv.org/abs/2408.02555,2025,ICCV,https://github.com/buaacyw/MeshAnythingV2,poster
+242,💡 未复现,From Reusing to Forecasting: Accelerating Diffusion Models with TaylorSeers,"Jiacheng Liu, Chang Zou, Yuanhuiyi Lyu, Junjie Chen, Linfeng Zhang",https://arxiv.org/abs/2503.06923,2025,ICCV,https://github.com/Shenyi-Z/TaylorSeer,poster
+243,💡 未复现,MotionFollower: Editing Video Motion via Lightweight Score-Guided Diffusion,"Shuyuan Tu, Qi Dai, Zihao Zhang, Sicheng Xie, Zhi-Qi Cheng, Chong Luo, Xintong Han, Zuxuan Wu, Yu-Gang Jiang",https://arxiv.org/abs/2405.20325,2025,ICCV,https://github.com/Francis-Rings/MotionFollower?tab=readme-ov-file,poster
+244,💡 未复现,AnimateAnyMesh: A Feed-Forward 4D Foundation Model for Text-Driven Universal Mesh Animation,"Zijie Wu, Chaohui Yu, Fan Wang, Xiang Bai",https://arxiv.org/abs/2506.09982,2025,ICCV,https://github.com/JarrentWu1031/AnimateAnyMesh,poster
+245,💡 未复现,VSSD: Vision Mamba with Non-Causal State Space Duality,"Yuheng Shi, Minjing Dong, Mingjia Li, Chang Xu",https://arxiv.org/abs/2407.18559,2025,ICCV,https://github.com/YuHengsss/VSSD?tab=readme-ov-file,poster
+246,💡 未复现,FreeMorph: Tuning-Free Generalized Image Morphing with Diffusion Model,Yukang Cao、Chenyang Si、Jinghao Wang、Ziwei Liu,https://arxiv.org/html/2507.01953v1#S4,2025,ICCV,https://github.com/yukangcao/FreeMorph,poster
+247,💡 未复现,GENMO: A GENeralist Model for Human MOtion,"Jiefeng Li, Jinkun Cao, Haotian Zhang, Davis Rempe, Jan Kautz, Umar Iqbal, Ye Yuan
+",https://arxiv.org/abs/2505.01425,2025,ICCV,https://research.nvidia.com/labs/dair/genmo/,poster
+248,💡 未复现,Vamba: Understanding Hour-Long Videos with Hybrid Mamba-Transformers,"Weiming Ren, Wentao Ma, Huan Yang, Cong Wei, Ge Zhang, Wenhu Chen",https://arxiv.org/abs/2503.11579,2025,ICCV,https://github.com/TIGER-AI-Lab/Vamba,poster
+249,💡 未复现,Medical World Model: Generative Simulation of Tumor Evolution for Treatment Planning,"Yijun Yang, Zhao-Yang Wang, Qiuping Liu, Shuwen Sun, Kang Wang, Rama Chellappa, Zongwei Zhou, Alan Yuille, Lei Zhu, Yu-Dong Zhang, Jieneng Chen",https://arxiv.org/abs/2506.02327,2025,ICCV,https://github.com/scott-yjyang/MeWM,poster
+250,💡 未复现,"Where, What, Why: Towards Explainable Driver Attention Prediction","Yuchen Zhou, Jiayu Tang, Xiaoyan Xiao, Yueyao Lin, Linkai Liu, Zipeng Guo, Hao Fei, Xiaobo Xia, Chao Gou",https://arxiv.org/pdf/2506.23088,2025,ICCV,https://github.com/yuchen2199/Explainable-Driver-Attention-Prediction,poster
+251,💡 未复现,BirdCollect: A Comprehensive Benchmark for Analyzing Dense Bird Flock Attributes,"Kshitiz, Sonu Shreshtha, Bikash Dutta, Muskan Dosi, Mayank Vatsa, Richa Singh, Saket Anand, Sudeep Sarkar, Sevaram Mali Parihar
+",https://par.nsf.gov/servlets/purl/10545625,2024,AAAI,,"
+Technical"
+252,💡 未复现,MedAlign: A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records,"Scott L. Fleming, Alejandro Lozano, William J. Haberkorn, Jenelle A. Jindal, Eduardo Reis, Rahul Thapa, Louis Blankemeier, Julian Z. Genkins, Ethan Steinberg, Ashwin Nayak, Birju Patel, Chia-Chun Chiang, Alison Callahan, Zepeng Huo, Sergios Gatidis, Scott Adams, Oluseyi Fayanju, Shreya J. Shah, Thomas Savage, Ethan Goh, Akshay S. Chaudhari, Nima Aghaeepour, Christopher Sharp, Michael A. Pfeffer, Percy Liang, Jonathan H. Chen, Keith E. Morse, Emma P. Brunskill, Jason A. Fries, Nigam H. Shah",https://arxiv.org/pdf/2308.14089,2023,AAAI,https://github.com/som-shahlab/medalign,Technical
+253,💡 未复现,"Multi-Modal Discussion Transformer: Integrating Text, Images and Graph Transformers to Detect Hate Speech on Social Media","Liam Hebert, Gaurav Sahu, Yuxuan Guo, Nanda Kishore Sreenivas, Lukasz Golab, Robin Cohen",https://arxiv.org/pdf/2307.09312,2024,AAAI,https://github.com/liamhebert/MultiModalDiscussionTransformer,Technical
+254,💡 未复现,Quantile-Regression-Ensemble: A Deep Learning Algorithm for Downscaling Extreme Precipitation,"Thomas Bailie, Yun Sing Koh, Neelesh Rampal, Peter B. Gibson
+",https://ojs.aaai.org/index.php/AAAI/article/view/30193,2024,AAAI,,Technical
+255,💡 未复现,Spatial-Logic-Aware Weakly Supervised Learning for Flood Mapping on Earth Imagery,"Zelin Xu, Tingsong Xiao, Wenchong He, Yu Wang, Zhe Jiang, Shigang Chen, Yiqun Xie, Xiaowei Jia, Da Yan, Yang Zhou",https://ojs.aaai.org/index.php/AAAI/article/view/30253,2024,AAAI,https://github.com/spatialdatasciencegroup/SLWSL,Technical
+256,💡 未复现,Vector Field Oriented Diffusion Model for Crystal Material Generation,"Astrid Klipfel, Yael Fregier , Adlane Sayede, Zied Bouraoui
+
+",https://arxiv.org/pdf/2401.05402,2023,AAAI,https://github.com/WanyuGroup/AI-for-Crystal-Materials,Technical
+257,💡 未复现,Periodic Graph Transformers for Crystal Material Property Prediction,"Keqiang Yan,Yi Liu,Yuchao Lin,Shuiwang Ji",https://arxiv.org/pdf/2209.11807,2022,AAAI,https://github.com/WanyuGroup/AI-for-Crystal-Materials,Technical
+258,💡 未复现,ContraNovo: A Contrastive Learning Approach to Enhance De Novo Peptide Sequencing,"Zhi Jin, Sheng Xu, Xiang Zhang, Tianze Ling, Nanqing Dong, Wanli Ouyang, Zhiqiang Gao, Cheng Chang, Siqi Sun",https://arxiv.org/pdf/2312.11584,2023,AAAI,https://github.com/BEAM-Labs/ContraNovo,Technical
+259,💡 未复现,Dual-Channel Learning Framework for Drug-Drug Interaction Prediction via Relation-Aware Heterogeneous Graph Transformer,"Xiaorui Su, Pengwei Hu, Zhu-Hong You, Philip S. Yu, Lun Hu
+
+",https://ojs.aaai.org/index.php/AAAI/article/view/27777,2024,AAAI,https://github.com/Blair1213/TIGER,Technical
+260,💡 未复现,Explore 3D Dance Generation via Reward Model from Automatically-Ranked Demonstrations,"Zilin Wang, Haolin Zhuang, Lu Li, Yinmin Zhang, Junjie Zhong, Jun Chen, Yu Yang, Boshi Tang, Zhiyong Wu
+",https://arxiv.org/pdf/2312.11442,2023,AAAI,https://github.com/liutaocode/talking-face-arxiv-daily,Technical
+261,💡 未复现,Heterogeneous Graph Reasoning for Fact Checking over Texts and Tables,"Haisong Gong, Weizhi Xu, Shu Wu, Qiang Liu, Liang Wang
+
+",https://arxiv.org/pdf/2402.13028,2024,AAAI,https://github.com/Deno-V/HeterFC,Technical
+262,💡 未复现,PosDiffNet: Positional Neural Diffusion for Point Cloud Registration in a Large Field of View with Perturbations,"Rui She, Sijie Wang, Qiyu Kang, Kai Zhao, Yang Song, Wee Peng Tay, Tianyu Geng",https://arxiv.org/pdf/2401.03167,2024,AAAI,https://github.com/AI-IT-AVs/PosDiffNet,Technical
+263,💡 未复现,SeGA: Preference-Aware Self-Contrastive Learning with Prompts for Anomalous User Detection on Twitter,"Ying-Ying Chang, Wei-Yao Wang, Wen-Chih Peng",https://arxiv.org/pdf/2312.11553,2023,AAAI,https://github.com/ying0409/SeGA,Technical
+264,💡 未复现,Text-Guided Molecule Generation with Diffusion Language Model,"Haisong Gong, Qiang Liu, Shu Wu, Liang Wang
+",https://arxiv.org/pdf/2402.13040,2024,AAAI,https://github.com/Deno-V/tgm-dlm,Technical
+265,💡 未复现,Unsupervised Gene-Cell Collective Representation Learning with Optimal Transport,"Jixiang Yu, Nanjun Chen, Ming Gao, Xiangtao Li, Ka-Chun Wong",https://ojs.aaai.org/index.php/AAAI/article/view/27789,2024,AAAI,,Technical
+266,💡 未复现,Bi-directional Adapter for Multi-modal Tracking,"Bing Cao, Junliang Guo, Pengfei Zhu, Qinghua Hu",https://arxiv.org/pdf/2312.10611,2023,AAAI,https://github.com/SparkTempest/BAT.,Technical
+267,💡 未复现,DanceAnyWay: Synthesizing Beat-Guided 3D Dances with Randomized Temporal Contrastive Learning,"Aneesh Bhattacharya, Manas Paranjape, Uttaran Bhattacharya, Aniket Bera
+
+",https://arxiv.org/pdf/2303.03870,2024,AAAI,https://github.com/aneeshbhattacharya/DanceAnyWay,Technical
+268,💡 未复现,Deep Linear Array Pushbroom Image Restoration: A Degradation Pipeline and Jitter-Aware Restoration Network,"Zida Chen, Ziran Zhang, Haoying Li, Menghao Li, Yueting Chen, Qi Li, Huajun Feng, Zhihai Xu, Shiqi Chen
+
+",https://arxiv.org/pdf/2401.08171,2024,AAAI,https://github.com/JHW2000/JARNet,Technical
+269,💡 未复现,DiffSED: Sound Event Detection with Denoising Diffusion,"Swapnil Bhosale, Sauradip Nag, Diptesh Kanojia, Jiankang Deng, Xiatian Zhu
+",https://arxiv.org/pdf/2308.07293,2023,AAAI,https://github.com/sauradip/DiffSED,Technical
+270,💡 未复现,Domain-Controlled Prompt Learning,"Qinglong Cao, Zhengqin Xu, Yuntian Chen, Chao Ma, Xiaokang Yang",https://arxiv.org/pdf/2310.07730,2023,AAAI,https://github.com/ caoql98/DCPL.,Technical
+271,💡 未复现,DreamIdentity: Improved Editability for Efficient Face-identity Preserved Image Generation,"Zhuowei Chen, Shancheng Fang, Wei Liu, Qian He, Mengqi Huang, Yongdong Zhang, Zhendong Mao
+
+",https://arxiv.org/pdf/2307.00300,2023,AAAI,https://dreamidentity.github.io/,Technical
+272,💡 未复现,DreamStyler: Paint by Style Inversion with Text-to-Image Diffusion Models,"Namhyuk Ahn, Junsoo Lee, Chunggi Lee, Kunhee Kim, Daesik Kim, Seung-Hun Nam, Kibeom Hong
+
+",https://arxiv.org/pdf/2309.06933,2023,AAAI,https://nmhkahn.github.io/dreamstyler/,Technical
+273,💡 未复现,Evaluate Geometry of Radiance Fields with Low-frequency Color Prior,"Namhyuk Ahn, Junsoo Lee, Chunggi Lee, Kunhee Kim, Daesik Kim, Seung-Hun Nam, Kibeom Hong",https://arxiv.org/pdf/2304.04351,2024,AAAI,https://github.com/qihangGH/IMRC,Technical
+274,💡 未复现,EVE: Efficient Vision-Language Pre-training with Masked Prediction and Modality-Aware MoE,"Junyi Chen, Longteng Guo, Jia Sun, Shuai Shao, Zehuan Yuan, Liang Lin, Dongyu Zhang
+
+",https://arxiv.org/pdf/2308.11971,2024,AAAI,https://github.com/ssyze/EVE,Technical
+275,💡 未复现,Exploiting Polarized Material Cues for Robust Car Detection,"Wen Dong, Haiyang Mei, Ziqi Wei, Ao Jin, Sen Qiu, Qiang Zhang, Xin Yang",https://arxiv.org/pdf/2401.02606,2024,AAAI,https://github.com/wind1117/AAAI24-PCDNet,Technical
+276,💡 未复现,Federated Modality-specific Encoders and Multimodal Anchors for Personalized Brain Tumor Segmentation,"Qian Dai, Dong Wei, Hong Liu, Jinghan Sun, Liansheng Wang, Yefeng Zheng
+
+",https://arxiv.org/pdf/2403.11803,2024,AAAI,https://github.com/QDaiing/FedMEMA/blob/main/README.md,Technical
+277,💡 未复现,Markerless Multi-view 3D Human Pose Estimation: a survey,"Ana Filipa Rodrigues Nogueira,Hélder P. Oliveira,Luís F. Teixeira",https://arxiv.org/html/2407.03817v2,2024,AAAI,https://github.com/DoUntilFalse/FusionFormer,Technical
+278,💡 未复现,Generating and Reweighting Dense Contrastive Patterns for Unsupervised Anomaly Detection,"Songmin Dai, Yifan Wu, Xiaoqiang Li, Xiangyang Xue
+
+",https://arxiv.org/pdf/2312.15911,2023,AAAI,https://github.com/M-3LAB/awesome-industrial-anomaly-detection,Technical
+279,💡 未复现,SimROD: A Simple Baseline for Raw Object Detection with Global and Local Enhancements,"Haiyang Xie, Xi Shen, Shihua Huang, Qirui Wang, Zheng Wang
+",https://arxiv.org/pdf/2503.07101,2025,AAAI,ocean146.github.io/SimROD2025/,Technical
+280,💡 未复现,Hyp-OW: Exploiting Hierarchical Structure Learning with Hyperbolic Distance Enhances Open World Object Detection,"Thang Doan, Xin Li,Sima Behpour,Wenbin He,Liang Gou,Liu Ren",https://arxiv.org/pdf/2306.14291,2024,AAAI,https://github.com/boschresearch/Hyp-OW,Technical
+281,💡 未复现,iDet3D: Towards Efficient Interactive Object Detection for LiDAR Point Clouds,"Dongmin Choi, Wonwoo Cho, Kangyeol Kim, Jaegul Choo
+
+",https://arxiv.org/pdf/2312.15449,2023,AAAI,https://github.com/zhulf0804/3D-PointCloud/blob/master/README.md,Technical
+282,💡 未复现,Image Safeguarding: Reasoning with Conditional Vision Language Model and Obfuscating Unsafe Content Counterfactually,"Mazal Bethany, Brandon Wherry, Nishant Vishwamitra, Peyman Najafirad
+
+",https://arxiv.org/pdf/2401.11035,2024,AAAI,https://github.com/SecureAIAutonomyLab/ConditionalVLM,Technical
+283,💡 未复现,Improving Diffusion-Based Image Synthesis with Context Prediction,"Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, Wentao Zhang, Bin Cui
+
+",https://arxiv.org/pdf/2401.02015,2024,AAAI,,Technical
+284,💡 未复现,"UniPre3D: Unified Pre-training of 3D Point Cloud Models with Cross-Modal Gaussian Splatting
+
+","Ziyi Wang, Yanran Zhang, Jie Zhou, Jiwen Lu
+
+",https://arxiv.org/html/2506.09952v1,2025,AAAI,https://github.com/wangzy22/UniPre3D,Technical
+285,💡 未复现,SpatioTemporal Difference Network for Video Depth Super-Resolution,"Zhengxue Wang, Yuan Wu, Xiang Li, Zhiqiang Yan, Jian Yang
+
+",https://www.arxiv.org/pdf/2508.01259,2025,AAAI,https://github.com/yanzq95/STDNet,Technical
+286,💡 未复现,Iterative Token Evaluation and Refinement for Real-World Super-Resolution,"Chaofeng Chen, Shangchen Zhou, Liang Liao, Haoning Wu, Wenxiu Sun, Qiong Yan, Weisi Lin",https://arxiv.org/pdf/2312.05616,2023,AAAI,https://github.com/chaofengc/ITER,Technical
+287,💡 未复现,LDMVFI: Video Frame Interpolation with Latent Diffusion Models,"Duolikun Danier, Fan Zhang, David Bull",https://arxiv.org/pdf/2303.09508,2023,AAAI,https://github.com/danier97/LDMVFI,Technical
+288,💡 未复现,Joint Demosaicing and Denoising for Spike Camera,"Yanchen Dong, Ruiqin Xiong, Jing Zhao, Jian Zhang, Xiaopeng Fan, Shuyuan Zhu, Tiejun Huang",https://ojs.aaai.org/index.php/AAAI/article/view/27924,2024,AAAI,https://github.com/csycdong/SJDD-Net,Technical
+289,💡 未复现,De-LightSAM: Modality-Decoupled Lightweight SAM for Generalizable Medical Segmentation,"Qing Xu, Jiaxuan Li, Xiangjian He, Chenxin Li, Fiseha B. Tesem, Wenting Duan, Zhen Chen, Rong Qu, Jonathan M. Garibaldi,Chang Wen Chen",https://arxiv.org/pdf/2407.14153,2024,AAAI,https://github.com/xq141839/De-LightSAM,Technical
+290,💡 未复现,LogoStyleFool: Vitiating Video Recognition Systems via Logo Style Transfer,"Yuxin Cao, Ziyu Zhao, Xi Xiao, Derui Wang, Minhui Xue, Jin Lu
+
+",https://arxiv.org/pdf/2312.09935,2024,AAAI,,Technical
+291,💡 未复现,M-BEV: Masked BEV Perception for Robust Autonomous Driving,"Siran Chen, Yue Ma, Yu Qiao, Yali Wang
+
+",https://arxiv.org/pdf/2312.12144,2023,AAAI,https://github.com/Sranc3/M-BEV,Technical
+292,💡 未复现,MeDM: Mediating Image Diffusion Models for Video-to-Video Translation with Temporal Correspondence Guidance,"Ernie Chu, Tzuhsuan Huang, Shuo-Yen Lin, Jun-Cheng Chen",https://arxiv.org/pdf/2308.10079,2023,AAAI,https://medm2023.github.io/,Technical
+293,💡 未复现,Mimic: Speaking Style Disentanglement for Speech-Driven 3D Facial Animation,"Hui Fu, Zeqing Wang, Ke Gong, Keze Wang, Tianshui Chen, Haojie Li, Haifeng Zeng, Wenxiong Kang
+
+",https://arxiv.org/pdf/2312.10877,2023,AAAI,https://zeqingwang.github.io/Mimic/,Technical
+294,💡 未复现,NILUT: Conditional Neural Implicit 3D Lookup Tables for Image Enhancement,"Marcos V. Conde, Javier Vazquez-Corral, Michael S. Brown, Radu Timofte
+
+",https://arxiv.org/pdf/2306.11920,2023,AAAI,https://github.com/mv-lab/nilut,Technical
+295,💡 未复现,A Range-Null Space Decomposition Approach for Fast and Flexible Spectral Compressive Imaging,"Junyu Wang, Shijie Wang, Ruijie Zhang, Zengqiang Zheng, Wenyu Liu, Xinggang Wang",https://arxiv.org/pdf/2305.09746,2023,AAAI, https://github.com/ hustvl/RND-SCI.,Technical
+296,💡 未复现,"Mixed Degradation Image Restoration via Local Dynamic Optimization and Conditional Embedding
+","Yubin Gu, Yuan Meng, Xiaoshuai Sun, Jiayi Ji, Weijian Ruan, Rongrong Ji",https://arxiv.org/html/2411.16217v1,2024,AAAI,https://github.com/c-yn/OKNet,Technical
+297,💡 未复现,Revisiting Point Cloud Completion: Are We Ready For The Real-World？,"Stuti Pathak, Prashant Kumar, Dheeraj Baiju, Nicholus Mboga, Gunther Steenackers, Rudi Penne",https://arxiv.org/html/2411.17580v4,2024,AAAI,,Technical
+298,💡 未复现,"PuzzleFusion++: Auto-agglomerative 3D Fracture Assembly by Denoise and Verify
+","Zhengqing Wang, Jiacheng Chen, Yasutaka Furukawa
+
+",https://arxiv.org/html/2406.00259v2,2024,AAAI,https://puzzlefusion-plusplus.github.io,Technical
+299,💡 未复现,PNeSM: Arbitrary 3D Scene Stylization via Prompt-Based Neural Style Mapping,"Jiafu Chen, Wei Xing, Jiakai Sun, Tianyi Chu, Yiling Huang, Boyan Ji, Lei Zhao, Huaizhong Lin, Haibo Chen, Zhizhong Wang",https://arxiv.org/pdf/2403.08252,2024,AAAI,https://github.com/chenyingshu/advances_3d_neural_stylization,Technical
+300,💡 未复现,PPEA-Depth: Progressive Parameter-Efficient Adaptation for Self-Supervised Monocular Depth Estimation,"Yue-Jiang Dong, Yuan-Chen Guo, Ying-Tian Liu, Fang-Lue Zhang, Song-Hai Zhang
+",https://arxiv.org/pdf/2312.13066,2024,AAAI,https://github.com/YuejiangDong,Technical
+301,💡 未复现,ResMatch: Residual Attention Learning for Local Feature Matching,"Yuxin Deng,Jiayi Ma",https://arxiv.org/pdf/2307.05180,2023,AAAI,https://github.com/ACuOoOoO/ResMatch,Technical
+302,💡 未复现,Bidirectional Multi-Scale Implicit Neural Representations for Image Deraining,"Xiang Chen,Jinshan Pan,Jiangxin Dong",https://arxiv.org/pdf/2404.01547?,2024,AAAI,github.com/cschenxiang/NeRD-Rain,Technical
+303,💡 未复现,Self-Supervised Bird’s Eye View Motion Prediction with Cross-Modality Signals,"Shaoheng Fang, Zuhong Liu, Mingyu Wang, Chenxin Xu, Yiqi Zhong, Siheng Chen
+
+",https://arxiv.org/pdf/2401.11499,2024,AAAI,https://github.com/bshfang/selfsupervised-motion,Technical
+304,💡 未复现,SHaRPose: Sparse High-Resolution Representation for Human Pose Estimation,"Xiaoqi An, Lin Zhao, Chen Gong, Nannan Wang, Di Wang, Jian Yang
+
+",https://arxiv.org/pdf/2312.10758,2023,AAAI,https://github.com/AnxQ/sharpose,Technical
+305,💡 未复现,Simple Image-level Classification Improves Open-vocabulary Object Detection,"Ruohuan Fang, Guansong Pang, Xiao Bai
+
+",https://arxiv.org/pdf/2312.10439,2023,AAAI,https://github.com/mala-lab/SIC-CADS,Technical
+306,💡 未复现,SparseGNV: Generating Novel Views of Indoor Scenes with Sparse Input Views,Weihao Cheng Yan-Pei Cao Ying Shan,https://arxiv.org/pdf/2305.07024,2023,AAAI,https://github.com/xt4d/SparseGNV,Technical
+307,💡 未复现,"A Systematic Investigation on Deep Learning-Based Omnidirectional Image and Video Super-Resolution
+","Qianqian Zhao, Chunle Guo, Tianyi Zhang, Junpei Zhang, Peiyang Jia, Tan Su, Wenjie Jiang, Chongyi Li",https://arxiv.org/html/2506.06710v1,2025,AAAI,https://github.com/nqian1/Survey-on-ODISR-and-ODVSR,Technical
+308,💡 未复现,TDeLTA: A Light-weight and Robust Table Detection Method based on Learning Text Arrangement,"Yang Fan, Xiangping Wu, Qingcai Chen, Heng Li, Yan Huang, Zhixiang Cai, Qitian Wu
+
+",https://arxiv.org/pdf/2312.11043,2023,AAAI,,Technical
+309,💡 未复现,Variance-insensitive and Target-preserving Mask Refinement for Interactive Image Segmentation,"Chaowei Fang, Ziyin Zhou, Junye Chen, Hanjing Su, Qingyao Wu, Guanbin Li
+
+",https://arxiv.org/pdf/2312.14387,2023,AAAI,,Technical
+310,💡 未复现,VIXEN: Visual Text Comparison Network for Image Difference Captioning,"Alexander Black, Jing Shi, Yifei Fan, Tu Bui, John Collomosse
+
+",https://arxiv.org/pdf/2402.19119,2024,AAAI,http://github.com/alexblck/vixen,Technical
+311,💡 未复现,Weak Distribution Detectors Lead to Stronger Generalizability of Vision-Language Prompt Tuning,"Kun Ding, Haojian Zhang, Qiang Yu, Ying Wang, Shiming Xiang, Chunhong Pan
+
+",https://arxiv.org/pdf/2404.00603,2024,AAAI,https://github.com/kding1225,Technical
+312,💡 未复现,WebVLN: Vision-and-Language Navigation on Websites,"Qi Chen, Dileepa Pitawela, Chongyang Zhao, Gengze Zhou, Hsiang-Ting Chen, Qi Wu
+
+",https://arxiv.org/pdf/2312.15820,2023,AAAI,https://github.com/WebVLN/WebVLN,Technical
+313,💡 未复现,WeditGAN: Few-Shot Image Generation via Latent Space Relocation,"Yuxuan Duan, Li Niu, Yan Hong, Liqing Zhang
+
+",https://arxiv.org/pdf/2305.06671,2024,AAAI,https://github.com/Ldhlwh/WeditGAN,Technical
+314,💡 未复现,3D Visibility-aware Generalizable Neural Radiance Fields for Interacting Hands,"Xuan Huang, Hanhui Li, Zejun Yang, Zhisheng Wang, Xiaodan Liang
+
+",https://arxiv.org/pdf/2401.00979,2024,AAAI,https://github.com/XuanHuang0/VANeRF,Technical
+315,💡 未复现,"MAC: A Benchmark for Multiple Attribute Compositional Zero-Shot Learning
+","Xuan Huang, Hanhui Li, Zejun Yang, Zhisheng Wang, Xiaodan Liang
+
+",https://arxiv.org/html/2406.12757v2,2025,AAAI,https://github.com/Yanyi-Zhang/Awesome-Compositional-Zero-Shot,Technical
+316,💡 未复现,A General Implicit Framework for Fast NeRF Composition and Rendering,"Xinyu Gao, Ziyi Yang, Yunlu Zhao, Yuxiang Sun, Xiaogang Jin, Changqing Zou
+
+",https://arxiv.org/pdf/2308.04669,2024,AAAI,https://github.com/EricLee0224/awesome-nerf-editing,Technical
+317,💡 未复现,A User-Friendly Framework for Generating Model-Preferred Prompts in Text-to-Image Synthesis,"Nailei Hei, Qianyu Guo, Zihao Wang, Yan Wang, Haofen Wang, Wenqiang Zhang
+
+",https://arxiv.org/pdf/2402.12760,2024,AAAI,https://github.com/Naylenv/UF-FGTG,Technical
+318,💡 未复现,AnomalyGPT: Detecting Industrial Anomalies Using Large Vision-Language Models,"Zhaopeng Gu, Bingke Zhu, Guibo Zhu, Yingying Chen, Ming Tang, Jinqiao Wang
+
+",https://arxiv.org/pdf/2308.15366,2023,AAAI,https: //github.com/CASIA-IVA-Lab/AnomalyGPT,Technical
+319,💡 未复现,"Arbitrary-Scale Video Super-Resolution with Structural and Textural Priors
+","Wei Shang, Dongwei Ren, Wanying Zhang, Yuming Fang, Wangmeng Zuo, Kede Ma
+
+",https://arxiv.org/html/2407.09919v1,2024,AAAI,https://github.com/shangwei5/ST-AVSR,Technical
+320,💡 未复现,BLIVA: A Simple Multimodal LLM for Better Handling of Text-Rich Visual Questions,"Wenbo Hu, Yifan Xu, Yi Li, Weiyue Li, Zeyuan Chen, Zhuowen Tu
+
+",https://arxiv.org/pdf/2308.09936,2023,AAAI,https://github.com/mlpc-ucsd/BLIVA,Technical
+321,💡 未复现,Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views,"Shuai Guo, Qiuwen Wang, Yijie Gao, Rong Xie, Li Song
+
+",https://arxiv.org/pdf/2403.02063,2024,AAAI,https://github.com/yangjiheng/nerf_and_beyond_docs,Technical
+322,💡 未复现,Distribution Matching for Multi-Task Learning of Classification Tasks: a Large-Scale Study on Faces & Beyond,"Dimitrios Kollias, Viktoriia Sharmanska, Stefanos Zafeiriou
+
+",https://arxiv.org/pdf/2401.01219,2024,AAAI,,Technical
+323,💡 未复现,"Open-Vocabulary HOI Detection with Interaction-aware Prompt and Concept Calibration
+","Ting Lei, Shaofeng Yin, Qingchao Chen, Yuxin Peng, Yang Liu
+
+",https://arxiv.org/html/2508.03207v1,2025,AAAI,https://github.com/ltttpku/INP-CC,Technical
+324,💡 未复现,Expand-and-Quantize: Unsupervised Semantic Segmentation Using High-Dimensional Space and Product Quantization,"Jiyoung Kim, Kyuhong Shim, Insu Lee, Byonghyo Shim",https://arxiv.org/pdf/2312.07342,2023,AAAI,,Technical
+325,💡 未复现,Expediting Contrastive Language-Image Pretraining via Self-distilled Encoders,"Bumsoo Kim, Jinhyung Kim, Yeonsik Jo, Seung Hwan Kim
+
+",https://arxiv.org/pdf/2312.12659,2023,AAAI,https://github.com/openai/CLIP,Technical
+326,💡 未复现,Exploring Self- and Cross-Triplet Correlations for Human-Object Interaction Detection,"Weibo Jiang, Weihong Ren, Jiandong Tian, Liangqiong Qu, Zhiyong Wang, Honghai Liu
+
+",https://arxiv.org/pdf/2401.05676,2024,AAAI,https://github.com/52CV/ICCV-2021-Papers/blob/main/ICCV2021.md?plain=1,Technical
+327,💡 未复现,Fine-Grained Multi-View Hand Reconstruction Using Inverse Rendering,"Qijun Gan, Wentong Li, Jinwei Ren, Jianke Zhu
+
+",https://arxiv.org/pdf/2407.05680,2024,AAAI,https://github.com/agnJason/FMHR,Technical
+328,💡 未复现,Frequency-Adaptive Pan-Sharpening with Mixture of Experts,"Xuanhua He, Keyu Yan, Rui Li, Chengjun Xie, Jie Zhang, Man Zhou
+
+",https://arxiv.org/pdf/2401.02151,2024,AAAI,https://github.com/alexhe101/FAME-Net,Technical
+329,💡 未复现,Frequency-Controlled Diffusion Model for Versatile Text-Guided Image-to-Image Translation,"Xiang Gao, Zhengbo Xu, Junhan Zhao, Jiaying Liu",https://arxiv.org/pdf/2407.03006,2025,AAAI,https://xianggao1102.github.io/FCDiffusion/,Technical
+330,💡 未复现,GSN: Generalisable Segmentation in Neural Radiance Field,"Vinayak Gupta, Rahul Goel, Sirikonda Dhawal, P. J. Narayanan
+
+",https://arxiv.org/pdf/2402.04632,2024,AAAI,https://vinayak-vg.github.io/GSN/,Technical
+331,💡 未复现,Hand-Centric Motion Refinement for 3D Hand-Object Interaction via Hierarchical Spatial-Temporal Modeling,"Yuze Hao, Jianrong Zhang, Tao Zhuo, Fuan Wen, Hehe Fan
+
+",https://arxiv.org/pdf/2401.15987,2024,AAAI,https://github.com/Holiday888/HST-Net,Technical
+332,💡 未复现,High-Fidelity Diffusion-based Image Editing,"Chen Hou, Guoqiang Wei, Zhibo Chen
+
+",https://arxiv.org/pdf/2312.15707,2024,AAAI,,Technical
+333,💡 未复现,HuTuMotion: Human-Tuned Navigation of Latent Motion Diffusion Models with Minimal Feedback,"Gaoge Han, Shaoli Huang, Mingming Gong, Jinglei Tang
+
+",https://arxiv.org/pdf/2312.12227,2023,AAAI,https://github.com/GuyTevet/motion-diffusion-model,Technical
+334,💡 未复现,"Exploring Phrase-Level Grounding with Text-to-Image Diffusion Model
+","Danni Yang, Ruohan Dong, Jiayi Ji, Yiwei Ma, Haowei Wang, Xiaoshuai Sun, Rongrong Ji
+
+",https://arxiv.org/html/2407.05352v1,2024,AAAI,https://github.com/nini0919/DiffPNG,Technical
+335,💡 未复现,2DMamba: Efficient State Space Model for Image Representation with Applications on Giga-Pixel Whole Slide Image Classification,"Jingwei Zhang, Anh Tien Nguyen, Xi Han, Vincent Quoc-Huy Trinh, Hong Qin, Dimitris Samaras, Mahdi S. Hosseini
+
+",https://arxiv.org/pdf/2412.00678,2025,CVPR,https://github.com/AtlasAnalyticsLab/2DMamba,poster
+336,💡 未复现,3D Dental Model Segmentation with Geometrical Boundary Preserving,"Shufan Xi, Zexian Liu, Junlin Chang, Hongyu Wu, Xiaogang Wang, Aimin Hao
+
+",https://arxiv.org/pdf/2503.23702,2025,CVPR,github.com/XiShuFan/CrossTooth_CVPR2025,poster
+337,💡 未复现,3D Gaussian Head Avatars with Expressive Dynamic Appearances by Compact Tensorial Representations,"Yating Wang, Xuan Wang, Ran Yi, Yanbo Fan, Jichen Hu, Jingcheng Zhu, Lizhuang Ma
+
+",https://arxiv.org/pdf/2504.14967,2025,CVPR,https://github.com/ant-research/TensorialGaussianAvatar,poster
+338,💡 未复现,3D Gaussian Inpainting with Depth-Guided Cross-View Consistency,"Sheng-Yu Huang, Zi-Ting Chou, Yu-Chiang Frank Wang
+
+",https://arxiv.org/pdf/2502.11801,2025,CVPR,https://github.com/peterjohnsonhuang/3dgic,poster
+339,💡 未复现,3D-GRAND: A Million-Scale Dataset for 3D-LLMs with Better Grounding and Less Hallucination,"Jianing Yang, Xuweiyi Chen, Nikhil Madaan, Madhavan Iyengar, Shengyi Qian, David F. Fouhey, Joyce Chai
+
+",https://arxiv.org/pdf/2406.05132,2025,CVPR,https://3d-grand.github.io/,poster
+340,💡 未复现,3D-GSW: 3D Gaussian Splatting for Robust Watermarking,"Youngdong Jang, Hyunje Park, Feng Yang, Heeju Ko, Euijin Choo, Sangpil Kim
+
+",https://arxiv.org/pdf/2409.13222,2025,CVPR,kuai-lab.github.io/cvpr20253dgsw/,poster
+341,💡 未复现,3D-HGS: 3D Half-Gaussian Splatting ,Haolin Li，Jinyang Liu，Mario Sznaier，Octavia Camps,https://arxiv.org/pdf/2406.02720,2025,CVPR,lihaolin88.github.io/CVPR-2025-3DHGS,poster
+342,💡 未复现,3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer,"Jiajun Deng, Tianyu He, Li Jiang, Tianyu Wang, Feras Dayoub, Ian Reid
+
+",https://arxiv.org/pdf/2501.01163,2025,CVPR,https://github.com/djiajunustc/3D-LLaVA,poster
+343,💡 未复现,3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning,"Yuncong Yang, Han Yang, Jiachen Zhou, Peihao Chen, Hongxin Zhang, Yilun Du, Chuang Gan
+
+",https://arxiv.org/pdf/2411.17735,2025,CVPR,https://umass-embodied-agi.github.io/3D-Mem/,poster
+344,💡 未复现,3DENHANCER: Consistent Multi-View Diffusion for 3D Enhancement,"Yihang Luo, Shangchen Zhou, Yushi Lan, Xingang Pan, Chen Change Loy
+
+",https://arxiv.org/pdf/2412.18565,2025,CVPR,https://github.com/Luo-Yihang/3DEnhancer,poster
+345,💡 未复现,3DGUT: Enabling Distorted Cameras and Secondary Rays in Gaussian Splatting,"Qi Wu, Janick Martinez Esturo, Ashkan Mirzaei, Nicolas Moenne-Loccoz, Zan Gojcic
+
+",https://arxiv.org/pdf/2412.12507,2025,CVPR,https://github.com/nv-tlabs/3dgrut,poster
+346,💡 未复现,4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models,"Wanhua Li, Renping Zhou, Jiawei Zhou, Yingwei Song, Johannes Herter, Minghan Qin, Gao Huang, Hanspeter Pfister
+
+",https://arxiv.org/pdf/2503.10437,2025,CVPR,https://4d-langsplat.github.io/,poster
+347,💡 未复现,4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians,Hidenobu Matsuki Gwangbin Bae Andrew J. Davison,https://arxiv.org/pdf/2505.22859,2025,CVPR,https://muskie82.github.io/4dtam/,poster
+348,💡 未复现,A Bias-Free Training Paradigm for More General AI-generated Image Detection,"Fabrizio Guillaro, Giada Zingarini, Ben Usman, Avneesh Sud, Davide Cozzolino, Luisa Verdoliva
+
+",https://arxiv.org/pdf/2412.17671,2025,CVPR,https://grip-unina.github.io/B-Free/,poster
+349,💡 未复现,A Data-Centric Revisit of Pre-Trained Vision Models for Robot Learning,"Xin Wen, Bingchen Zhao, Yilun Chen, Jiangmiao Pang, Xiaojuan Qi
+
+",https://arxiv.org/pdf/2503.06960,2025,CVPR,https://github.com/CVMI-Lab/SlotMIM,poster
+350,💡 未复现,Bidirectional Copy-Paste for Semi-Supervised Medical Image Segmentation,,,2023,CVPR,https://github.com/DeepMed-Lab-ECNU/BCP,
+351,💡 未复现,Knowledge Graph Embedding by Double Limit Scoring Loss,,,2022,TKDE,https://github.com/IIE-UCAS/Knowledge-Embedding-with-Double-Loss,
+352,💡 未复现,Unleashing the Power of Imbalanced Modality Information for Multi-modal Knowledge Graph Completion,,,2024,LREC-COLING,https://github.com/zjukg/AdaMF-MAT/blob/main/README.md,
+353,💡 未复现,NativE: Multi-modal Knowledge Graph Completion in the Wild,,,2024,SIGIR,https://github.com/zjukg/NATIVE,
+354,💡 未复现,Multimodal Contextual Interactions of Entities: A Modality Circular Fusion Approach for Link Prediction,,,2024,ACM MM,https://github.com/MoCiGitHub/MoCi,
+355,💡 未复现,APKGC: Noise-enhanced Multi-Modal Knowledge Graph Completion with Attention Penalty,,,2025,AAAI,https://github.com/HubuKG/APKGC,
+356,💡 未复现,Adaptive Keyframe Sampling for Long Video Understanding,,,2025,CVPR,https://github.com/ncTimTang/AKS,
+357,💡 未复现,InsTaG: Learning Personalized 3D Talking Head from Few-Second Video,,,2025,CVPR,https://github.com/Fictionarry/InsTaG#,
+358,💡 未复现,VideoTree: Adaptive Tree-based Video Representation for LLM Reasoning on Long Videos,,,2025,CVPR,https://github.com/Ziyang412/VideoTree,
+359,💡 未复现,Learning Spatiotemporal Inconsistency via Thumbnail Layout for Face Deepfake Detection,,,2024,IJCV,https://github.com/rainy-xu/TALL4Deepfake,
+360,💡 未复现,Multi-Grained Multimodal Interaction Network for Entity Linking,,,2023,KDD,https://github.com/pengfei-luo/MIMIC,
+361,💡 未复现,UniMEL: A Unified Framework for Multimodal Entity Linking with Large Language Models,,,2024,CIKM,https://github.com/Javkonline/UniMEL.,
+362,💡 未复现,Bridging Gaps in Content and Knowledge for Multimodal Entity Linking,,,2024,MM,https://github.com/pengfei-luo/FissFuse,
+363,💡 未复现,KGMEL: Knowledge Graph-Enhanced Multimodal Entity Linking,,,2025,SIGIR,https://github.com/juyeonnn/KGMEL.,
+364,💡 未复现,Multi-level Matching Network for Multimodal Entity Linking,,,2025,KDD,https://github.com/zhiweihu1103/MEL-M3EL,
+365,💡 未复现,Cross-modality image synthesis from TOF-MRA to CTA using diffusion-based models,,,2025,MIA,https://github.com/alexander-koch/xmodality?tab=readme-ov-file,
+366,💡 未复现,vesselFM: A Foundation Model for Universal 3D Blood Vessel Segmentation,,,2025,CVPR,https://github.com/bwittmann/vesselFM,
+367,💡 未复现,Topology-Aware Uncertainty for lmage Segmentation,,,2023,NIPS,https://github.com/Saumya-Gupta-26/struct-uncertainty,
+368,💡 未复现,SCSegamba: Lightweight Structure-Aware Vision Mamba for Crack Segmentation in Structures,,,2025,CVPR,https://github.com/Karl1109/SCSegamba,
+369,💡 未复现,Hybrid-Segmentor: Hybrid approach for automated fine-grained crack segmentation in civil infrastructure,,,2025,Automation in Construction,https://github.com/junegoo94/Hybrid-Segmentor,
+370,💡 未复现,Enriching linformation and Preserving Semantic Consistency in Expanding Curvlinear Object Segmentation Datasets,,,2024,ECCV,https://github.com/tanlei0/COSTG,
+371,💡 未复现,Cooperative Classification and Rationalization for Graph Generalization,,,2024,WWW,https://github.com/yuelinan/Codes-of-C2R,
+372,💡 未复现,VATr++: Choose Your Words Wisely for Handwritten Text Generation,,,2024,TPAMI,github.com/EDM-Research/VATr-pp,
+373,💡 未复现,Denoising Diffusion Probabilistic Models,,,2020,other,https://github.com/hojonathanho/diffusion，,
+374,💡 未复现,Long-Tail Learning with Foundation Model: Heavy Fine-Tuning Hurts,,,2024,ICML,https://github.com/shijxcs/LIFT,
+375,💡 未复现,Identity-Preserving Text-to-Video Generation by Frequency Decomposition,,,2025,CVPR,https://github.com/PKU-YuanGroup/ConsisID,
+376,💡 未复现,Open-YOLO 3D: Towards Fast and Accurate Open-Vocabulary 3D Instance Segmentation,,https://arxiv.org/pdf/2406.02548,2025,ICLR (Oral),https://github.com/aminebdj/OpenYOLO3D,oral
+377,💡 未复现,(ResNet)Deep Residual Learning for Image Recognition,,https://arxiv.org/pdf/1512.03385.pdf,2016,CVPR,,
+378,💡 未复现,(AlexNet)ImageNet Classification with Deep Convolutional Neural Networks,,https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf,2012,NeurIPS (NIPS),,
+379,💡 未复现,(GAN)Generative Adversarial Networks,,https://arxiv.org/pdf/1406.2661.pdf,2014,NeurIPS (NIPS),,
+380,💡 未复现,(DQN)Human-Level Control Through Deep Reinforcement Learning,,https://www.nature.com/articles/nature14236,2015,Nature,,
+381,💡 未复现,Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks,,https://arxiv.org/pdf/1506.01497,2015,TPAMI,,
+382,💡 未复现,U-Net: Convolutional Networks for Biomedical Image Segmentation,,https://arxiv.org/pdf/1505.04597.pdf,2015,MICCAI,,
+383,💡 未复现,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,,https://arxiv.org/pdf/1810.04805.pdf,2019,NAACL-HLT,,
+384,💡 未复现,(VGGNet)Very Deep Convolutional Networks for Large-Scale Image Recognition,,https://arxiv.org/pdf/1409.1556.pdf,2015,ICLR,,
+385,💡 未复现,"(YOLO v1)You Only Look Once: Unified, Real-Time Object Detection",,https://arxiv.org/pdf/1506.02640.pdf,2016,CVPR,,
+386,💡 未复现,(FCN)Fully Convolutional Networks for Semantic Segmentation,,https://arxiv.org/pdf/1411.4038.pdf,2015,CVPR,,
+387,💡 未复现,(DenseNet)Densely Connected Convolutional Networks,,https://arxiv.org/pdf/1608.06993.pdf,2017,CVPR,,
+388,💡 未复现,RAFT: Recurrent All-Pairs Field Transforms for Optical Flow,,https://arxiv.org/pdf/2003.12039.pdf,2020,ECCV,,
+389,💡 未复现,"(Inception, GoogLeNet)Going Deeper with Convolutions",,https://arxiv.org/pdf/1409.4842.pdf,2015,CVPR,,
