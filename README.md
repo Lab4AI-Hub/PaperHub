@@ -84,7 +84,7 @@
   <tr style="border: none;">
     <td width="50%" style="padding: 10px; vertical-align: top; border: 1px solid #d0d7de; border-radius: 8px;">
       <h4 style="margin-top: 0px; margin-bottom: 5px;">
-        <a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/WORKFLOE.md">📄 复现者指南 (Reproducer's Guide)</a>
+        <a href="https://github.com/Lab4AI-Hub/PaperHub/blob/main/WORKFLOW.md">📄 复现者指南 (Reproducer's Guide)</a>
       </h4>
       <p style="color: #57606a; font-size: 0.9em;">
         <em><strong>行动手册(SOP)</strong>：详细介绍从申请到提交的每一步。</em>
